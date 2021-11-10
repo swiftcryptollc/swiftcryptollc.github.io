@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mining Shiba Inu</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A small crypto mining business based in Leesburg VA that was started in 2021.">
+    <link rel="canonical" href="https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu/">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+  
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/#page-top">
+                        <i class="fa fa-play-circle"></i>  <span class="light">Home</span>
+                    </a>
+                </div>
+    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a href="https://swiftcryptollc.github.io/#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides">Guides</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <div class="container content-section text-left">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Mining Shiba Inu</h2>
+                    <i>Post Date: 2021-11-09 11:17:00 -0500</i>
+                    <p>You can mine SHIB on just about any CPU with XMRig (results will vary of course) and <a href="https://www.unmineable.com/">Unmineable</a>. It’s not very profitable, but if you are already running servers then you might as well give them something else to do!</p>
+
+<p>Your first step is to download <a href="https://github.com/xmrig/xmrig/releases">XMRig</a>.</p>
+
+<p>You’ll also need to setup an Ethereum based wallet.  I always recommend getting a hardware wallet like a <a href="https://shop.ledger.com/products/ledger-nano-x">Ledger Nano X</a>.  Some software wallets include <a href="https://metamask.io/">Metamask</a> and <a href="https://wallet.coinbase.com/">Coinbase</a>.  You can connect your hardware wallet to both of those wallets.  Here are <a href="https://www.ledger.com/academy/security/the-safest-way-to-use-metamask">instructions</a> on connecting Metamask to a Ledger hardware wallet.</p>
+
+<p>After setting up XMRig and your wallet, you’ll want to tweak your OS settings to enable <a href="https://xmrig.com/docs/miner/hugepages">Hugepages</a>.  It’ll offer a significant performance boost.</p>
+
+<p>Now you are ready to create a script to run XMRig.</p>
+
+<p>Windows: (Run it as admin to enabling huge pages)</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">@echo off
+
+C:<span class="se">\o</span>pt<span class="se">\x</span>mrig-dir<span class="se">\x</span>mrig-6.15.2<span class="se">\x</span>mrig.exe <span class="nt">--cpu-affinity</span> 0xFF <span class="nt">-o</span> rx.unmineable.com:3333 <span class="nt">-u</span> SHIB:0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1#vumh-d27t <span class="nt">-p</span> x <span class="nt">-k</span> <span class="nt">--hugepage-size</span><span class="o">=</span>1280 <span class="nt">--huge-pages-jit</span> <span class="nt">--threads</span><span class="o">=</span>8
+
+pause</code></pre></figure>
+
+<p><br /></p>
+
+<p>Linux:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/opt/xmrig/xmrig <span class="nt">--cpu-affinity</span> 0xFF <span class="nt">-o</span> rx.unmineable.com:3333 <span class="nt">-u</span> SHIB:0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1#vumh-d27t <span class="nt">-p</span> x <span class="nt">-k</span> <span class="nt">--hugepage-size</span><span class="o">=</span>1280 <span class="nt">--huge-pages-jit</span> <span class="nt">--threads</span><span class="o">=</span>8 <span class="nt">--randomx-1gb-pages</span></code></pre></figure>
+
+<p><br /></p>
+
+<p>Replace
+“0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1” with your SHIB (ERC20/ETH) wallet address and change “worker1” to your worker name (can be whatever you want).</p>
+
+<p>The “vumh-d27t” is my referral code.  It will set your fee to .75% instead of 1%. Small difference, but it’ll add up over time.</p>
+
+<p>Change the location of the XMRig executable file based on where you installed it, and change “threads” to however many CPUs you have. Note that sometimes it’ll run better if you don’t use all of your available CPUs. Press “h” to check the CPU speeds. Try 50%, 75%, 90%, and 100% of your available CPUs (including threads) to find the sweet spot for your CPU.</p>
+
+<p>Once you start mining, go to <a href="https://www.unmineable.com/coins/SHIB/address">Unmineable/SHIB</a> and enter your ETH/ERC20 public wallet address to track your earning!</p>
+
+<p>Happy mining!</p>
+
+                </div>
+            </div>
+        </div>
+    </header>
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/grayscale.js"></script>
+    </body>
+</html>
