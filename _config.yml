@@ -1,0 +1,25 @@
+# Site settings
+title: Welcome to Swift Crypto LLC
+email: swiftcryptollc@gmail.com
+url: https://swiftcryptollc.github.io
+description: >-
+  A small crypto mining business based in Leesburg VA that was started in 2021.
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Swift Crypto LLC
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, twitter facebook stack-overflow, bitbucket, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/company/swift-crypto-llc
+  - title: github
+    url: https://github.com/swiftcryptollc
+
+# Build settings
+markdown: kramdown
+permalink: pretty

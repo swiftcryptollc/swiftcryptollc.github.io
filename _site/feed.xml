@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://swiftcryptollc.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://swiftcryptollc.github.io/" rel="alternate" type="text/html" /><updated>2021-11-10T00:07:08-05:00</updated><id>https://swiftcryptollc.github.io/feed.xml</id><title type="html">Welcome to Swift Crypto LLC</title><subtitle>A small crypto mining business based in Leesburg VA that was started in 2021.</subtitle><entry><title type="html">Mining Shiba Inu</title><link href="https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu/" rel="alternate" type="text/html" title="Mining Shiba Inu" /><published>2021-11-09T11:17:00-05:00</published><updated>2021-11-09T11:17:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu/">&lt;p&gt;You can mine SHIB on just about any CPU with XMRig (results will vary of course) and &lt;a href=&quot;https://www.unmineable.com/&quot;&gt;Unmineable&lt;/a&gt;. It’s not very profitable, but if you are already running servers then you might as well give them something else to do!&lt;/p&gt;
+
+&lt;p&gt;Your first step is to download &lt;a href=&quot;https://github.com/xmrig/xmrig/releases&quot;&gt;XMRig&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You’ll also need to setup an Ethereum based wallet.  I always recommend getting a hardware wallet like a &lt;a href=&quot;https://shop.ledger.com/products/ledger-nano-x&quot;&gt;Ledger Nano X&lt;/a&gt;.  Some software wallets include &lt;a href=&quot;https://metamask.io/&quot;&gt;Metamask&lt;/a&gt; and &lt;a href=&quot;https://wallet.coinbase.com/&quot;&gt;Coinbase&lt;/a&gt;.  You can connect your hardware wallet to both of those wallets.  Here are &lt;a href=&quot;https://www.ledger.com/academy/security/the-safest-way-to-use-metamask&quot;&gt;instructions&lt;/a&gt; on connecting Metamask to a Ledger hardware wallet.&lt;/p&gt;
+
+&lt;p&gt;After setting up XMRig and your wallet, you’ll want to tweak your OS settings to enable &lt;a href=&quot;https://xmrig.com/docs/miner/hugepages&quot;&gt;Hugepages&lt;/a&gt;.  It’ll offer a significant performance boost.&lt;/p&gt;
+
+&lt;p&gt;Now you are ready to create a script to run XMRig.&lt;/p&gt;
+
+&lt;p&gt;Windows: (Run it as admin to enabling huge pages)&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;@echo off
+
+C:&lt;span class=&quot;se&quot;&gt;\o&lt;/span&gt;pt&lt;span class=&quot;se&quot;&gt;\x&lt;/span&gt;mrig-dir&lt;span class=&quot;se&quot;&gt;\x&lt;/span&gt;mrig-6.15.2&lt;span class=&quot;se&quot;&gt;\x&lt;/span&gt;mrig.exe &lt;span class=&quot;nt&quot;&gt;--cpu-affinity&lt;/span&gt; 0xFF &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; rx.unmineable.com:3333 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; SHIB:0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1#vumh-d27t &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; x &lt;span class=&quot;nt&quot;&gt;-k&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--hugepage-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1280 &lt;span class=&quot;nt&quot;&gt;--huge-pages-jit&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--threads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;8
+
+pause&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Linux:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;/opt/xmrig/xmrig &lt;span class=&quot;nt&quot;&gt;--cpu-affinity&lt;/span&gt; 0xFF &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; rx.unmineable.com:3333 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; SHIB:0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1#vumh-d27t &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; x &lt;span class=&quot;nt&quot;&gt;-k&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--hugepage-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1280 &lt;span class=&quot;nt&quot;&gt;--huge-pages-jit&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--threads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;8 &lt;span class=&quot;nt&quot;&gt;--randomx-1gb-pages&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Replace
+“0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1” with your SHIB (ERC20/ETH) wallet address and change “worker1” to your worker name (can be whatever you want).&lt;/p&gt;
+
+&lt;p&gt;The “vumh-d27t” is my referral code.  It will set your fee to .75% instead of 1%. Small difference, but it’ll add up over time.&lt;/p&gt;
+
+&lt;p&gt;Change the location of the XMRig executable file based on where you installed it, and change “threads” to however many CPUs you have. Note that sometimes it’ll run better if you don’t use all of your available CPUs. Press “h” to check the CPU speeds. Try 50%, 75%, 90%, and 100% of your available CPUs (including threads) to find the sweet spot for your CPU.&lt;/p&gt;
+
+&lt;p&gt;Once you start mining, go to &lt;a href=&quot;https://www.unmineable.com/coins/SHIB/address&quot;&gt;Unmineable/SHIB&lt;/a&gt; and enter your ETH/ERC20 public wallet address to track your earning!&lt;/p&gt;
+
+&lt;p&gt;Happy mining!&lt;/p&gt;</content><author><name></name></author><summary type="html">You can mine SHIB on just about any CPU with XMRig (results will vary of course) and Unmineable. It’s not very profitable, but if you are already running servers then you might as well give them something else to do!</summary></entry></feed>
