@@ -1,4 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://swiftcryptollc.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://swiftcryptollc.github.io/" rel="alternate" type="text/html" /><updated>2021-11-11T14:57:59-05:00</updated><id>https://swiftcryptollc.github.io/feed.xml</id><title type="html">Welcome to Swift Crypto LLC</title><subtitle>A small crypto mining business based in Leesburg VA that was started in 2021.</subtitle><entry><title type="html">Phoenix Miner/T-Rex Watch Scripts</title><link href="https://swiftcryptollc.github.io/2021/11/11/watch-scripts/" rel="alternate" type="text/html" title="Phoenix Miner/T-Rex Watch Scripts" /><published>2021-11-11T10:40:00-05:00</published><updated>2021-11-11T10:40:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/11/watch-scripts</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/11/watch-scripts/">&lt;p&gt;I’ve been mining Ethereum with &lt;a href=&quot;https://bitcointalk.org/index.php?topic=2647654.0&quot;&gt;Phoenix Miner&lt;/a&gt; since February of this year (using Ubuntu 20.04).  One thing I wanted was automated updates on the status of my rigs.  I also had intermittent issues with my AMD cards which would cause one of my rigs to crash.  Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash.  (I did make sure that the crashes aren’t related to any over/under clocks I used, they aren’t..)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://swiftcryptollc.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://swiftcryptollc.github.io/" rel="alternate" type="text/html" /><updated>2021-11-11T15:59:04-05:00</updated><id>https://swiftcryptollc.github.io/feed.xml</id><title type="html">Welcome to Swift Crypto LLC</title><subtitle>A small crypto mining business based in Leesburg VA that was started in 2021.</subtitle><entry><title type="html">Add a Copy Button for Jekyll HTML Code</title><link href="https://swiftcryptollc.github.io/2021/11/11/add-jekyll-copy/" rel="alternate" type="text/html" title="Add a Copy Button for Jekyll HTML Code" /><published>2021-11-11T15:00:00-05:00</published><updated>2021-11-11T15:00:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/11/add-jekyll-copy</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/11/add-jekyll-copy/">&lt;p&gt;So when I finally decided to create a website for my business, I started down the Angular path because that’s what I knew.  It wasn’t until I started playing with &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; that I was introduced to &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.  So far?  It’s awesome.&lt;/p&gt;
+
+&lt;p&gt;All the memes about Full Stack Developers writing massive amounts of back end code in an hour or two, but then spending 6 hours trying to center a div are fairly accurate for me..  I’ve used CSS quite a bit, but I’ll always stumble on something.  With Jekyll, a lot of that headache was taken away!  But one thing I wanted to be able to do, wasn’t readily available in the theme I had chosen.  That was to have a “Copy” button on my code snippets.&lt;/p&gt;
+
+&lt;p&gt;Searching the internet, I came across a blog post from &lt;a href=&quot;https://www.aleksandrhovhannisyan.com/blog/how-to-add-a-copy-to-clipboard-button-to-your-jekyll-blog/&quot;&gt;Aleksandr Hovhannisyan&lt;/a&gt; (Thank you sir!).  I started implementing what he did but realized that I would have to make some changes to make it work for my site.&lt;/p&gt;
+
+&lt;p&gt;Here’s what I did.&lt;/p&gt;
+
+&lt;h2 id=&quot;create-a-new-javascript-file&quot;&gt;Create a new JavaScript File&lt;/h2&gt;
+
+&lt;p&gt;If you don’t have a “js” directory in your base folder, add one.  Create a new file, add the following code to it, and save it.  I’m going to assume that you named the file “copyCode.js”.  If you don’t use &lt;a href=&quot;https://fontawesome.com/&quot;&gt;Font Awesome&lt;/a&gt;, you will have to change the “fa-copy” and “fa-check” class references to your class.&lt;/p&gt;
+
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;codeBlocks&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;figure &amp;gt; pre &amp;gt; code&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;copyCodeButtons&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;.copy-code-button&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;copyCodeButtons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;codeBlocks&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;navigator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;clipboard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;writeText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fa-copy&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fa-check&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ 
+    &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fa-check&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fa-copy&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;add-the-javascript-file-to-an-_include-template&quot;&gt;Add the Javascript File to an _include Template&lt;/h2&gt;
+
+&lt;p&gt;I have a “js.html” file in my “_include” folder that contains all of the JavaScript to load for my site.  No matter how you add your JavaScript references, add your newly created file to the list.  For me, I added this line to my “js.html” file (rename the js file accordingly).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Note that “defer” will cause the JavaScript to wait until the page loads before executing.  This is important since it’ll look for code snippets, add listeners to each of the buttons, and properly map the button to it’s code snippet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/js/copyCode.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;defer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;add-copy-header-html-file&quot;&gt;Add Copy Header HTML File&lt;/h2&gt;
+
+&lt;p&gt;Create a new HTML file under “_include” that will contain the HTML to display the button.  I named mine “code_header.html”.  Again, if you don’t use &lt;a href=&quot;https://fontawesome.com/&quot;&gt;Font Awesome&lt;/a&gt;, you will have to change the button class “fas fa-copy”.&lt;/p&gt;
+
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;code-header&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;copy-code-button fas fa-copy&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-label=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Copy code to clipboard&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;update-highlight-references&quot;&gt;Update Highlight References&lt;/h2&gt;
+
+&lt;p&gt;Update any Highlight references you currently have and add a line immediately above it to include “code_header.html” (or whatever you named it).&lt;/p&gt;
+
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% include code_header.html %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Full example:&lt;/p&gt;
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-rogue&quot; data-lang=&quot;rogue&quot;&gt;{% include code_header.html %}
+{% highlight bash %}
+echo &quot;Hello&quot;;
+{% endhighlight %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;add-css&quot;&gt;Add CSS&lt;/h2&gt;
+
+&lt;p&gt;This part may unfortuntately need some modification for your site.  Create a new CSS file under “_includes/css” and paste the following into it.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You might need to change the “top” to properly align the button within your code snippet.  You also might need to change the “font-size” value so it looks appropriate for your site.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;.code-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+.copy-code-button {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-column-gap: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 4px 8px;
+    font-weight: 900;
+    color: black;
+    top: 20px !important;
+    position: relative;
+    border: none;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;build-and-deploy&quot;&gt;Build and Deploy&lt;/h2&gt;
+
+&lt;p&gt;Build and test your site out!&lt;/p&gt;
+
+&lt;p&gt;I realize this won’t be just a copy/paste exercise for most of you, but hopefully this guide can get you 90% of the way there!  If you have any questions, please feel free to reach out!&lt;/p&gt;</content><author><name></name></author><summary type="html">So when I finally decided to create a website for my business, I started down the Angular path because that’s what I knew. It wasn’t until I started playing with Github Pages that I was introduced to Jekyll. So far? It’s awesome.</summary></entry><entry><title type="html">Phoenix Miner/T-Rex Watch Scripts</title><link href="https://swiftcryptollc.github.io/2021/11/11/watch-scripts/" rel="alternate" type="text/html" title="Phoenix Miner/T-Rex Watch Scripts" /><published>2021-11-11T10:40:00-05:00</published><updated>2021-11-11T10:40:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/11/watch-scripts</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/11/watch-scripts/">&lt;p&gt;I’ve been mining Ethereum with &lt;a href=&quot;https://bitcointalk.org/index.php?topic=2647654.0&quot;&gt;Phoenix Miner&lt;/a&gt; since February of this year (using Ubuntu 20.04).  One thing I wanted was automated updates on the status of my rigs.  I also had intermittent issues with my AMD cards which would cause one of my rigs to crash.  Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash.  (I did make sure that the crashes aren’t related to any over/under clocks I used, they aren’t..)&lt;/p&gt;
 
 &lt;p&gt;When Phoenix Miner crashed from one of the AMD cards (PowerColor 5700 XTs), my system was completely locked up.  I installed &lt;a href=&quot;https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/?th=1&quot;&gt;BN Link Smart Plugs&lt;/a&gt; to be able to remotely shutdown and restart the rig, but there’s always risk with just cutting power to a server like that.  Ideally, it’s shutdown or rebooted appropriately.&lt;/p&gt;
 
