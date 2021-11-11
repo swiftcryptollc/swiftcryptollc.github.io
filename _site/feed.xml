@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://swiftcryptollc.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://swiftcryptollc.github.io/" rel="alternate" type="text/html" /><updated>2021-11-11T09:02:53-05:00</updated><id>https://swiftcryptollc.github.io/feed.xml</id><title type="html">Welcome to Swift Crypto LLC</title><subtitle>A small crypto mining business based in Leesburg VA that was started in 2021.</subtitle><entry><title type="html">Mining Shiba Inu</title><link href="https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu/" rel="alternate" type="text/html" title="Mining Shiba Inu" /><published>2021-11-09T11:17:00-05:00</published><updated>2021-11-09T11:17:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu/">&lt;p&gt;You can mine SHIB on just about any CPU with XMRig (results will vary of course) and &lt;a href=&quot;https://www.unmineable.com/&quot;&gt;Unmineable&lt;/a&gt;. It’s not very profitable, but if you are already running servers then you might as well give them something else to do!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://swiftcryptollc.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://swiftcryptollc.github.io/" rel="alternate" type="text/html" /><updated>2021-11-11T13:36:47-05:00</updated><id>https://swiftcryptollc.github.io/feed.xml</id><title type="html">Welcome to Swift Crypto LLC</title><subtitle>A small crypto mining business based in Leesburg VA that was started in 2021.</subtitle><entry><title type="html">Phoenix Miner/T-Rex Watch Scripts</title><link href="https://swiftcryptollc.github.io/2021/11/11/watch-scripts/" rel="alternate" type="text/html" title="Phoenix Miner/T-Rex Watch Scripts" /><published>2021-11-11T10:40:00-05:00</published><updated>2021-11-11T10:40:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/11/watch-scripts</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/11/watch-scripts/">&lt;p&gt;I’ve been mining Ethereum with &lt;a href=&quot;https://bitcointalk.org/index.php?topic=2647654.0&quot;&gt;Phoenix Miner&lt;/a&gt; since February of this year (using Ubuntu 20.04).  One thing I wanted was automated updates on the status of my rigs.  I also had intermittent issues with my AMD cards which would cause one of my rigs to crash.  Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash.  (I did make sure that the crashes aren’t related to any over/under clocks I used, they aren’t..)&lt;/p&gt;
+
+&lt;p&gt;When Phoenix Miner crashed from one of the AMD cards (PowerColor 5700 XTs), my system was completely locked up.  I installed &lt;a href=&quot;https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/?th=1&quot;&gt;BN Link Smart Plugs&lt;/a&gt; to be able to remotely shutdown and restart the rig, but there’s always risk with just cutting power to a server like that.  Ideally, it’s shutdown or rebooted appropriately.&lt;/p&gt;
+
+&lt;p&gt;I’m not a Perl master, but I know enough to be dangerous.  So I put that to use and wrote a script that would tail the Phoenix Miner log.  The script assumes a Linux install and depends on “sendmail” and “perl”.  You can install “sendmail” and “perl” by running the following (choose the appropriate one for your Linux platform):&lt;/p&gt;
+
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;dnf &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; sendmail perl&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; sendmail perl&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;
+The Phoenix Miner script will report the following via an email:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hash Rate Summary every 6 hours&lt;/li&gt;
+  &lt;li&gt;Notification of an Invalid Hash Rate (the script will automatically reboot the server if this occurs to prevent a system lock up)&lt;/li&gt;
+  &lt;li&gt;Notification of a Reboot&lt;/li&gt;
+  &lt;li&gt;Notification of an Incorrect Eth Share
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;t-rex-miner&quot;&gt;T-Rex Miner&lt;/h2&gt;
+&lt;p&gt;I recently bought some LHR Nvidia cards.  To mine with these cards, I switched to &lt;a href=&quot;https://github.com/trexminer/T-Rex/releases&quot;&gt;T-Rex Miner&lt;/a&gt;.  (Quick tip, mess with the mining intensity for each of your LHR cards with “auto tune” enabled.  A lower mining intensity can limit LHR locks overall and thus, increase your hash rate.)  I modified the Phoenix Miner script to work with T-Rex.&lt;/p&gt;
+
+&lt;p&gt;The T-Rex Miner script will report the following via an email:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hash Rate and LHR Summary every 6 hours&lt;/li&gt;
+  &lt;li&gt;Notification of a Reboot&lt;/li&gt;
+  &lt;li&gt;Notification of an Incorrect Eth Share&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+I’ve only ever had the invalid hash rate with the AMD cards and Phoenix Miner.  T-Rex is only for Nvidia cards and I’ve never encountered that with T-Rex, so that part of the script has been removed.  If you do encounter that issue, please send contact me and send me your log file!&lt;/p&gt;
+
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
+&lt;p&gt;I call these Perl scipts from within my miner scripts.  The Perl scripts look for the newest log file in your specified log file directory.  So you do need to make sure that your miner software is already running.  To do that, I add this line to the beginning of my miner scripts:&lt;/p&gt;
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sleep &lt;/span&gt;300&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; perl /opt/phoenix/phoenix-watch.pl /opt/phoenix/logs sendtoemail@domain.com&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &amp;amp;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;
+My resulting Phoenix Miner startup script looks similar to this (you may not have an Nvidia under/overclock script, so just remove it or replace it with yours):&lt;/p&gt;
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Load Nvidia over/underclocks&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; /opt/phoenix/nvidia-settings.sh
+
+&lt;span class=&quot;c&quot;&gt;# Start the watcher&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sleep &lt;/span&gt;300&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; perl /opt/phoenix/phoenix-watch.pl /opt/phoenix/logs sendtoemail@domain.com&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &amp;amp;
+
+&lt;span class=&quot;c&quot;&gt;# Start the miner &lt;/span&gt;
+/opt/phoenix/PhoenixMiner &lt;span class=&quot;nt&quot;&gt;-pool&lt;/span&gt; ssl://us1.ethermine.org:5555 &lt;span class=&quot;nt&quot;&gt;-wal&lt;/span&gt; 0xSetYourEthWalletAddressHere &lt;span class=&quot;nt&quot;&gt;-worker&lt;/span&gt; phoenixworker &lt;span class=&quot;nt&quot;&gt;-mi&lt;/span&gt; 14 &lt;span class=&quot;nt&quot;&gt;-epsw&lt;/span&gt; x &lt;span class=&quot;nt&quot;&gt;-coin&lt;/span&gt; eth &lt;span class=&quot;nt&quot;&gt;-mode&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-nvidia&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-proto&lt;/span&gt; 3 &lt;span class=&quot;nt&quot;&gt;-log&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-logdir&lt;/span&gt; /opt/phoenix/logs &lt;span class=&quot;nt&quot;&gt;-leaveoc&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-nvdo&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-nvNew&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-nvKernel&lt;/span&gt; 3 &lt;span class=&quot;nt&quot;&gt;-pool2&lt;/span&gt; ssl://eu2.ethermine.org:5555 &lt;span class=&quot;nt&quot;&gt;-cdmport&lt;/span&gt; 3333 &lt;span class=&quot;nt&quot;&gt;-eres&lt;/span&gt; 6 &lt;span class=&quot;nt&quot;&gt;-lidag&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-config&lt;/span&gt; /opt/phoenix/config.txt &lt;span class=&quot;nt&quot;&gt;-gpus&lt;/span&gt; 1,3,4,5&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For T-Rex, my miner script looks similar to the following.  (If you don’t want to archive your log files, just remove that section.  Also remove or replace the Nvidia over/underclocks script for your setup.)&lt;/p&gt;
+
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Load Nvidia over/underclocks&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; /opt/trex/nvidia-settings.sh
+
+&lt;span class=&quot;c&quot;&gt;# Start the watcher&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sleep &lt;/span&gt;300&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; perl /opt/trex/trex-watch.pl /opt/trex/logs sendtoemail@domain.com&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &amp;amp;
+
+&lt;span class=&quot;c&quot;&gt;# Archive the existing log file&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; /opt/trex/logs/archive
+&lt;span class=&quot;nb&quot;&gt;mv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-nv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; /opt/trex/logs/trex.log /opt/trex/logs/archive/trex-&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt; +&lt;span class=&quot;s1&quot;&gt;'%Y%m%d_%H%M%S'&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;.log
+
+&lt;span class=&quot;c&quot;&gt;# Delete the previous log file&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; /opt/trex/logs/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.log
+
+&lt;span class=&quot;c&quot;&gt;# Start the miner&lt;/span&gt;
+/opt/trex/t-rex &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; ethash &lt;span class=&quot;nt&quot;&gt;--url&lt;/span&gt; stratum+ssl://us1.ethermine.org:5555 &lt;span class=&quot;nt&quot;&gt;--user&lt;/span&gt; 0xSetYourEthWalletAddressHere &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; x &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; trexworker &lt;span class=&quot;nt&quot;&gt;--log-path&lt;/span&gt; /opt/trex/logs/trex.log &lt;span class=&quot;nt&quot;&gt;--no-watchdog&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--send-stales&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; 1,5 &lt;span class=&quot;nt&quot;&gt;--kernel&lt;/span&gt; 0 &lt;span class=&quot;nt&quot;&gt;--lhr-tune&lt;/span&gt; 68,71 &lt;span class=&quot;nt&quot;&gt;--lhr-autotune-mode&lt;/span&gt; full &lt;span class=&quot;nt&quot;&gt;--coin&lt;/span&gt; eth &lt;span class=&quot;nt&quot;&gt;--intensity&lt;/span&gt; 15.5,22.1&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;final-notes&quot;&gt;Final Notes&lt;/h2&gt;
+&lt;p&gt;The emails you receive from the script will most likely be marked as Spam.  So check your Spam folder for the emails.  If you add the sending email to your contacts, it’s possible that your email provider might not mark it as spam.  The Sending email address will always be from “hostname@hostname.com” where “hostname” is the short hostname for the server the script is running on.  (If you try to use your Gmail email as the sender email, it won’t go through.)&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+&lt;p&gt;You can download the scripts and use them as you see fit.  You can change the email interval by modifying the “sendSummary” value in the script.  The current values will result in a summary email once every 6 hours.
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/tools/phoenix-watch.pl&quot;&gt;Phoenix Miner Watch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/tools/trex-watch.pl&quot;&gt;T-Rex Miner Watch&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Happy Mining!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve been mining Ethereum with Phoenix Miner since February of this year (using Ubuntu 20.04). One thing I wanted was automated updates on the status of my rigs. I also had intermittent issues with my AMD cards which would cause one of my rigs to crash. Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash. (I did make sure that the crashes aren’t related to any over/under clocks I used, they aren’t..)</summary></entry><entry><title type="html">Mining Shiba Inu</title><link href="https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu/" rel="alternate" type="text/html" title="Mining Shiba Inu" /><published>2021-11-09T11:17:00-05:00</published><updated>2021-11-09T11:17:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu/">&lt;p&gt;You can mine SHIB on just about any CPU with XMRig (results will vary of course) and &lt;a href=&quot;https://www.unmineable.com/&quot;&gt;Unmineable&lt;/a&gt;. It’s not very profitable, but if you are already running servers then you might as well give them something else to do!&lt;/p&gt;
 
 &lt;p&gt;Your first step is to download &lt;a href=&quot;https://github.com/xmrig/xmrig/releases&quot;&gt;XMRig&lt;/a&gt;.&lt;/p&gt;
 
@@ -9,6 +117,9 @@
 &lt;p&gt;Now you are ready to create a script to run XMRig.&lt;/p&gt;
 
 &lt;p&gt;Windows: (Run it as admin to enabling huge pages)&lt;/p&gt;
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;@echo off
 
@@ -19,6 +130,9 @@ pause&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Linux:&lt;/p&gt;
+&lt;div class=&quot;code-header&quot;&gt;
+    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+&lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;/opt/xmrig/xmrig &lt;span class=&quot;nt&quot;&gt;--cpu-affinity&lt;/span&gt; 0xFF &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; rx.unmineable.com:3333 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; SHIB:0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1#vumh-d27t &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; x &lt;span class=&quot;nt&quot;&gt;-k&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--hugepage-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1280 &lt;span class=&quot;nt&quot;&gt;--huge-pages-jit&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--threads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;8 &lt;span class=&quot;nt&quot;&gt;--randomx-1gb-pages&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
