@@ -343,13 +343,13 @@ footer p {
 }
 
 ::-moz-selection {
-    text-shadow: none;
+    text-shadow: gray !important;
     background: #fcfcfc;
     background: rgba(255,255,255,.2);
 }
 
 ::selection {
-    text-shadow: none;
+    text-shadow: gray !important;
     background: #fcfcfc;
     background: rgba(255,255,255,.2);
 }

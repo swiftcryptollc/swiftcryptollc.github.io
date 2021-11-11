@@ -20,7 +20,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
         <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -72,6 +71,9 @@
 <p>Now you are ready to create a script to run XMRig.</p>
 
 <p>Windows: (Run it as admin to enabling huge pages)</p>
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">@echo off
 
@@ -82,6 +84,9 @@ pause</code></pre></figure>
 <p><br /></p>
 
 <p>Linux:</p>
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">/opt/xmrig/xmrig <span class="nt">--cpu-affinity</span> 0xFF <span class="nt">-o</span> rx.unmineable.com:3333 <span class="nt">-u</span> SHIB:0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1#vumh-d27t <span class="nt">-p</span> x <span class="nt">-k</span> <span class="nt">--hugepage-size</span><span class="o">=</span>1280 <span class="nt">--huge-pages-jit</span> <span class="nt">--threads</span><span class="o">=</span>8 <span class="nt">--randomx-1gb-pages</span></code></pre></figure>
 
@@ -101,8 +106,40 @@ pause</code></pre></figure>
                 </div>
             </div>
         </div>
-    </header>
-     <!-- jQuery Version 1.11.0 -->
+            <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact</h2>
+                <p>If you are interested in crypto-mining or delegating with us and want to learn more, please reach out!</p>
+                <p><a href="mailto:swiftcryptollc@gmail.com">swiftcryptollc@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/company/swift-crypto-llc" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://t.me/SwiftCryptoLLC" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://github.com/swiftcryptollc" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+            <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Swift Crypto LLC 2021</p>
+        </div>
+    </footer>
+
+         <!-- jQuery Version 1.11.0 -->
     <script src="/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -113,5 +150,9 @@ pause</code></pre></figure>
 
     <!-- Custom Theme JavaScript -->
     <script src="/js/grayscale.js"></script>
+
+    <!-- Swift Crypto LLC JavaScript -->
+    <script src="/js/swiftcryptollc.js" defer></script>
+
     </body>
 </html>

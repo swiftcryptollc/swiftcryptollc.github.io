@@ -14,6 +14,7 @@ After setting up XMRig and your wallet, you'll want to tweak your OS settings to
 Now you are ready to create a script to run XMRig.
 
 Windows: (Run it as admin to enabling huge pages)
+{% include code_header.html %}
 {% highlight bash %}
 @echo off
 
@@ -24,6 +25,7 @@ pause
 <br />
 
 Linux:
+{% include code_header.html %}
 {% highlight bash %}
 /opt/xmrig/xmrig --cpu-affinity 0xFF -o rx.unmineable.com:3333 -u SHIB:0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1#vumh-d27t -p x -k --hugepage-size=1280 --huge-pages-jit --threads=8 --randomx-1gb-pages
 {% endhighlight %}
