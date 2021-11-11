@@ -15,6 +15,12 @@ footer: Swift Crypto LLC
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, twitter facebook stack-overflow, bitbucket, etc.)
 social:
+  - title: reddit
+    url: https://www.reddit.com/user/SwiftCryptoLLC/
+  - title: facebook
+    url: https://www.facebook.com/Swift-Crypto-LLC
+  - title: twitter
+    url: https://twitter.com/SwiftCryptoLLC
   - title: linkedin
     url: https://www.linkedin.com/company/swift-crypto-llc
   - title: telegram
