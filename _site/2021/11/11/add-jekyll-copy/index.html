@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add a Copy Button for Jekyll HTML Code</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A small crypto mining business based in Leesburg VA that was started in 2021.">
+    <link rel="canonical" href="https://swiftcryptollc.github.io/2021/11/11/add-jekyll-copy/">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/all.min.css">
+  
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/">
+                        <i class="fa fa-play-circle"></i>  <span class="light">Home</span>
+                    </a>
+                </div>
+    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a href="https://swiftcryptollc.github.io/"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides">Guides</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <div class="container content-section text-left">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Add a Copy Button for Jekyll HTML Code</h2>
+                    <i>Post Date: 2021-11-11 15:00:00 -0500</i>
+                    <p>So when I finally decided to create a website for my business, I started down the Angular path because that’s what I knew.  It wasn’t until I started playing with <a href="https://pages.github.com/">Github Pages</a> that I was introduced to <a href="https://jekyllrb.com/">Jekyll</a>.  So far?  It’s awesome.</p>
+
+<p>All the memes about Full Stack Developers writing massive amounts of back end code in an hour or two, but then spending 6 hours trying to center a div are fairly accurate for me..  I’ve used CSS quite a bit, but I’ll always stumble on something.  With Jekyll, a lot of that headache was taken away!  But one thing I wanted to be able to do, wasn’t readily available in the theme I had chosen.  That was to have a “Copy” button on my code snippets.</p>
+
+<p>Searching the internet, I came across a blog post from <a href="https://www.aleksandrhovhannisyan.com/blog/how-to-add-a-copy-to-clipboard-button-to-your-jekyll-blog/">Aleksandr Hovhannisyan</a> (Thank you sir!).  I started implementing what he did but realized that I would have to make some changes to make it work for my site.</p>
+
+<p>Here’s what I did.</p>
+
+<h2 id="create-a-new-javascript-file">Create a new JavaScript File</h2>
+
+<p>If you don’t have a “js” directory in your base folder, add one.  Create a new file, add the following code to it, and save it.  I’m going to assume that you named the file “copyCode.js”.  If you don’t use <a href="https://fontawesome.com/">Font Awesome</a>, you will have to change the “fa-copy” and “fa-check” class references to your class.</p>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">const</span> <span class="nx">codeBlocks</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">figure &gt; pre &gt; code</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">copyCodeButtons</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">.copy-code-button</span><span class="dl">'</span><span class="p">);</span>
+<span class="nx">copyCodeButtons</span><span class="p">.</span><span class="nx">forEach</span><span class="p">((</span><span class="nx">copyCodeButton</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">code</span> <span class="o">=</span> <span class="nx">codeBlocks</span><span class="p">[</span><span class="nx">index</span><span class="p">].</span><span class="nx">innerText</span><span class="p">;</span>
+
+  <span class="nx">copyCodeButton</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nb">navigator</span><span class="p">.</span><span class="nx">clipboard</span><span class="p">.</span><span class="nx">writeText</span><span class="p">(</span><span class="nx">code</span><span class="p">);</span>
+    <span class="nx">copyCodeButton</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="dl">'</span><span class="s1">fa-copy</span><span class="dl">'</span><span class="p">);</span>
+    <span class="nx">copyCodeButton</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">'</span><span class="s1">fa-check</span><span class="dl">'</span><span class="p">);</span>
+ 
+    <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+      <span class="nx">copyCodeButton</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">remove</span><span class="p">(</span><span class="dl">'</span><span class="s1">fa-check</span><span class="dl">'</span><span class="p">);</span>
+      <span class="nx">copyCodeButton</span><span class="p">.</span><span class="nx">classList</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="dl">'</span><span class="s1">fa-copy</span><span class="dl">'</span><span class="p">);</span>
+    <span class="p">},</span> <span class="mi">2000</span><span class="p">);</span>
+  <span class="p">});</span>
+<span class="p">});</span></code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="add-the-javascript-file-to-an-_include-template">Add the Javascript File to an _include Template</h2>
+
+<p>I have a “js.html” file in my “_include” folder that contains all of the JavaScript to load for my site.  No matter how you add your JavaScript references, add your newly created file to the list.  For me, I added this line to my “js.html” file (rename the js file accordingly).</p>
+
+<ul>
+  <li>Note that “defer” will cause the JavaScript to wait until the page loads before executing.  This is important since it’ll look for code snippets, add listeners to each of the buttons, and properly map the button to it’s code snippet.</li>
+</ul>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="dl">"</span><span class="s2">/js/copyCode.js</span><span class="dl">"</span> <span class="nx">defer</span><span class="o">&gt;&lt;</span><span class="sr">/script&gt;</span></code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="add-copy-header-html-file">Add Copy Header HTML File</h2>
+
+<p>Create a new HTML file under “_include” that will contain the HTML to display the button.  I named mine “code_header.html”.  Again, if you don’t use <a href="https://fontawesome.com/">Font Awesome</a>, you will have to change the button class “fas fa-copy”.</p>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"code-header"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"copy-code-button fas fa-copy"</span> <span class="na">aria-label=</span><span class="s">"Copy code to clipboard"</span><span class="nt">&gt;&lt;/button&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="update-highlight-references">Update Highlight References</h2>
+
+<p>Update any Highlight references you currently have and add a line immediately above it to include “code_header.html” (or whatever you named it).</p>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">{% include code_header.html %}</code></pre></figure>
+
+<p><br /></p>
+
+<p>Full example:</p>
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-rogue" data-lang="rogue">{% include code_header.html %}
+{% highlight bash %}
+echo "Hello";
+{% endhighlight %}</code></pre></figure>
+
+<p><br /></p>
+<h2 id="add-css">Add CSS</h2>
+
+<p>This part may unfortuntately need some modification for your site.  Create a new CSS file under “_includes/css” and paste the following into it.</p>
+
+<ul>
+  <li>You might need to change the “top” to properly align the button within your code snippet.  You also might need to change the “font-size” value so it looks appropriate for your site.</li>
+</ul>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">.code-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+.copy-code-button {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-column-gap: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 4px 8px;
+    font-weight: 900;
+    color: black;
+    top: 20px !important;
+    position: relative;
+    border: none;
+}</code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="build-and-deploy">Build and Deploy</h2>
+
+<p>Build and test your site out!</p>
+
+<p>I realize this won’t be just a copy/paste exercise for most of you, but hopefully this guide can get you 90% of the way there!  If you have any questions, please feel free to reach out!</p>
+
+                </div>
+            </div>
+        </div>
+            <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact</h2>
+                <p>If you are interested in crypto-mining or <a href="https://tinyurl.com/syb3c59p">delegating Cardano</a> with us and want to learn more, please reach out!</p>
+                <p><a href="mailto:swiftcryptollc@gmail.com">swiftcryptollc@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    
+                    <li>
+                        <a href="https://www.reddit.com/user/SwiftCryptoLLC/" class="btn btn-default btn-lg"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">reddit</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.facebook.com/Swift-Crypto-LLC" class="btn btn-default btn-lg"><i class="fab fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/SwiftCryptoLLC" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/company/swift-crypto-llc" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://t.me/SwiftCryptoLLC" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://github.com/swiftcryptollc" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+            <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Swift Crypto LLC 2021</p>
+        </div>
+    </footer>
+
+         <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/grayscale.js"></script>
+
+    <!-- Swift Crypto LLC JavaScript -->
+    <script src="/js/swiftcryptollc.js" defer></script>
+
+    </body>
+</html>
