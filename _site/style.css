@@ -390,4 +390,18 @@ body {
     position: relative;
     border: none;
 }
-  
+thead th {
+  padding-right: 20px;
+  font-size: 18px;
+}
+tbody td {
+  padding-right: 20px;
+  font-size: 18px;
+}
+li a {
+  font-size: 18px;
+}
+
+li {
+  font-size: 18px;
+}
