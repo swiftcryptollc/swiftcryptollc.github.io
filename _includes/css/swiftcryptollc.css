@@ -32,3 +32,29 @@ li a {
 li {
   font-size: 18px;
 }
+
+a {
+  color: #8bcbff !important;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #8bcbff !important;
+  text-shadow:
+    0 0 4px #8bcbff,
+    0 0 8px #8bcbff,
+    0 0 16px rgb(0, 102, 255),
+    0 0 24px rgb(0, 102, 255),
+    0 0 36px rgb(0, 102, 255) !important;
+}
+
+.guide {
+  background-image: url(/img/guide-background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
