@@ -1,15 +1,13 @@
     <!-- Download Section -->
     <section id="guides" class="content-section text-center">
         <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Guides</h2>
-                    <ul>
+            <div class="container ms-auto me-auto">
+                    <h2 class="ms-auto me-auto">Guides</h2>
+                    <ul class="ms-auto me-auto" style="padding-left: 0px !important;">
                       {% for post in site.posts %}
-                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <h2 class="ms-auto me-auto"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                       {% endfor %}
                     </ul>
-                </div>
             </div>
         </div>
     </section>

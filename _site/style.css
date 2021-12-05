@@ -48,9 +48,9 @@ p {
         line-height: 1.6;
     }
 }
-
+/**
 a {
-    color: #abbcff;
+    color: ;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -61,14 +61,14 @@ a:focus {
     text-decoration: none;
     color: #0033ff;
 }
-
+**/
 .light {
     font-weight: 400;
 }
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(95, 119, 255, 0.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000000;
@@ -99,7 +99,7 @@ a:focus {
 
 .navbar-custom .nav li.active {
     outline: none;
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(95, 119, 255, 0.3);
 }
 
 .navbar-custom .nav li a {
@@ -112,7 +112,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
     outline: 0;
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(95, 119, 255, 0.3);
 }
 
 @media(min-width:767px) {
@@ -143,7 +143,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/intro-bw-dark.jpg) no-repeat bottom center scroll;
+    background: url(/img/header.png) no-repeat bottom center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -261,7 +261,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/mid-bw-dark.jpg) no-repeat center center scroll;
+    background: url(/img/background.png) no-repeat center center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -277,16 +277,11 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 150px;
     }
 
     .download-section {
         padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
     }
 }
 
@@ -300,17 +295,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #abbcff;
-    color: #abbcff;
+    border: 1px solid ;
+    color: ;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #abbcff;
+    border: 1px solid ;
     outline: 0;
     color: #000000;
-    background-color: #abbcff;
+    background-color: ;
 }
 
 ul.banner-social-buttons {
@@ -350,13 +345,13 @@ footer p {
 ::-moz-selection {
     text-shadow: gray !important;
     background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: rgba(95, 119, 255, 0.3);
 }
 
 ::selection {
     text-shadow: gray !important;
     background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: rgba(95, 119, 255, 0.3);
 }
 
 img::selection {
@@ -368,7 +363,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
+    webkit-tap-highlight-color: rgba(95, 119, 255, 0.3);
 }
 
 .code-header {
@@ -404,4 +399,30 @@ li a {
 
 li {
   font-size: 18px;
+}
+
+a {
+  color: #8bcbff !important;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #8bcbff !important;
+  text-shadow:
+    0 0 4px #8bcbff,
+    0 0 8px #8bcbff,
+    0 0 16px rgb(0, 102, 255),
+    0 0 24px rgb(0, 102, 255),
+    0 0 36px rgb(0, 102, 255) !important;
+}
+
+.guide {
+  background-image: url(/img/guide-background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
