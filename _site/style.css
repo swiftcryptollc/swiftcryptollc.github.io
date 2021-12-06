@@ -111,8 +111,8 @@ a:focus {
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
-    outline: 0;
-    background-color: rgba(95, 119, 255, 0.3);
+    outline: 0 !important;
+    background-color: rgba(95, 119, 255, 0.3) !important;
 }
 
 @media(min-width:767px) {
@@ -275,7 +275,7 @@ a:focus {
     margin-top: 100px;
 }
 
-@media(min-width:767px) {
+@media(min-width:900px) {
     .content-section {
         padding-top: 150px;
     }
@@ -409,8 +409,7 @@ a {
 }
 
 a:hover,
-a:focus,
-a:active {
+a:focus {
   color: #8bcbff !important;
   text-shadow:
     0 0 4px #8bcbff,
@@ -421,6 +420,7 @@ a:active {
 }
 
 .guide {
+  background-color: #03132d;
   background-image: url(/img/guide-background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
