@@ -41,8 +41,7 @@ a {
 }
 
 a:hover,
-a:focus,
-a:active {
+a:focus {
   color: #8bcbff !important;
   text-shadow:
     0 0 4px #8bcbff,
@@ -53,6 +52,7 @@ a:active {
 }
 
 .guide {
+  background-color: #03132d;
   background-image: url(/img/guide-background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
