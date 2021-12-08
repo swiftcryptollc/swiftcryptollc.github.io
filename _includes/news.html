@@ -1,0 +1,13 @@
+    <!-- News Section -->
+    <section id="news" class="content-section text-center">
+        <div class="left-section">
+            <div class="container ms-auto me-auto">
+                    <h2 class="ms-auto me-auto">News</h2>
+                    <ul class="ms-auto me-auto" style="padding-left: 0px !important;">
+                      {% for news in site.news %}
+                        <h2 class="ms-auto me-auto"><a href="{{ news.url }}">{{ news.title }}</a></h2>
+                      {% endfor %}
+                    </ul>
+            </div>
+        </div>
+    </section>

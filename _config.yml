@@ -30,6 +30,12 @@ social:
 include:
   - tools
   
+collections:
+  news: 
+    output: true
+  donations: 
+    output: true
+
 # Build settings
 markdown: kramdown
 permalink: pretty
