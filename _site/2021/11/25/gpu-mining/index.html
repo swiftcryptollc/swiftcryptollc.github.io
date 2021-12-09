@@ -22,42 +22,44 @@
     <![endif]-->
 </head>
     <body class="guide" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/">
-                        <span class="light">Home</span>
-                    </a>
-                </div>
-    
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                    <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="hidden">
-                            <a href="https://swiftcryptollc.github.io/"></a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#news">News</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides">Guides</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#about">About</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
+         <!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/">
+                <span class="light">Home</span>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="https://swiftcryptollc.github.io/"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#news">News</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides">Guides</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
         <div class="container content-section text-left">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -81,15 +83,15 @@
 <p><br /></p>
 <h3 id="OS">Choosing an OS</h3>
 
-<p>I am currently running two dedicated mining rigs, along with a laptop and a file server where mining is secondary.  I have an extensive Linux background, so my OS of choice is <a href="https://ubuntu.com/">Ubuntu</a>.  My file server is 7 or 8 years old and running Window 8.1.  I have heard good things about <a href="https://hiveos.farm/">HiveOS</a> but I’ve also read about times where Hive itself was down.  I don’t have any experience using Hive, but if system administration isn’t something you’re comfortable with, it is worth checking out if you plan on running dedicated mining rigs.  There is some costs associated with it if you run more than one rig, but it seems minimal.  Check their website for more information.</p>
+<p>I am currently running two dedicated mining rigs, along with a laptop and a file server where mining is secondary.  I have an extensive Linux background, so my OS of choice is <a href="https://ubuntu.com/" target="_blank">Ubuntu</a>.  My file server is 7 or 8 years old and running Window 8.1.  I have heard good things about <a href="https://hiveos.farm/" target="_blank">HiveOS</a> but I’ve also read about times where Hive itself was down.  I don’t have any experience using Hive, but if system administration isn’t something you’re comfortable with, it is worth checking out if you plan on running dedicated mining rigs.  There is some costs associated with it if you run more than one rig, but it seems minimal.  Check their website for more information.</p>
 
-<p>Most people are comfortable with Windows.  The latest and greatest AMD and NVidia drivers are available and there usually aren’t any issues using them.  <a href="https://www.msi.com/Landing/afterburner/graphics-cards">MSI Afterburner</a> is arguably the best GPU tweaking software available and it’s only available for Windows.  You can modify GPU speeds, RAM speeds, voltages, fan speeds, and power limits.  You can save different profiles and have one auto-load on Windows startup.  That piece of software alone is a good reason to choose Windows.  Even those with limited sys admin experience can comfortably use it.</p>
+<p>Most people are comfortable with Windows.  The latest and greatest AMD and NVidia drivers are available and there usually aren’t any issues using them.  <a href="https://www.msi.com/Landing/afterburner/graphics-cards" target="_blank">MSI Afterburner</a> is arguably the best GPU tweaking software available and it’s only available for Windows.  You can modify GPU speeds, RAM speeds, voltages, fan speeds, and power limits.  You can save different profiles and have one auto-load on Windows startup.  That piece of software alone is a good reason to choose Windows.  Even those with limited sys admin experience can comfortably use it.</p>
 
 <p>While Windows is good option overall, I just wouldn’t buy it.  If it came with your PC?  Sure.. but otherwise, spend that money on something else.  I personally chose Ubuntu for my rigs.  Ubuntu is completely free.  You will need some sys admin experience (and/or a willingness to learn) if you want to get the most out of your rig but hopefully this guide helps you get there.</p>
 
 <p>No matter which OS you choose, you want a few things to be setup.</p>
 
-<p>The first is that your mining software starts on OS boot.  In Ubuntu, click on “Activities” and search for “startup”.  You can add your commands to be run at startup there.  I use “xterm -e” followed by the command to start my miners at boot.  Windows has a <a href="https://helpdeskgeek.com/windows-10/how-to-access-the-windows-10-startup-folder/">Startup Folder</a> that you can use to tell Windows to start whatever software you want to start at boot time.</p>
+<p>The first is that your mining software starts on OS boot.  In Ubuntu, click on “Activities” and search for “startup”.  You can add your commands to be run at startup there.  I use “xterm -e” followed by the command to start my miners at boot.  Windows has a <a href="https://helpdeskgeek.com/windows-10/how-to-access-the-windows-10-startup-folder/" target="_blank">Startup Folder</a> that you can use to tell Windows to start whatever software you want to start at boot time.</p>
 
 <p><em>You may also want to set your BIOS to boot after power restore.  Check your motherboard manual for information on how to enable that feature.</em></p>
 
@@ -98,34 +100,34 @@
 <p>For remote access, there are a couple of options to chose from.  This isn’t an exhaustive list by any means, but they all are popular.</p>
 
 <ul>
-  <li>Windows has <a href="https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c">Remote Desktop</a> available depending on the verison you have.</li>
-  <li><a href="https://remotedesktop.google.com/?pli=1">Chrome Remote Desktop</a> is an option no matter if you are running Windows or Linux.</li>
-  <li><a href="https://www.teamviewer.com/">TeamViewer</a> is another great option.  They have a client for Windows, Linux, Raspberry Pi, Android, iOS, Mac, and Chrome OS.  It’s free for personal use but you will need a license for commercial use.</li>
-  <li><a href="https://ubuntu.com/tutorials/access-remote-desktop#1-overview">Ubuntu Remote Desktop</a> is a built in remote desktop capability in Ubuntu through <a href="https://remmina.org/">Remmina</a></li>
+  <li>Windows has <a href="https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c" target="_blank">Remote Desktop</a> available depending on the verison you have.</li>
+  <li><a href="https://remotedesktop.google.com/?pli=1" target="_blank">Chrome Remote Desktop</a> is an option no matter if you are running Windows or Linux.</li>
+  <li><a href="https://www.teamviewer.com/" target="_blank">TeamViewer</a> is another great option.  They have a client for Windows, Linux, Raspberry Pi, Android, iOS, Mac, and Chrome OS.  It’s free for personal use but you will need a license for commercial use.</li>
+  <li><a href="https://ubuntu.com/tutorials/access-remote-desktop#1-overview" target="_blank">Ubuntu Remote Desktop</a> is a built in remote desktop capability in Ubuntu through <a href="https://remmina.org/" target="_blank">Remmina</a></li>
 </ul>
 
 <p><br />
-Lastly, <a href="https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/">these smart plugs</a> can be life savers if you can’t get remote access.  They allow you to remotely kill power to any of these plugs and then turn them back on.  It’s an <em>absolute</em> last resort but it really can be a life saver if you can’t get to your rig.</p>
+Lastly, <a href="https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/" target="_blank">these smart plugs</a> can be life savers if you can’t get remote access.  They allow you to remotely kill power to any of these plugs and then turn them back on.  It’s an <em>absolute</em> last resort but it really can be a life saver if you can’t get to your rig.</p>
 
 <h3 id="hardware">Hardware Choices</h3>
 
-<p>One thing that is important to note about GPU mining is that you don’t need expensive base hardware to have a high performing rig.  The motherboard needs PCIe slots for GPU cards and you will need the right power supplies, but that’s about it for requirements.  My two dedicated rigs are vastly different.  One has an <a href="https://www.asrock.com/microsite/H110ProBTC+/">ASRock H110 Pro BTC+</a> motherboard with a <a href="https://www.amazon.com/gp/product/B01MYTY55V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">7th Gen Intel Celeron</a> and 16 GB RAM.  My second rig is “beefier” with a <a href="https://rog.asus.com/us/motherboards/rog-crosshair/rog-crosshair-viii-dark-hero-model/">ASUS ROG Crosshair VIII Dark Hero</a> motherboard, an <a href="https://www.amd.com/en/products/cpu/amd-ryzen-9-5950x">AMD 5950x</a> CPU and 64 GB RAM.  The ASRock has 13 PCIe slots while the ASUS only has 4 PCIe slots.  You can buy PCIe Splitters like this <a href="https://www.amazon.com/Splitter-External-Adapter-Multiplier-Bitcoin/dp/B092R64W2V/ref=sr_1_3?crid=5I5E5SIWVBWN&amp;keywords=pcie+splitter&amp;qid=1637865056&amp;sprefix=pcie+%2Caps%2C160&amp;sr=8-3">one</a> but know that your motherboard may simply have a limit on the number of GPUs it can support.  For the ASUS, I can run 6 GPUs without a problem, even run 4 on that PCIe splitter if I wanted to.  The moment I try to add a 7th GPU, the rig won’t post.  I tried everything I could think of but eventually gave up.</p>
+<p>One thing that is important to note about GPU mining is that you don’t need expensive base hardware to have a high performing rig.  The motherboard needs PCIe slots for GPU cards and you will need the right power supplies, but that’s about it for requirements.  My two dedicated rigs are vastly different.  One has an <a href="https://www.asrock.com/microsite/H110ProBTC+/" target="_blank">ASRock H110 Pro BTC+</a> motherboard with a <a href="https://www.amazon.com/gp/product/B01MYTY55V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1" target="_blank">7th Gen Intel Celeron</a> and 16 GB RAM.  My second rig is “beefier” with a <a href="https://rog.asus.com/us/motherboards/rog-crosshair/rog-crosshair-viii-dark-hero-model/" target="_blank">ASUS ROG Crosshair VIII Dark Hero</a> motherboard, an <a href="https://www.amd.com/en/products/cpu/amd-ryzen-9-5950x" target="_blank">AMD 5950x</a> CPU and 64 GB RAM.  The ASRock has 13 PCIe slots while the ASUS only has 4 PCIe slots.  You can buy PCIe Splitters like this <a href="https://www.amazon.com/Splitter-External-Adapter-Multiplier-Bitcoin/dp/B092R64W2V/ref=sr_1_3?crid=5I5E5SIWVBWN&amp;keywords=pcie+splitter&amp;qid=1637865056&amp;sprefix=pcie+%2Caps%2C160&amp;sr=8-3" target="_blank">one</a> but know that your motherboard may simply have a limit on the number of GPUs it can support.  For the ASUS, I can run 6 GPUs without a problem, even run 4 on that PCIe splitter if I wanted to.  The moment I try to add a 7th GPU, the rig won’t post.  I tried everything I could think of but eventually gave up.</p>
 
 <p>I have an older Intel Core 2 Quad Core Q6600 (which came out in 2007) PC that still works.  It has 3 PCIe slots.  I actually did use it for a little while and it worked just fine.  So keep that in mind when figuring out your base hardware.  You don’t need anything special unless you want to do other things with it while GPU mining.</p>
 
 <p>When trying to figure out what power supply to buy, cheaper is NOT always better.  Platinum and Titanium PSUs are more expensive than Gold and Bronze PSUs, but they more efficient with their power consumption (leading to a lower electricity bill!).  When calculating what size PSU you need, I recommend dropping the max PSU wattage to 80%.  So that 1600 watt PSU you are eyeing?  Load it with no more than 1280 watts.  Two PSUs that I recommend and use are:</p>
 
 <ul>
-  <li><a href="https://www.amazon.com/CORSAIR-HX1200-Platinum-Certified-Modular/dp/B01MZ8A8NW/">Corsair HX1200</a></li>
-  <li><a href="https://www.amazon.com/EVGA-Supernova-Platinum-Crossfire-220-P2-1600-X1/dp/B00NJG61JQ/">EVGA P2 1600</a></li>
+  <li><a href="https://www.amazon.com/CORSAIR-HX1200-Platinum-Certified-Modular/dp/B01MZ8A8NW/" target="_blank">Corsair HX1200</a></li>
+  <li><a href="https://www.amazon.com/EVGA-Supernova-Platinum-Crossfire-220-P2-1600-X1/dp/B00NJG61JQ/" target="_blank">EVGA P2 1600</a></li>
 </ul>
 
 <p><br />
-Finding GPUs at MSRP can be extremely difficult.  The <a href="https://www.zotacstore.com/">Zotac Store</a> has GPUs from time to time.  You can get in-stock alerts from a couple of Twitter and Discord accounts.  My favorite is <a href="https://twitter.com/SnailMonitor">SnailMonitor</a>.  No matter what, make sure you understand what you’re buying and what your expected return is.  Read up on <a href="https://whattomine.com/gpus">What to Mine</a> and have an idea of what GPUs you are willing to buy.  If you get an alert that GPUs are in stock, you usually only have a handful of seconds to make the purchase.  I also recommend signing up for the <a href="https://www.newegg.com/product-shuffle">NewEgg Shuffle</a>.  The chances you are selected are low, but possible.  I’ve actually been selected 3 times since early May but I enter every shuffle, every day they have one.</p>
+Finding GPUs at MSRP can be extremely difficult.  The <a href="https://www.zotacstore.com/" target="_blank">Zotac Store</a> has GPUs from time to time.  You can get in-stock alerts from a couple of Twitter and Discord accounts.  My favorite is <a href="https://twitter.com/SnailMonitor" target="_blank">SnailMonitor</a>.  No matter what, make sure you understand what you’re buying and what your expected return is.  Read up on <a href="https://whattomine.com/gpus" target="_blank">What to Mine</a> and have an idea of what GPUs you are willing to buy.  If you get an alert that GPUs are in stock, you usually only have a handful of seconds to make the purchase.  I also recommend signing up for the <a href="https://www.newegg.com/product-shuffle" target="_blank">NewEgg Shuffle</a>.  The chances you are selected are low, but possible.  I’ve actually been selected 3 times since early May but I enter every shuffle, every day they have one.</p>
 
 <h3 id="chooseminer">Choosing a Miner</h3>
 
-<p><a href="https://github.com/NebuTech/NBMiner">NBMiner</a>, <a href="https://github.com/trexminer/T-Rex/releases">T-Rex</a>, <a href="https://bitcointalk.org/index.php?topic=2647654.0">Phoenix Miner</a>, <a href="https://github.com/todxx/teamredminer/releases">TeamRedMiner</a>, and <a href="https://github.com/develsoftware/GMinerRelease/releases">GMiner</a> are some of the more popular options to choose from.</p>
+<p><a href="https://github.com/NebuTech/NBMiner" target="_blank">NBMiner</a>, <a href="https://github.com/trexminer/T-Rex/releases" target="_blank">T-Rex</a>, <a href="https://bitcointalk.org/index.php?topic=2647654.0" target="_blank">Phoenix Miner</a>, <a href="https://github.com/todxx/teamredminer/releases" target="_blank">TeamRedMiner</a>, and <a href="https://github.com/develsoftware/GMinerRelease/releases" target="_blank">GMiner</a> are some of the more popular options to choose from.</p>
 
 <table>
   <thead>
@@ -214,7 +216,7 @@ You’ll ultimately need to determine for yourself which miner to use but I woul
 
 <h3 id="choosepool">Choosing a Pool</h3>
 
-<p>Mining pools each have their own fee associated with them as well.  I’ve only every used <a href="https://ethermine.org/">Ethermine.org</a>.  Ethermine allows for payouts over the Ethereum network and the Polygon network.  The Polygon network has less fees for payouts and should be used by miners with lower hashrates (saves you transaction fees!).  There are a number of options you could choose from for pools.  For a total overview, checkout <a href="https://www.poolwatch.io/coin/ethereum">PoolWatch.io</a>.  For an explanation of payout modes (such as PPLNS and PPS), check out this <a href="https://coinguides.org/pps-vs-pplns/">article</a>.  Whichever pool you choose, make sure to choose their server that you have the lowest ping to!  It may not be the one that is geographically closest to you.  The faster your connection to the pool, the less likely that your shares would be considered stale.</p>
+<p>Mining pools each have their own fee associated with them as well.  I’ve only every used <a href="https://ethermine.org/" target="_blank">Ethermine.org</a>.  Ethermine allows for payouts over the Ethereum network and the Polygon network.  The Polygon network has less fees for payouts and should be used by miners with lower hashrates (saves you transaction fees!).  There are a number of options you could choose from for pools.  For a total overview, checkout <a href="https://www.poolwatch.io/coin/ethereum" target="_blank">PoolWatch.io</a>.  For an explanation of payout modes (such as PPLNS and PPS), check out this <a href="https://coinguides.org/pps-vs-pplns/" target="_blank">article</a>.  Whichever pool you choose, make sure to choose their server that you have the lowest ping to!  It may not be the one that is geographically closest to you.  The faster your connection to the pool, the less likely that your shares would be considered stale.</p>
 
 <p>Some of the more popular pools include:</p>
 
@@ -229,31 +231,31 @@ You’ll ultimately need to determine for yourself which miner to use but I woul
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left"><a href="https://ethermine.org/">Ethermine</a></td>
+      <td style="text-align: left"><a href="https://ethermine.org/" target="_blank">Ethermine</a></td>
       <td style="text-align: center">PPLNS</td>
       <td style="text-align: center">1%</td>
       <td style="text-align: center">100%</td>
     </tr>
     <tr>
-      <td style="text-align: left"><a href="https://hiveon.net/">Hiveon</a></td>
+      <td style="text-align: left"><a href="https://hiveon.net/" target="_blank">Hiveon</a></td>
       <td style="text-align: center">PPS+</td>
       <td style="text-align: center">0%</td>
       <td style="text-align: center">90%</td>
     </tr>
     <tr>
-      <td style="text-align: left"><a href="https://nanopool.org/">Nanopool</a></td>
+      <td style="text-align: left"><a href="https://nanopool.org/" target="_blank">Nanopool</a></td>
       <td style="text-align: center">PPLNS</td>
       <td style="text-align: center">1%</td>
-      <td style="text-align: center"><a href="https://help.nanopool.org/article/47-faq">Unclear</a></td>
+      <td style="text-align: center"><a href="https://help.nanopool.org/article/47-faq" target="_blank">Unclear</a></td>
     </tr>
     <tr>
-      <td style="text-align: left"><a href="https://2miners.com/">2Miners</a></td>
+      <td style="text-align: left"><a href="https://2miners.com/" target="_blank">2Miners</a></td>
       <td style="text-align: center">PPLNS</td>
       <td style="text-align: center">1%</td>
       <td style="text-align: center">100%</td>
     </tr>
     <tr>
-      <td style="text-align: left"><a href="https://www.flexpool.io/">Flexpool</a></td>
+      <td style="text-align: left"><a href="https://www.flexpool.io/" target="_blank">Flexpool</a></td>
       <td style="text-align: center">PPLNS</td>
       <td style="text-align: center">.5%</td>
       <td style="text-align: center">90%</td>
@@ -265,9 +267,9 @@ You’ll ultimately need to determine for yourself which miner to use but I woul
 
 <h3 id="amd">AMD Settings</h3>
 
-<p>I did have trouble with the AMD drivers and Ubuntu, major issues.. but I eventually worked it out.  I had to use an older kernel, 5.4.0-26, and slightly older AMD drivers, 20.40.  At one point I tried updating but I couldn’t find the right combo to work, so I gave up.  I know that other people have been able to get newer AMD drivers to work but I haven’t seen a performance difference between their GPUs and mine.  So take that for what it’s worth.  If you want to modify AMD settings in Ubuntu, it’s just not as straight forward as Windows.  AMD’s Radeon software for Windows is fantastic for managing your GPU speeds and voltage.  (You can also use MSI Afterburner).  Since I really didn’t get the results I wanted trying to over/underclock my AMD GPUs in Ubuntu, I decided to mod their BIOS.  Before doing that, I recommend trying to mod them through the OS.  <a href="https://www.igorslab.de/en/amd-graphics-cards-under-linux-overclock-or-modify-goes-also/">This</a> is a good place to start.</p>
+<p>I did have trouble with the AMD drivers and Ubuntu, major issues.. but I eventually worked it out.  I had to use an older kernel, 5.4.0-26, and slightly older AMD drivers, 20.40.  At one point I tried updating but I couldn’t find the right combo to work, so I gave up.  I know that other people have been able to get newer AMD drivers to work but I haven’t seen a performance difference between their GPUs and mine.  So take that for what it’s worth.  If you want to modify AMD settings in Ubuntu, it’s just not as straight forward as Windows.  AMD’s Radeon software for Windows is fantastic for managing your GPU speeds and voltage.  (You can also use MSI Afterburner).  Since I really didn’t get the results I wanted trying to over/underclock my AMD GPUs in Ubuntu, I decided to mod their BIOS.  Before doing that, I recommend trying to mod them through the OS.  <a href="https://www.igorslab.de/en/amd-graphics-cards-under-linux-overclock-or-modify-goes-also/" target="_blank">This</a> is a good place to start.</p>
 
-<p>Modifying the BIOS on a GPU can be nerve-racking. If you mess it up, you could brick your GPU and we all know how expensive GPU’s are today.  The PowerColor 5700 XTs I bought have a BIOS switch.  One BIOS is the “normal” BIOS and the second is tweaked for performance by PowerColor.  I used the <a href="https://www.igorslab.de/en/red-bios-editor-and-morepowertool-adjust-and-optimize-your-vbios-and-even-more-stable-overclocking-navi-unlimited/">Red Bios Editor</a> and Windows to create a BIOS for my AMD cards.  I dropped the GPU to 1400 MHz, bumped the memory to 885 MHz (gets multiplied by 2), and set the voltage to 900.  That configuration held for all 6 of my GPUs.  Now that they are flashed, I don’t have to worry about any OS or miner OC settings.  They just boot exactly how I want them to run.</p>
+<p>Modifying the BIOS on a GPU can be nerve-racking. If you mess it up, you could brick your GPU and we all know how expensive GPU’s are today.  The PowerColor 5700 XTs I bought have a BIOS switch.  One BIOS is the “normal” BIOS and the second is tweaked for performance by PowerColor.  I used the <a href="https://www.igorslab.de/en/red-bios-editor-and-morepowertool-adjust-and-optimize-your-vbios-and-even-more-stable-overclocking-navi-unlimited/" target="_blank">Red Bios Editor</a> and Windows to create a BIOS for my AMD cards.  I dropped the GPU to 1400 MHz, bumped the memory to 885 MHz (gets multiplied by 2), and set the voltage to 900.  That configuration held for all 6 of my GPUs.  Now that they are flashed, I don’t have to worry about any OS or miner OC settings.  They just boot exactly how I want them to run.</p>
 
 <h3 id="nvidia">NVidia Settings</h3>
 
@@ -341,7 +343,7 @@ The output should look like this:</p>
 1b:00.0 VGA compatible controller: Advanced Micro Devices, Inc. <span class="o">[</span>AMD/ATI] Navi 10 <span class="o">[</span>Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] <span class="o">(</span>rev c1<span class="o">)</span></code></pre></figure>
 
 <p><br />
-The first part of that output identifies the Bus ID.  Note that “lspci” outputs the Bus ID in hex form, while the Bus ID has to be decimal in the X11 file.  So “04:00.0” turns into “PCI:04:0:0” while “12:00.0” turns into “PCI:18:0:0”.  If you arent good doing the conversions in your head, <a href="https://www.binaryhexconverter.com/hex-to-decimal-converter">this website</a> is extremely valuable!</p>
+The first part of that output identifies the Bus ID.  Note that “lspci” outputs the Bus ID in hex form, while the Bus ID has to be decimal in the X11 file.  So “04:00.0” turns into “PCI:04:0:0” while “12:00.0” turns into “PCI:18:0:0”.  If you arent good doing the conversions in your head, <a href="https://www.binaryhexconverter.com/hex-to-decimal-converter" target="_blank">this website</a> is extremely valuable!</p>
 
 <p>Now that you have your X11 file setup, you can start messing with your GPU settings.  I have a bash script for each miner and rig.  Here is one of my scripts with one Nvidia 1080 and 2 Nvidia 3090s.</p>
 
@@ -476,33 +478,33 @@ You will use “nvidia-smi” to control the maximum power draw for a GPU and us
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
-                <p>If you are interested in crypto-mining or <a href="https://tinyurl.com/syb3c59p">delegating Cardano</a> with us and want to learn more, please reach out!</p>
+                <p>If you are interested in crypto-mining or <a href="/2021/11/23/staking-guide/">delegating Cardano</a> with us and want to learn more, please reach out!</p>
                 <p><a href="mailto:swiftcryptollc@gmail.com">swiftcryptollc@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     
                     <li>
-                        <a href="https://www.reddit.com/user/SwiftCryptoLLC/" class="btn btn-default btn-lg"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">reddit</span></a>
+                        <a href="https://www.facebook.com/Swift-Crypto-LLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://www.facebook.com/Swift-Crypto-LLC" class="btn btn-default btn-lg"><i class="fab fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                        <a href="https://twitter.com/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://twitter.com/SwiftCryptoLLC" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
+                        <a href="https://www.linkedin.com/company/swift-crypto-llc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://www.linkedin.com/company/swift-crypto-llc" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
+                        <a href="https://t.me/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://t.me/SwiftCryptoLLC" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
+                        <a href="https://github.com/swiftcryptollc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://github.com/swiftcryptollc" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                        <a href="https://www.reddit.com/user/SwiftCryptoLLC/"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">reddit</span></a>
                     </li>
                     
                 </ul>

@@ -257,31 +257,8 @@ a:focus {
     padding-top: 100px;
 }
 
-.left-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(/img/left-design.png) no-repeat center center scroll;
-    background-color: #000000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
-.right-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(/img/right-design.png) no-repeat center center scroll;
-    background-color: #000000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.download-section {
+.info-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -291,6 +268,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    min-height: 600px;
 }
 
 #map {

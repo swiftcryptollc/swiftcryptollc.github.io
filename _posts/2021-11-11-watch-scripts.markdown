@@ -3,9 +3,9 @@ layout: post
 title:  "Phoenix Miner/T-Rex Watch Scripts"
 date:   2021-11-11 10:40:00 -0500
 ---
-I've been mining Ethereum with [Phoenix Miner](https://bitcointalk.org/index.php?topic=2647654.0) since February of this year (using Ubuntu 20.04).  One thing I wanted was automated updates on the status of my rigs.  I also had intermittent issues with my AMD cards which would cause one of my rigs to crash.  Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash.  (I did make sure that the crashes aren't related to any over/under clocks I used, they aren't..)
+I've been mining Ethereum with [Phoenix Miner](https://bitcointalk.org/index.php?topic=2647654.0){:target="_blank"} since February of this year (using Ubuntu 20.04).  One thing I wanted was automated updates on the status of my rigs.  I also had intermittent issues with my AMD cards which would cause one of my rigs to crash.  Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash.  (I did make sure that the crashes aren't related to any over/under clocks I used, they aren't..)
 
-When Phoenix Miner crashed from one of the AMD cards (PowerColor 5700 XTs), my system was completely locked up.  I installed [BN Link Smart Plugs](https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/?th=1) to be able to remotely shutdown and restart the rig, but there's always risk with just cutting power to a server like that.  Ideally, it's shutdown or rebooted appropriately.
+When Phoenix Miner crashed from one of the AMD cards (PowerColor 5700 XTs), my system was completely locked up.  I installed [BN Link Smart Plugs](https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/?th=1){:target="_blank"} to be able to remotely shutdown and restart the rig, but there's always risk with just cutting power to a server like that.  Ideally, it's shutdown or rebooted appropriately.
 
 I'm not a Perl master, but I know enough to be dangerous.  So I put that to use and wrote a script that would tail the Phoenix Miner log.  The script assumes a Linux install and depends on "sendmail" and "perl".  You can install "sendmail" and "perl" by running the following (choose the appropriate one for your Linux platform):
 
@@ -27,7 +27,7 @@ The Phoenix Miner script will report the following via an email:
 <br />
 
 ## T-Rex Miner ##
-I recently bought some LHR Nvidia cards.  To mine with these cards, I switched to [T-Rex Miner](https://github.com/trexminer/T-Rex/releases).  (Quick tip, mess with the mining intensity for each of your LHR cards with "auto tune" enabled.  A lower mining intensity can limit LHR locks overall and thus, increase your hash rate.)  I modified the Phoenix Miner script to work with T-Rex.
+I recently bought some LHR Nvidia cards.  To mine with these cards, I switched to [T-Rex Miner](https://github.com/trexminer/T-Rex/releases){:target="_blank"}.  (Quick tip, mess with the mining intensity for each of your LHR cards with "auto tune" enabled.  A lower mining intensity can limit LHR locks overall and thus, increase your hash rate.)  I modified the Phoenix Miner script to work with T-Rex.
 
 The T-Rex Miner script will report the following via an email:
 * Hash Rate and LHR Summary every 6 hours
