@@ -22,55 +22,60 @@
     <![endif]-->
 </head>
     <body class="guide" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/">
-                        <span class="light">Home</span>
-                    </a>
-                </div>
-    
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                    <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="hidden">
-                            <a href="https://swiftcryptollc.github.io/"></a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#about">About</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides">Guides</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
+         <!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/">
+                <span class="light">Home</span>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="https://swiftcryptollc.github.io/"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#news">News</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides">Guides</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
         <div class="container content-section text-left">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h2>Add a Copy Button for Jekyll HTML Code</h2>
                     <i>Post Date: 2021-11-11 15:00:00 -0500</i>
-                    <p>So when I finally decided to create a website for my business, I started down the Angular path because that’s what I knew.  It wasn’t until I started playing with <a href="https://pages.github.com/">Github Pages</a> that I was introduced to <a href="https://jekyllrb.com/">Jekyll</a>.  So far?  It’s awesome.</p>
+                    <p>So when I finally decided to create a website for my business, I started down the Angular path because that’s what I knew.  It wasn’t until I started playing with <a href="https://pages.github.com/" target="_blank">Github Pages</a> that I was introduced to <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.  So far?  It’s awesome.</p>
 
 <p>All the memes about Full Stack Developers writing massive amounts of back end code in an hour or two, but then spending 6 hours trying to center a div are fairly accurate for me..  I’ve used CSS quite a bit, but I’ll always stumble on something.  With Jekyll, a lot of that headache was taken away!  But one thing I wanted to be able to do, wasn’t readily available in the theme I had chosen.  That was to have a “Copy” button on my code snippets.</p>
 
-<p>Searching the internet, I came across a blog post from <a href="https://www.aleksandrhovhannisyan.com/blog/how-to-add-a-copy-to-clipboard-button-to-your-jekyll-blog/">Aleksandr Hovhannisyan</a> (Thank you sir!).  I started implementing what he did but realized that I would have to make some changes to make it work for my site.</p>
+<p>Searching the internet, I came across a blog post from <a href="https://www.aleksandrhovhannisyan.com/blog/how-to-add-a-copy-to-clipboard-button-to-your-jekyll-blog/" target="_blank">Aleksandr Hovhannisyan</a> (Thank you sir!).  I started implementing what he did but realized that I would have to make some changes to make it work for my site.</p>
 
 <p>Here’s what I did.</p>
 
 <h2 id="create-a-new-javascript-file">Create a new JavaScript File</h2>
 
-<p>If you don’t have a “js” directory in your base folder, add one.  Create a new file, add the following code to it, and save it.  I’m going to assume that you named the file “copyCode.js”.  If you don’t use <a href="https://fontawesome.com/">Font Awesome</a>, you will have to change the “fa-copy” and “fa-check” class references to your class.</p>
+<p>If you don’t have a “js” directory in your base folder, add one.  Create a new file, add the following code to it, and save it.  I’m going to assume that you named the file “copyCode.js”.  If you don’t use <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>, you will have to change the “fa-copy” and “fa-check” class references to your class.</p>
 
 <div class="code-header">
     <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
@@ -196,33 +201,33 @@ echo "Hello";
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
-                <p>If you are interested in crypto-mining or <a href="https://tinyurl.com/syb3c59p">delegating Cardano</a> with us and want to learn more, please reach out!</p>
+                <p>If you are interested in crypto-mining or <a href="/2021/11/23/staking-guide/">delegating Cardano</a> with us and want to learn more, please reach out!</p>
                 <p><a href="mailto:swiftcryptollc@gmail.com">swiftcryptollc@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     
                     <li>
-                        <a href="https://www.reddit.com/user/SwiftCryptoLLC/" class="btn btn-default btn-lg"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">reddit</span></a>
+                        <a href="https://www.facebook.com/Swift-Crypto-LLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://www.facebook.com/Swift-Crypto-LLC" class="btn btn-default btn-lg"><i class="fab fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                        <a href="https://twitter.com/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://twitter.com/SwiftCryptoLLC" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
+                        <a href="https://www.linkedin.com/company/swift-crypto-llc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://www.linkedin.com/company/swift-crypto-llc" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
+                        <a href="https://t.me/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://t.me/SwiftCryptoLLC" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
+                        <a href="https://github.com/swiftcryptollc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://github.com/swiftcryptollc" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                        <a href="https://www.reddit.com/user/SwiftCryptoLLC/"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">reddit</span></a>
                     </li>
                     
                 </ul>

@@ -22,51 +22,56 @@
     <![endif]-->
 </head>
     <body class="guide" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/">
-                        <span class="light">Home</span>
-                    </a>
-                </div>
-    
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                    <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="hidden">
-                            <a href="https://swiftcryptollc.github.io/"></a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#about">About</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides">Guides</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
+         <!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/">
+                <span class="light">Home</span>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="https://swiftcryptollc.github.io/"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#news">News</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides">Guides</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
         <div class="container content-section text-left">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h2>Mining Shiba Inu</h2>
                     <i>Post Date: 2021-11-09 11:17:00 -0500</i>
-                    <p>You can mine SHIB on just about any CPU with XMRig (results will vary of course) and <a href="https://www.unmineable.com/">Unmineable</a>. It’s not very profitable, but if you are already running servers then you might as well give them something else to do!</p>
+                    <p>You can mine SHIB on just about any CPU with XMRig (results will vary of course) and <a href="https://www.unmineable.com/" target="_blank">Unmineable</a>. It’s not very profitable, but if you are already running servers then you might as well give them something else to do!</p>
 
-<p>Your first step is to download <a href="https://github.com/xmrig/xmrig/releases">XMRig</a>.</p>
+<p>Your first step is to download <a href="https://github.com/xmrig/xmrig/releases" target="_blank">XMRig</a>.</p>
 
-<p>You’ll also need to setup an Ethereum based wallet.  I always recommend getting a hardware wallet like a <a href="https://shop.ledger.com/products/ledger-nano-x">Ledger Nano X</a>.  Some software wallets include <a href="https://metamask.io/">Metamask</a> and <a href="https://wallet.coinbase.com/">Coinbase</a>.  You can connect your hardware wallet to both of those wallets.  Here are <a href="https://www.ledger.com/academy/security/the-safest-way-to-use-metamask">instructions</a> on connecting Metamask to a Ledger hardware wallet.</p>
+<p>You’ll also need to setup an Ethereum based wallet.  I always recommend getting a hardware wallet like a <a href="https://shop.ledger.com/products/ledger-nano-x" target="_blank">Ledger Nano X</a>.  Some software wallets include <a href="https://metamask.io/" target="_blank">Metamask</a> and <a href="https://wallet.coinbase.com/" target="_blank">Coinbase</a>.  You can connect your hardware wallet to both of those wallets.  Here are <a href="https://www.ledger.com/academy/security/the-safest-way-to-use-metamask" target="_blank">instructions</a> on connecting Metamask to a Ledger hardware wallet.</p>
 
-<p>After setting up XMRig and your wallet, you’ll want to tweak your OS settings to enable <a href="https://xmrig.com/docs/miner/hugepages">Hugepages</a>.  It’ll offer a significant performance boost.</p>
+<p>After setting up XMRig and your wallet, you’ll want to tweak your OS settings to enable <a href="https://xmrig.com/docs/miner/hugepages" target="_blank">Hugepages</a>.  It’ll offer a significant performance boost.</p>
 
 <p>Now you are ready to create a script to run XMRig.</p>
 
@@ -99,7 +104,7 @@ pause</code></pre></figure>
 
 <p>Change the location of the XMRig executable file based on where you installed it, and change “threads” to however many CPUs you have. Note that sometimes it’ll run better if you don’t use all of your available CPUs. Press “h” to check the CPU speeds. Try 50%, 75%, 90%, and 100% of your available CPUs (including threads) to find the sweet spot for your CPU.</p>
 
-<p>Once you start mining, go to <a href="https://www.unmineable.com/coins/SHIB/address">Unmineable/SHIB</a> and enter your ETH/ERC20 public wallet address to track your earning!</p>
+<p>Once you start mining, go to <a href="https://www.unmineable.com/coins/SHIB/address" target="_blank">Unmineable/SHIB</a> and enter your ETH/ERC20 public wallet address to track your earning!</p>
 
 <p>Happy mining!</p>
 
@@ -111,33 +116,33 @@ pause</code></pre></figure>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
-                <p>If you are interested in crypto-mining or <a href="https://tinyurl.com/syb3c59p">delegating Cardano</a> with us and want to learn more, please reach out!</p>
+                <p>If you are interested in crypto-mining or <a href="/2021/11/23/staking-guide/">delegating Cardano</a> with us and want to learn more, please reach out!</p>
                 <p><a href="mailto:swiftcryptollc@gmail.com">swiftcryptollc@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     
                     <li>
-                        <a href="https://www.reddit.com/user/SwiftCryptoLLC/" class="btn btn-default btn-lg"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">reddit</span></a>
+                        <a href="https://www.facebook.com/Swift-Crypto-LLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://www.facebook.com/Swift-Crypto-LLC" class="btn btn-default btn-lg"><i class="fab fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                        <a href="https://twitter.com/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://twitter.com/SwiftCryptoLLC" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
+                        <a href="https://www.linkedin.com/company/swift-crypto-llc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://www.linkedin.com/company/swift-crypto-llc" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
+                        <a href="https://t.me/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://t.me/SwiftCryptoLLC" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
+                        <a href="https://github.com/swiftcryptollc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://github.com/swiftcryptollc" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                        <a href="https://www.reddit.com/user/SwiftCryptoLLC/"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">reddit</span></a>
                     </li>
                     
                 </ul>

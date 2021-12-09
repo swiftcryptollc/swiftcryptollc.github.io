@@ -22,47 +22,52 @@
     <![endif]-->
 </head>
     <body class="guide" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/">
-                        <span class="light">Home</span>
-                    </a>
-                </div>
-    
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                    <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="hidden">
-                            <a href="https://swiftcryptollc.github.io/"></a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#about">About</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides">Guides</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
+         <!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/">
+                <span class="light">Home</span>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="https://swiftcryptollc.github.io/"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#news">News</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides">Guides</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
         <div class="container content-section text-left">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h2>Phoenix Miner/T-Rex Watch Scripts</h2>
                     <i>Post Date: 2021-11-11 10:40:00 -0500</i>
-                    <p>I’ve been mining Ethereum with <a href="https://bitcointalk.org/index.php?topic=2647654.0">Phoenix Miner</a> since February of this year (using Ubuntu 20.04).  One thing I wanted was automated updates on the status of my rigs.  I also had intermittent issues with my AMD cards which would cause one of my rigs to crash.  Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash.  (I did make sure that the crashes aren’t related to any over/under clocks I used, they aren’t..)</p>
+                    <p>I’ve been mining Ethereum with <a href="https://bitcointalk.org/index.php?topic=2647654.0" target="_blank">Phoenix Miner</a> since February of this year (using Ubuntu 20.04).  One thing I wanted was automated updates on the status of my rigs.  I also had intermittent issues with my AMD cards which would cause one of my rigs to crash.  Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash.  (I did make sure that the crashes aren’t related to any over/under clocks I used, they aren’t..)</p>
 
-<p>When Phoenix Miner crashed from one of the AMD cards (PowerColor 5700 XTs), my system was completely locked up.  I installed <a href="https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/?th=1">BN Link Smart Plugs</a> to be able to remotely shutdown and restart the rig, but there’s always risk with just cutting power to a server like that.  Ideally, it’s shutdown or rebooted appropriately.</p>
+<p>When Phoenix Miner crashed from one of the AMD cards (PowerColor 5700 XTs), my system was completely locked up.  I installed <a href="https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/?th=1" target="_blank">BN Link Smart Plugs</a> to be able to remotely shutdown and restart the rig, but there’s always risk with just cutting power to a server like that.  Ideally, it’s shutdown or rebooted appropriately.</p>
 
 <p>I’m not a Perl master, but I know enough to be dangerous.  So I put that to use and wrote a script that would tail the Phoenix Miner log.  The script assumes a Linux install and depends on “sendmail” and “perl”.  You can install “sendmail” and “perl” by running the following (choose the appropriate one for your Linux platform):</p>
 
@@ -90,7 +95,7 @@ The Phoenix Miner script will report the following via an email:</p>
 </ul>
 
 <h2 id="t-rex-miner">T-Rex Miner</h2>
-<p>I recently bought some LHR Nvidia cards.  To mine with these cards, I switched to <a href="https://github.com/trexminer/T-Rex/releases">T-Rex Miner</a>.  (Quick tip, mess with the mining intensity for each of your LHR cards with “auto tune” enabled.  A lower mining intensity can limit LHR locks overall and thus, increase your hash rate.)  I modified the Phoenix Miner script to work with T-Rex.</p>
+<p>I recently bought some LHR Nvidia cards.  To mine with these cards, I switched to <a href="https://github.com/trexminer/T-Rex/releases" target="_blank">T-Rex Miner</a>.  (Quick tip, mess with the mining intensity for each of your LHR cards with “auto tune” enabled.  A lower mining intensity can limit LHR locks overall and thus, increase your hash rate.)  I modified the Phoenix Miner script to work with T-Rex.</p>
 
 <p>The T-Rex Miner script will report the following via an email:</p>
 <ul>
@@ -178,33 +183,33 @@ My resulting Phoenix Miner startup script looks similar to this (you may not hav
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
-                <p>If you are interested in crypto-mining or <a href="https://tinyurl.com/syb3c59p">delegating Cardano</a> with us and want to learn more, please reach out!</p>
+                <p>If you are interested in crypto-mining or <a href="/2021/11/23/staking-guide/">delegating Cardano</a> with us and want to learn more, please reach out!</p>
                 <p><a href="mailto:swiftcryptollc@gmail.com">swiftcryptollc@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     
                     <li>
-                        <a href="https://www.reddit.com/user/SwiftCryptoLLC/" class="btn btn-default btn-lg"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">reddit</span></a>
+                        <a href="https://www.facebook.com/Swift-Crypto-LLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://www.facebook.com/Swift-Crypto-LLC" class="btn btn-default btn-lg"><i class="fab fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                        <a href="https://twitter.com/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://twitter.com/SwiftCryptoLLC" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
+                        <a href="https://www.linkedin.com/company/swift-crypto-llc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://www.linkedin.com/company/swift-crypto-llc" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
+                        <a href="https://t.me/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://t.me/SwiftCryptoLLC" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
+                        <a href="https://github.com/swiftcryptollc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
                     </li>
                     
                     <li>
-                        <a href="https://github.com/swiftcryptollc" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                        <a href="https://www.reddit.com/user/SwiftCryptoLLC/"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">reddit</span></a>
                     </li>
                     
                 </ul>

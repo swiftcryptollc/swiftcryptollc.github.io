@@ -3,17 +3,17 @@ layout: post
 title:  "Add a Copy Button for Jekyll HTML Code"
 date:   2021-11-11 15:00:00 -0500
 ---
-So when I finally decided to create a website for my business, I started down the Angular path because that's what I knew.  It wasn't until I started playing with [Github Pages](https://pages.github.com/) that I was introduced to [Jekyll](https://jekyllrb.com/).  So far?  It's awesome.
+So when I finally decided to create a website for my business, I started down the Angular path because that's what I knew.  It wasn't until I started playing with [Github Pages](https://pages.github.com/){:target="_blank"} that I was introduced to [Jekyll](https://jekyllrb.com/){:target="_blank"}.  So far?  It's awesome.
 
 All the memes about Full Stack Developers writing massive amounts of back end code in an hour or two, but then spending 6 hours trying to center a div are fairly accurate for me..  I've used CSS quite a bit, but I'll always stumble on something.  With Jekyll, a lot of that headache was taken away!  But one thing I wanted to be able to do, wasn't readily available in the theme I had chosen.  That was to have a "Copy" button on my code snippets.
 
-Searching the internet, I came across a blog post from [Aleksandr Hovhannisyan](https://www.aleksandrhovhannisyan.com/blog/how-to-add-a-copy-to-clipboard-button-to-your-jekyll-blog/) (Thank you sir!).  I started implementing what he did but realized that I would have to make some changes to make it work for my site.
+Searching the internet, I came across a blog post from [Aleksandr Hovhannisyan](https://www.aleksandrhovhannisyan.com/blog/how-to-add-a-copy-to-clipboard-button-to-your-jekyll-blog/){:target="_blank"} (Thank you sir!).  I started implementing what he did but realized that I would have to make some changes to make it work for my site.
 
 Here's what I did.
 
 ## Create a new JavaScript File ##
 
-If you don't have a "js" directory in your base folder, add one.  Create a new file, add the following code to it, and save it.  I'm going to assume that you named the file "copyCode.js".  If you don't use [Font Awesome](https://fontawesome.com/), you will have to change the "fa-copy" and "fa-check" class references to your class.
+If you don't have a "js" directory in your base folder, add one.  Create a new file, add the following code to it, and save it.  I'm going to assume that you named the file "copyCode.js".  If you don't use [Font Awesome](https://fontawesome.com/){:target="_blank"}, you will have to change the "fa-copy" and "fa-check" class references to your class.
 
 {% include code_header.html %}
 {% highlight javascript %}

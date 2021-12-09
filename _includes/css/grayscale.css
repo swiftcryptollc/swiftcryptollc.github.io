@@ -252,7 +252,8 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+
+.info-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -262,6 +263,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    min-height: 600px;
 }
 
 #map {
@@ -276,6 +278,12 @@ a:focus {
     }
 
     .download-section {
+        padding: 100px 0;
+    }
+    .right-section {
+        padding: 100px 0;
+    }
+    .left-section {
         padding: 100px 0;
     }
 }
