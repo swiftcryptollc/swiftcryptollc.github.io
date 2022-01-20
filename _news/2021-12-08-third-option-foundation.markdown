@@ -35,7 +35,7 @@ If you want a little more information before buying Cardano/ADA, check out the [
 <br />
 
 ### THERE'S BENEFITS FOR ME? ###
-By delegating your ADA with the [4WARD](https://adapools.org/pool/b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80){:target="_blank"} pool, you will not only be helping the pool get selected to be active for the next epoch (and hence be able to donate), you will also be earning compounding ADA rewards.  The typical average yearly return from delegation is 4.6%, which is paid in ADA.  So your delegation will not only help support a great cause with the [Third Option Foundation](https://www.thirdoptionfoundation.org/){:target="_blank"} but you will also get rewarded! 
+By delegating your ADA with the [4WARD](https://4wardpool.swiftcryptollc.com){:target="_blank"} pool, you will not only be helping the pool get selected to be active for the next epoch (and hence be able to donate), you will also be earning compounding ADA rewards.  The typical average yearly return from delegation is 4.6%, which is paid in ADA.  So your delegation will not only help support a great cause with the [Third Option Foundation](https://www.thirdoptionfoundation.org/){:target="_blank"} but you will also get rewarded! 
 
 _Once you delegate, you can easily delegate more by buying more ADA at an exchange and then sending it to your same wallet._
 <br />
@@ -47,6 +47,6 @@ As with investment in any cryptocurrency, there are risks in regards to the pric
 <br />
 
 ### FINAL THOUGHTS ###
-It is really difficult to start a successful Cardano pool today.  To me, what sets one pool apart from the rest is it's mission.  I believe this mission with the [Third Option Foundation](https://www.thirdoptionfoundation.org/){:target="_blank"} will do that, but I can't do it alone.  I need your help, they need your help.  Spread the word and delegate to the [4WARD](https://adapools.org/pool/b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80){:target="_blank"} pool to help make this mission a success!
+It is really difficult to start a successful Cardano pool today.  To me, what sets one pool apart from the rest is it's mission.  I believe this mission with the [Third Option Foundation](https://www.thirdoptionfoundation.org/){:target="_blank"} will do that, but I can't do it alone.  I need your help, they need your help.  Spread the word and delegate to the [4WARD](https://4wardpool.swiftcryptollc.com){:target="_blank"} pool to help make this mission a success!
 
 _All donations to the Third Option Foundation can be tracked [here](/donations/third-option-foundation/)._
