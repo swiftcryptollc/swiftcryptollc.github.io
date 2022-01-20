@@ -20,9 +20,9 @@ eUTXO is an extension of the UTXO model which was originally used by Bitcoin.  T
 <br />
 
 ### SundaeSwap ###
-Arguably, the most highly anticipated Cardano DEX is [SundaeSwap](https://sundaeswap.finance/).  SundaeSwap [released to the Cardano TestNet](https://sundaeswap-finance.medium.com/lets-sample-some-flavors-sundaeswap-testnet-announcement-7c160f0ded99) on Dec 5th, 2021.  The team conducted a mainnet load test on Dec 18th and recently released an [update](https://sundaeswap-finance.medium.com/expectations-congestion-mainnet-launch-e9da5abfd819) regarding their upcoming mainnet release.  
+Arguably, the most highly anticipated Cardano DEX is [SundaeSwap](https://sundaeswap.finance/){:target="_blank"}.  SundaeSwap [released to the Cardano TestNet](https://sundaeswap-finance.medium.com/lets-sample-some-flavors-sundaeswap-testnet-announcement-7c160f0ded99){:target="_blank"} on Dec 5th, 2021.  The team conducted a mainnet load test on Dec 18th and recently released an [update](https://sundaeswap-finance.medium.com/expectations-congestion-mainnet-launch-e9da5abfd819){:target="_blank"} regarding their upcoming mainnet release.  
 
-First impressions can be lasting impressions.  During their testnet phase, they have been working with IOHK to refine the network protocols.  Their Dec 18th mainnet load test revealed some potential network delays and issues.  While it's impossible to predict the exact load SundaeSwap will put on the Cardano network, given the amount of attention the project has garnered, I wouldn't be suprised if there were some bumps after it's rolled out. The SundaeSwap team also [agrees](https://sundaeswap-finance.medium.com/expectations-congestion-mainnet-launch-e9da5abfd819):
+First impressions can be lasting impressions.  During their testnet phase, they have been working with IOHK to refine the network protocols.  Their Dec 18th mainnet load test revealed some potential network delays and issues.  While it's impossible to predict the exact load SundaeSwap will put on the Cardano network, given the amount of attention the project has garnered, I wouldn't be suprised if there were some bumps after it's rolled out. The SundaeSwap team also [agrees](https://sundaeswap-finance.medium.com/expectations-congestion-mainnet-launch-e9da5abfd819){:target="_blank"}:
 
 <figure>
     <blockquote>
@@ -38,7 +38,7 @@ First impressions can be lasting impressions.  During their testnet phase, they 
 <br />
 
 ### Cardano Node 1.33.0 Update ###
-In anticipation of network growth from SundaeSwap and other DEX's, IOHK has been working on performance related changes.  [Release 1.33.0](https://github.com/input-output-hk/cardano-node/releases/tag/1.33.0) is a performance focused release that was delivered on Jan 7th.  They have reduced memory usage (which I did see after updating the [4WARD](https://pooltool.io/pool/b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80/epochs) pool) and brought significant improvements to the sync time and block propogation time.  It's a positive step towards the potential explosion of transactions on the network once SundaeSwap and other DEX's get released on Cardano's mainnet.
+In anticipation of network growth from SundaeSwap and other DEX's, IOHK has been working on performance related changes.  [Release 1.33.0](https://github.com/input-output-hk/cardano-node/releases/tag/1.33.0){:target="_blank"} is a performance focused release that was delivered on Jan 7th.  They have reduced memory usage (which I did see after updating the [4WARD](https://4wardpool.swiftcryptollc.com){:target="_blank"} pool) and brought significant improvements to the sync time and block propogation time.  It's a positive step towards the potential explosion of transactions on the network once SundaeSwap and other DEX's get released on Cardano's mainnet.
 <br />
 <br />
 

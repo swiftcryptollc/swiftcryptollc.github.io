@@ -1,0 +1,29 @@
+{
+    "info": {
+        "url_png_icon_64x64": "https://swiftcryptollc.github.io/img/4ward-64x64.png",
+        "url_png_logo": "https://swiftcryptollc.github.io/img/4ward.png",
+        "location": "Leesburg, Virginia, United States",
+        "social": {
+            "twitter_handle": "swiftcryptollc",
+            "telegram_handle": "swiftcryptollc",
+            "facebook_handle": "swiftcryptollc",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "swiftcryptollc"
+        },
+        "company": {
+            "name": "Swift Crypto LLC",
+            "addr": "",
+            "city": "Leesburg, Virginia",
+            "country": "US",
+            "company_id": "",
+            "vat_id": ""
+        },
+        "about": {
+            "me": "The 4WARD pool is a Single Operator Pool operated through a small business located in the US. The pool was created as a way to give back to those who have quietly served by donating fifty percent of the pool rewards to the Third Option Foundation.  The pool operator has over 22 years of software and system engineering experience.",
+            "server": "Servers consist of two relays and one block producer deployed in AWS.  Each instance has 4 CPUs and 16 GB RAM (exceeds current hardware requirements).  One relay and the block producer are in the AWS US East Region and the other relay is in the AWS European Central Region.  Security and recovery best practices have been implemented to help ensure availability.",
+            "company": "Swift Crypto LLC is a small business registered in Leesburg, Virginia, USA."
+        }
+    }
+}
