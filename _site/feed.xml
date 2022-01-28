@@ -1,638 +1,505 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://swiftcryptollc.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://swiftcryptollc.github.io/" rel="alternate" type="text/html" /><updated>2022-01-19T22:30:25-05:00</updated><id>https://swiftcryptollc.github.io/feed.xml</id><title type="html">Welcome to Swift Crypto LLC</title><subtitle>A crypto mining small business based in Leesburg VA.</subtitle><entry><title type="html">Getting Started Buying Crypto</title><link href="https://swiftcryptollc.github.io/2021/11/29/buying-crypto/" rel="alternate" type="text/html" title="Getting Started Buying Crypto" /><published>2021-11-29T20:10:00-05:00</published><updated>2021-11-29T20:10:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/29/buying-crypto</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/29/buying-crypto/">&lt;p&gt;Ok, you’ve read about Bitcoin, Ethereum, and all these other cryptos but you aren’t sure where to start buying.  The good news is that there are a number of options available for you.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2022-01-28T00:29:36-05:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Welcome to Swift Crypto LLC</title><subtitle>A crypto mining small business based in Leesburg VA.</subtitle><entry><title type="html">Getting Started Buying Crypto</title><link href="http://0.0.0.0:4000/2021/11/29/buying-crypto/" rel="alternate" type="text/html" title="Getting Started Buying Crypto" /><published>2021-11-29T20:10:00-05:00</published><updated>2021-11-29T20:10:00-05:00</updated><id>http://0.0.0.0:4000/2021/11/29/buying-crypto</id><content type="html" xml:base="http://0.0.0.0:4000/2021/11/29/buying-crypto/">Ok, you've read about Bitcoin, Ethereum, and all these other cryptos but you aren't sure where to start buying.  The good news is that there are a number of options available for you.
 
-&lt;p&gt;Plenty of websites list their “best” or “top” exchanges.  Read a couple of their exchange reviews.  One place to start is &lt;a href=&quot;https://coinmarketcap.com/rankings/exchanges/&quot; target=&quot;_blank&quot;&gt;Coin Market Cap&lt;/a&gt;.  (Just keep in mind that Coin Market Cap is owned by Binance since April 2020).  Some others are &lt;a href=&quot;https://www.forbes.com/advisor/investing/best-crypto-exchanges/&quot; target=&quot;_blank&quot;&gt;Forbes&lt;/a&gt;, and &lt;a href=&quot;https://www.businessinsider.com/personal-finance/best-crypto-bitcoin-exchanges&quot; target=&quot;_blank&quot;&gt;Business Insider&lt;/a&gt;.&lt;/p&gt;
+Plenty of websites list their &quot;best&quot; or &quot;top&quot; exchanges.  Read a couple of their exchange reviews.  One place to start is [Coin Market Cap](https://coinmarketcap.com/rankings/exchanges/){:target=&quot;_blank&quot;}.  (Just keep in mind that Coin Market Cap is owned by Binance since April 2020).  Some others are [Forbes](https://www.forbes.com/advisor/investing/best-crypto-exchanges/){:target=&quot;_blank&quot;}, and [Business Insider](https://www.businessinsider.com/personal-finance/best-crypto-bitcoin-exchanges){:target=&quot;_blank&quot;}.
 
-&lt;h3 id=&quot;not-your-keys-not-your-crypto&quot;&gt;Not your Keys, Not your Crypto&lt;/h3&gt;
-&lt;p&gt;Something you’ll hear people say is “not your keys, not your crypto”.  What does mean?  Well the “keys” they are referring to are the public and private keys for your “wallet” (which is another conversation).  By having control over your crypto, you can send it out of an exchange for staking, decentralized finance, buying NFTs, swaps, and other things.  I wouldn’t ever recommend anyone using an exchange that doesn’t allow you to send your crypto out of the exchange (even if they don’t have ANY fees).&lt;/p&gt;
+### Not your Keys, Not your Crypto ###
+Something you'll hear people say is &quot;not your keys, not your crypto&quot;.  What does mean?  Well the &quot;keys&quot; they are referring to are the public and private keys for your &quot;wallet&quot; (which is another conversation).  By having control over your crypto, you can send it out of an exchange for staking, decentralized finance, buying NFTs, swaps, and other things.  I wouldn't ever recommend anyone using an exchange that doesn't allow you to send your crypto out of the exchange (even if they don't have ANY fees).
 
-&lt;p&gt;I’ve personally used &lt;a href=&quot;https://www.binance.us/en/home&quot; target=&quot;_blank&quot;&gt;Binance.us&lt;/a&gt;, &lt;a href=&quot;https://www.coinbase.com/&quot; target=&quot;_blank&quot;&gt;Coinbase&lt;/a&gt;, &lt;a href=&quot;https://pro.coinbase.com/&quot; target=&quot;_blank&quot;&gt;Coinbase Pro&lt;/a&gt;, &lt;a href=&quot;https://bittrex.com/&quot; target=&quot;_blank&quot;&gt;Bittrex&lt;/a&gt;, &lt;a href=&quot;https://robinhood.com/&quot; target=&quot;_blank&quot;&gt;Robinhood&lt;/a&gt;, &lt;a href=&quot;https://uphold.com/en-us&quot; target=&quot;_blank&quot;&gt;Uphold&lt;/a&gt;, &lt;a href=&quot;https://www.gate.io/&quot; target=&quot;_blank&quot;&gt;Gate.io&lt;/a&gt;, &lt;a href=&quot;https://www.investvoyager.com/&quot; target=&quot;_blank&quot;&gt;Voyager&lt;/a&gt;, and &lt;a href=&quot;https://crypto.com/&quot; target=&quot;_blank&quot;&gt;Crypto.com&lt;/a&gt;.  Voyager, Robinhood, and Uphold either don’t allow you to send any crypto or limit which crypto you can send out of the exchange.  The others allow you to freely move your assets as you see fit.  Each exchange will have a different fee per crypto transaction.  Some are more clear about it than others.  For example, to send your ADA out of Binance.us, it’ll cost you 1 ADA as a fee.&lt;/p&gt;
+I've personally used [Binance.us](https://www.binance.us/en/home){:target=&quot;_blank&quot;}, [Coinbase](https://www.coinbase.com/){:target=&quot;_blank&quot;}, [Coinbase Pro](https://pro.coinbase.com/){:target=&quot;_blank&quot;}, [Bittrex](https://bittrex.com/){:target=&quot;_blank&quot;}, [Robinhood](https://robinhood.com/){:target=&quot;_blank&quot;}, [Uphold](https://uphold.com/en-us){:target=&quot;_blank&quot;}, [Gate.io](https://www.gate.io/){:target=&quot;_blank&quot;}, [Voyager](https://www.investvoyager.com/){:target=&quot;_blank&quot;}, and [Crypto.com](https://crypto.com/){:target=&quot;_blank&quot;}.  Voyager, Robinhood, and Uphold either don't allow you to send any crypto or limit which crypto you can send out of the exchange.  The others allow you to freely move your assets as you see fit.  Each exchange will have a different fee per crypto transaction.  Some are more clear about it than others.  For example, to send your ADA out of Binance.us, it'll cost you 1 ADA as a fee.
 
-&lt;h3 id=&quot;which-exchange-to-start-with&quot;&gt;Which Exchange to Start With?&lt;/h3&gt;
-&lt;p&gt;Your probably wondering why I used so many different exchanges.  The short answer is that not all exchanges support every crypto.  For example, Coinbase (and Coinbase Pro) currently don’t support VeChain or Hedera, but Binance.us does.&lt;/p&gt;
+### Which Exchange to Start With? ###
+Your probably wondering why I used so many different exchanges.  The short answer is that not all exchanges support every crypto.  For example, Coinbase (and Coinbase Pro) currently don't support VeChain or Hedera, but Binance.us does.  
 
-&lt;p&gt;Out of all of them, I like Coinbase Pro the most.  If you create a Coinbase account, you’ll have a Coinbase Pro account.  Coinbase Pro differs from Coinbase in that you can do Market, Limit, and Stop trades and the fees are lower (lower than Binance.us too).  I do use Binance.us second most.  The Binance.us app is actually better than Coinbase Pro’s app but paying less in fees means I have more crypto in my pocket.  (If you really want a nice Crypto “chart” app, check out &lt;a href=&quot;https://www.tradingview.com/&quot; target=&quot;_blank&quot;&gt;Trading View&lt;/a&gt;.)&lt;/p&gt;
+Out of all of them, I like Coinbase Pro the most.  If you create a Coinbase account, you'll have a Coinbase Pro account.  Coinbase Pro differs from Coinbase in that you can do Market, Limit, and Stop trades and the fees are lower (lower than Binance.us too).  I do use Binance.us second most.  The Binance.us app is actually better than Coinbase Pro's app but paying less in fees means I have more crypto in my pocket.  (If you really want a nice Crypto &quot;chart&quot; app, check out [Trading View](https://www.tradingview.com/){:target=&quot;_blank&quot;}.)
 
-&lt;p&gt;&lt;em&gt;Even if you ultimately decide to not use Coinbase, you might as well run through their videos to &lt;a href=&quot;https://www.coinbase.com/earn&quot; target=&quot;_blank&quot;&gt;earn free crypto&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+_Even if you ultimately decide to not use Coinbase, you might as well run through their videos to [earn free crypto](https://www.coinbase.com/earn){:target=&quot;_blank&quot;}!_
 
-&lt;h3 id=&quot;now-what&quot;&gt;Now What?&lt;/h3&gt;
-&lt;p&gt;You can link your bank account or debit card to your new exchange account, make a deposit, and start trading.  You’ll usually need to wait 3 to 7 days after depositing to withdraw that money or crypto from your account.  Crypto withdraws can take a couple minutes to a couple hours, depending on the crypto.  Withdrawing money back to your bank account usually only takes a couple business days.&lt;/p&gt;
+### Now What? ###
+You can link your bank account or debit card to your new exchange account, make a deposit, and start trading.  You'll usually need to wait 3 to 7 days after depositing to withdraw that money or crypto from your account.  Crypto withdraws can take a couple minutes to a couple hours, depending on the crypto.  Withdrawing money back to your bank account usually only takes a couple business days.
 
-&lt;p&gt;The good news is that you aren’t locked into any exchange that you use.  If you use Coinbase Pro and you don’t like it, well, you can transfer your crypto, hold it, or just sell it!  Ultimately, read through the reviews and the faqs, know what the fees are, and know what limits the exchange imposes on you before signing up.&lt;/p&gt;
+The good news is that you aren't locked into any exchange that you use.  If you use Coinbase Pro and you don't like it, well, you can transfer your crypto, hold it, or just sell it!  Ultimately, read through the reviews and the faqs, know what the fees are, and know what limits the exchange imposes on you before signing up.
 
-&lt;p&gt;Good luck on your crypto journey!&lt;/p&gt;
+Good luck on your crypto journey!  
 
-&lt;p&gt;&lt;em&gt;Check out the &lt;a href=&quot;/2021/11/23/staking-guide/&quot;&gt;Swift Crypto LLC Staking Guide&lt;/a&gt; to get started with staking and earning ADA!&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Ok, you’ve read about Bitcoin, Ethereum, and all these other cryptos but you aren’t sure where to start buying. The good news is that there are a number of options available for you.</summary></entry><entry><title type="html">GPU Mining Guide</title><link href="https://swiftcryptollc.github.io/2021/11/25/gpu-mining/" rel="alternate" type="text/html" title="GPU Mining Guide" /><published>2021-11-25T11:17:00-05:00</published><updated>2021-11-25T11:17:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/25/gpu-mining</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/25/gpu-mining/">&lt;p&gt;GPU mining can be a great source of “passive” income and investment.  I say “passive” because there is work involved to buy, build, configure, and maintain your mining rig.  Once it’s running smoothly though, you can pretty much sit back and collect your mining rewards!&lt;/p&gt;
+_Check out the [Swift Crypto LLC Staking Guide](/2021/11/23/staking-guide/) to get started with staking and earning ADA!_</content><author><name></name></author><summary type="html">Ok, you’ve read about Bitcoin, Ethereum, and all these other cryptos but you aren’t sure where to start buying. The good news is that there are a number of options available for you.</summary></entry><entry><title type="html">GPU Mining Guide</title><link href="http://0.0.0.0:4000/2021/11/25/gpu-mining/" rel="alternate" type="text/html" title="GPU Mining Guide" /><published>2021-11-25T11:17:00-05:00</published><updated>2021-11-25T11:17:00-05:00</updated><id>http://0.0.0.0:4000/2021/11/25/gpu-mining</id><content type="html" xml:base="http://0.0.0.0:4000/2021/11/25/gpu-mining/">GPU mining can be a great source of &quot;passive&quot; income and investment.  I say &quot;passive&quot; because there is work involved to buy, build, configure, and maintain your mining rig.  Once it's running smoothly though, you can pretty much sit back and collect your mining rewards!
 
-&lt;p&gt;It’s impossible to address everything in regards to GPU mining but I’ll hit on some of the most common topics and questions.&lt;/p&gt;
+It's impossible to address everything in regards to GPU mining but I'll hit on some of the most common topics and questions.
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#OS&quot;&gt;Choosing an OS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#hardware&quot;&gt;Hardware Choices&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#chooseminer&quot;&gt;Choosing a Miner&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#choosepool&quot;&gt;Choosing a Pool&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#amd&quot;&gt;AMD Settings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#nvidia&quot;&gt;NVidia Settings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#lhr&quot;&gt;NVidia LHR&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#wrap&quot;&gt;Wrap up&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+1. [Choosing an OS](#OS) 
+2. [Hardware Choices](#hardware)
+3. [Choosing a Miner](#chooseminer)
+4. [Choosing a Pool](#choosepool)
+5. [AMD Settings](#amd)
+6. [NVidia Settings](#nvidia)
+7. [NVidia LHR](#lhr)
+8. [Wrap up](#wrap)
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;OS&quot;&gt;Choosing an OS&lt;/h3&gt;
+&lt;br /&gt;
+### Choosing an OS {#OS}
 
-&lt;p&gt;I am currently running two dedicated mining rigs, along with a laptop and a file server where mining is secondary.  I have an extensive Linux background, so my OS of choice is &lt;a href=&quot;https://ubuntu.com/&quot; target=&quot;_blank&quot;&gt;Ubuntu&lt;/a&gt;.  My file server is 7 or 8 years old and running Window 8.1.  I have heard good things about &lt;a href=&quot;https://hiveos.farm/&quot; target=&quot;_blank&quot;&gt;HiveOS&lt;/a&gt; but I’ve also read about times where Hive itself was down.  I don’t have any experience using Hive, but if system administration isn’t something you’re comfortable with, it is worth checking out if you plan on running dedicated mining rigs.  There is some costs associated with it if you run more than one rig, but it seems minimal.  Check their website for more information.&lt;/p&gt;
+I am currently running two dedicated mining rigs, along with a laptop and a file server where mining is secondary.  I have an extensive Linux background, so my OS of choice is [Ubuntu](https://ubuntu.com/){:target=&quot;_blank&quot;}.  My file server is 7 or 8 years old and running Window 8.1.  I have heard good things about [HiveOS](https://hiveos.farm/){:target=&quot;_blank&quot;} but I've also read about times where Hive itself was down.  I don't have any experience using Hive, but if system administration isn't something you're comfortable with, it is worth checking out if you plan on running dedicated mining rigs.  There is some costs associated with it if you run more than one rig, but it seems minimal.  Check their website for more information.
 
-&lt;p&gt;Most people are comfortable with Windows.  The latest and greatest AMD and NVidia drivers are available and there usually aren’t any issues using them.  &lt;a href=&quot;https://www.msi.com/Landing/afterburner/graphics-cards&quot; target=&quot;_blank&quot;&gt;MSI Afterburner&lt;/a&gt; is arguably the best GPU tweaking software available and it’s only available for Windows.  You can modify GPU speeds, RAM speeds, voltages, fan speeds, and power limits.  You can save different profiles and have one auto-load on Windows startup.  That piece of software alone is a good reason to choose Windows.  Even those with limited sys admin experience can comfortably use it.&lt;/p&gt;
+Most people are comfortable with Windows.  The latest and greatest AMD and NVidia drivers are available and there usually aren't any issues using them.  [MSI Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards){:target=&quot;_blank&quot;} is arguably the best GPU tweaking software available and it's only available for Windows.  You can modify GPU speeds, RAM speeds, voltages, fan speeds, and power limits.  You can save different profiles and have one auto-load on Windows startup.  That piece of software alone is a good reason to choose Windows.  Even those with limited sys admin experience can comfortably use it.  
 
-&lt;p&gt;While Windows is good option overall, I just wouldn’t buy it.  If it came with your PC?  Sure.. but otherwise, spend that money on something else.  I personally chose Ubuntu for my rigs.  Ubuntu is completely free.  You will need some sys admin experience (and/or a willingness to learn) if you want to get the most out of your rig but hopefully this guide helps you get there.&lt;/p&gt;
+While Windows is good option overall, I just wouldn't buy it.  If it came with your PC?  Sure.. but otherwise, spend that money on something else.  I personally chose Ubuntu for my rigs.  Ubuntu is completely free.  You will need some sys admin experience (and/or a willingness to learn) if you want to get the most out of your rig but hopefully this guide helps you get there.
 
-&lt;p&gt;No matter which OS you choose, you want a few things to be setup.&lt;/p&gt;
+No matter which OS you choose, you want a few things to be setup.  
 
-&lt;p&gt;The first is that your mining software starts on OS boot.  In Ubuntu, click on “Activities” and search for “startup”.  You can add your commands to be run at startup there.  I use “xterm -e” followed by the command to start my miners at boot.  Windows has a &lt;a href=&quot;https://helpdeskgeek.com/windows-10/how-to-access-the-windows-10-startup-folder/&quot; target=&quot;_blank&quot;&gt;Startup Folder&lt;/a&gt; that you can use to tell Windows to start whatever software you want to start at boot time.&lt;/p&gt;
+The first is that your mining software starts on OS boot.  In Ubuntu, click on &quot;Activities&quot; and search for &quot;startup&quot;.  You can add your commands to be run at startup there.  I use &quot;xterm -e&quot; followed by the command to start my miners at boot.  Windows has a [Startup Folder](https://helpdeskgeek.com/windows-10/how-to-access-the-windows-10-startup-folder/){:target=&quot;_blank&quot;} that you can use to tell Windows to start whatever software you want to start at boot time.
 
-&lt;p&gt;&lt;em&gt;You may also want to set your BIOS to boot after power restore.  Check your motherboard manual for information on how to enable that feature.&lt;/em&gt;&lt;/p&gt;
+_You may also want to set your BIOS to boot after power restore.  Check your motherboard manual for information on how to enable that feature._
 
-&lt;p&gt;The second thing you will want is remote access to your rigs.  Nothing causes me more heartburn than being hours from home and getting a notification that one of my rigs went down.  I start calculating just how much revenue I’ll miss out on until I get back home!  Don’t let that happen to you!&lt;/p&gt;
+The second thing you will want is remote access to your rigs.  Nothing causes me more heartburn than being hours from home and getting a notification that one of my rigs went down.  I start calculating just how much revenue I'll miss out on until I get back home!  Don't let that happen to you! 
 
-&lt;p&gt;For remote access, there are a couple of options to chose from.  This isn’t an exhaustive list by any means, but they all are popular.&lt;/p&gt;
+For remote access, there are a couple of options to chose from.  This isn't an exhaustive list by any means, but they all are popular.
 
-&lt;ul&gt;
-  &lt;li&gt;Windows has &lt;a href=&quot;https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c&quot; target=&quot;_blank&quot;&gt;Remote Desktop&lt;/a&gt; available depending on the verison you have.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://remotedesktop.google.com/?pli=1&quot; target=&quot;_blank&quot;&gt;Chrome Remote Desktop&lt;/a&gt; is an option no matter if you are running Windows or Linux.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.teamviewer.com/&quot; target=&quot;_blank&quot;&gt;TeamViewer&lt;/a&gt; is another great option.  They have a client for Windows, Linux, Raspberry Pi, Android, iOS, Mac, and Chrome OS.  It’s free for personal use but you will need a license for commercial use.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ubuntu.com/tutorials/access-remote-desktop#1-overview&quot; target=&quot;_blank&quot;&gt;Ubuntu Remote Desktop&lt;/a&gt; is a built in remote desktop capability in Ubuntu through &lt;a href=&quot;https://remmina.org/&quot; target=&quot;_blank&quot;&gt;Remmina&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+* Windows has [Remote Desktop](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c){:target=&quot;_blank&quot;} available depending on the verison you have.  
+* [Chrome Remote Desktop](https://remotedesktop.google.com/?pli=1){:target=&quot;_blank&quot;} is an option no matter if you are running Windows or Linux.  
+* [TeamViewer](https://www.teamviewer.com/){:target=&quot;_blank&quot;} is another great option.  They have a client for Windows, Linux, Raspberry Pi, Android, iOS, Mac, and Chrome OS.  It's free for personal use but you will need a license for commercial use.
+* [Ubuntu Remote Desktop](https://ubuntu.com/tutorials/access-remote-desktop#1-overview){:target=&quot;_blank&quot;} is a built in remote desktop capability in Ubuntu through [Remmina](https://remmina.org/){:target=&quot;_blank&quot;}
 
-&lt;p&gt;&lt;br /&gt;
-Lastly, &lt;a href=&quot;https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/&quot; target=&quot;_blank&quot;&gt;these smart plugs&lt;/a&gt; can be life savers if you can’t get remote access.  They allow you to remotely kill power to any of these plugs and then turn them back on.  It’s an &lt;em&gt;absolute&lt;/em&gt; last resort but it really can be a life saver if you can’t get to your rig.&lt;/p&gt;
+&lt;br /&gt;
+Lastly, [these smart plugs](https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/){:target=&quot;_blank&quot;} can be life savers if you can't get remote access.  They allow you to remotely kill power to any of these plugs and then turn them back on.  It's an *absolute* last resort but it really can be a life saver if you can't get to your rig.
 
-&lt;h3 id=&quot;hardware&quot;&gt;Hardware Choices&lt;/h3&gt;
+### Hardware Choices {#hardware}
 
-&lt;p&gt;One thing that is important to note about GPU mining is that you don’t need expensive base hardware to have a high performing rig.  The motherboard needs PCIe slots for GPU cards and you will need the right power supplies, but that’s about it for requirements.  My two dedicated rigs are vastly different.  One has an &lt;a href=&quot;https://www.asrock.com/microsite/H110ProBTC+/&quot; target=&quot;_blank&quot;&gt;ASRock H110 Pro BTC+&lt;/a&gt; motherboard with a &lt;a href=&quot;https://www.amazon.com/gp/product/B01MYTY55V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;amp;psc=1&quot; target=&quot;_blank&quot;&gt;7th Gen Intel Celeron&lt;/a&gt; and 16 GB RAM.  My second rig is “beefier” with a &lt;a href=&quot;https://rog.asus.com/us/motherboards/rog-crosshair/rog-crosshair-viii-dark-hero-model/&quot; target=&quot;_blank&quot;&gt;ASUS ROG Crosshair VIII Dark Hero&lt;/a&gt; motherboard, an &lt;a href=&quot;https://www.amd.com/en/products/cpu/amd-ryzen-9-5950x&quot; target=&quot;_blank&quot;&gt;AMD 5950x&lt;/a&gt; CPU and 64 GB RAM.  The ASRock has 13 PCIe slots while the ASUS only has 4 PCIe slots.  You can buy PCIe Splitters like this &lt;a href=&quot;https://www.amazon.com/Splitter-External-Adapter-Multiplier-Bitcoin/dp/B092R64W2V/ref=sr_1_3?crid=5I5E5SIWVBWN&amp;amp;keywords=pcie+splitter&amp;amp;qid=1637865056&amp;amp;sprefix=pcie+%2Caps%2C160&amp;amp;sr=8-3&quot; target=&quot;_blank&quot;&gt;one&lt;/a&gt; but know that your motherboard may simply have a limit on the number of GPUs it can support.  For the ASUS, I can run 6 GPUs without a problem, even run 4 on that PCIe splitter if I wanted to.  The moment I try to add a 7th GPU, the rig won’t post.  I tried everything I could think of but eventually gave up.&lt;/p&gt;
+One thing that is important to note about GPU mining is that you don't need expensive base hardware to have a high performing rig.  The motherboard needs PCIe slots for GPU cards and you will need the right power supplies, but that's about it for requirements.  My two dedicated rigs are vastly different.  One has an [ASRock H110 Pro BTC+](https://www.asrock.com/microsite/H110ProBTC+/){:target=&quot;_blank&quot;} motherboard with a [7th Gen Intel Celeron](https://www.amazon.com/gp/product/B01MYTY55V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1){:target=&quot;_blank&quot;} and 16 GB RAM.  My second rig is &quot;beefier&quot; with a [ASUS ROG Crosshair VIII Dark Hero](https://rog.asus.com/us/motherboards/rog-crosshair/rog-crosshair-viii-dark-hero-model/){:target=&quot;_blank&quot;} motherboard, an [AMD 5950x](https://www.amd.com/en/products/cpu/amd-ryzen-9-5950x){:target=&quot;_blank&quot;} CPU and 64 GB RAM.  The ASRock has 13 PCIe slots while the ASUS only has 4 PCIe slots.  You can buy PCIe Splitters like this [one](https://www.amazon.com/Splitter-External-Adapter-Multiplier-Bitcoin/dp/B092R64W2V/ref=sr_1_3?crid=5I5E5SIWVBWN&amp;keywords=pcie+splitter&amp;qid=1637865056&amp;sprefix=pcie+%2Caps%2C160&amp;sr=8-3){:target=&quot;_blank&quot;} but know that your motherboard may simply have a limit on the number of GPUs it can support.  For the ASUS, I can run 6 GPUs without a problem, even run 4 on that PCIe splitter if I wanted to.  The moment I try to add a 7th GPU, the rig won't post.  I tried everything I could think of but eventually gave up. 
 
-&lt;p&gt;I have an older Intel Core 2 Quad Core Q6600 (which came out in 2007) PC that still works.  It has 3 PCIe slots.  I actually did use it for a little while and it worked just fine.  So keep that in mind when figuring out your base hardware.  You don’t need anything special unless you want to do other things with it while GPU mining.&lt;/p&gt;
+I have an older Intel Core 2 Quad Core Q6600 (which came out in 2007) PC that still works.  It has 3 PCIe slots.  I actually did use it for a little while and it worked just fine.  So keep that in mind when figuring out your base hardware.  You don't need anything special unless you want to do other things with it while GPU mining.
 
-&lt;p&gt;When trying to figure out what power supply to buy, cheaper is NOT always better.  Platinum and Titanium PSUs are more expensive than Gold and Bronze PSUs, but they more efficient with their power consumption (leading to a lower electricity bill!).  When calculating what size PSU you need, I recommend dropping the max PSU wattage to 80%.  So that 1600 watt PSU you are eyeing?  Load it with no more than 1280 watts.  Two PSUs that I recommend and use are:&lt;/p&gt;
+When trying to figure out what power supply to buy, cheaper is NOT always better.  Platinum and Titanium PSUs are more expensive than Gold and Bronze PSUs, but they more efficient with their power consumption (leading to a lower electricity bill!).  When calculating what size PSU you need, I recommend dropping the max PSU wattage to 80%.  So that 1600 watt PSU you are eyeing?  Load it with no more than 1280 watts.  Two PSUs that I recommend and use are:
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/CORSAIR-HX1200-Platinum-Certified-Modular/dp/B01MZ8A8NW/&quot; target=&quot;_blank&quot;&gt;Corsair HX1200&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/EVGA-Supernova-Platinum-Crossfire-220-P2-1600-X1/dp/B00NJG61JQ/&quot; target=&quot;_blank&quot;&gt;EVGA P2 1600&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+* [Corsair HX1200](https://www.amazon.com/CORSAIR-HX1200-Platinum-Certified-Modular/dp/B01MZ8A8NW/){:target=&quot;_blank&quot;}
+* [EVGA P2 1600](https://www.amazon.com/EVGA-Supernova-Platinum-Crossfire-220-P2-1600-X1/dp/B00NJG61JQ/){:target=&quot;_blank&quot;}
 
-&lt;p&gt;&lt;br /&gt;
-Finding GPUs at MSRP can be extremely difficult.  The &lt;a href=&quot;https://www.zotacstore.com/&quot; target=&quot;_blank&quot;&gt;Zotac Store&lt;/a&gt; has GPUs from time to time.  You can get in-stock alerts from a couple of Twitter and Discord accounts.  My favorite is &lt;a href=&quot;https://twitter.com/SnailMonitor&quot; target=&quot;_blank&quot;&gt;SnailMonitor&lt;/a&gt;.  No matter what, make sure you understand what you’re buying and what your expected return is.  Read up on &lt;a href=&quot;https://whattomine.com/gpus&quot; target=&quot;_blank&quot;&gt;What to Mine&lt;/a&gt; and have an idea of what GPUs you are willing to buy.  If you get an alert that GPUs are in stock, you usually only have a handful of seconds to make the purchase.  I also recommend signing up for the &lt;a href=&quot;https://www.newegg.com/product-shuffle&quot; target=&quot;_blank&quot;&gt;NewEgg Shuffle&lt;/a&gt;.  The chances you are selected are low, but possible.  I’ve actually been selected 3 times since early May but I enter every shuffle, every day they have one.&lt;/p&gt;
+&lt;br /&gt;
+Finding GPUs at MSRP can be extremely difficult.  The [Zotac Store](https://www.zotacstore.com/){:target=&quot;_blank&quot;} has GPUs from time to time.  You can get in-stock alerts from a couple of Twitter and Discord accounts.  My favorite is [SnailMonitor](https://twitter.com/SnailMonitor){:target=&quot;_blank&quot;}.  No matter what, make sure you understand what you're buying and what your expected return is.  Read up on [What to Mine](https://whattomine.com/gpus){:target=&quot;_blank&quot;} and have an idea of what GPUs you are willing to buy.  If you get an alert that GPUs are in stock, you usually only have a handful of seconds to make the purchase.  I also recommend signing up for the [NewEgg Shuffle](https://www.newegg.com/product-shuffle){:target=&quot;_blank&quot;}.  The chances you are selected are low, but possible.  I've actually been selected 3 times since early May but I enter every shuffle, every day they have one.
 
-&lt;h3 id=&quot;chooseminer&quot;&gt;Choosing a Miner&lt;/h3&gt;
+### Choosing a Miner {#chooseminer}
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/NebuTech/NBMiner&quot; target=&quot;_blank&quot;&gt;NBMiner&lt;/a&gt;, &lt;a href=&quot;https://github.com/trexminer/T-Rex/releases&quot; target=&quot;_blank&quot;&gt;T-Rex&lt;/a&gt;, &lt;a href=&quot;https://bitcointalk.org/index.php?topic=2647654.0&quot; target=&quot;_blank&quot;&gt;Phoenix Miner&lt;/a&gt;, &lt;a href=&quot;https://github.com/todxx/teamredminer/releases&quot; target=&quot;_blank&quot;&gt;TeamRedMiner&lt;/a&gt;, and &lt;a href=&quot;https://github.com/develsoftware/GMinerRelease/releases&quot; target=&quot;_blank&quot;&gt;GMiner&lt;/a&gt; are some of the more popular options to choose from.&lt;/p&gt;
+[NBMiner](https://github.com/NebuTech/NBMiner){:target=&quot;_blank&quot;}, [T-Rex](https://github.com/trexminer/T-Rex/releases){:target=&quot;_blank&quot;}, [Phoenix Miner](https://bitcointalk.org/index.php?topic=2647654.0){:target=&quot;_blank&quot;}, [TeamRedMiner](https://github.com/todxx/teamredminer/releases){:target=&quot;_blank&quot;}, and [GMiner](https://github.com/develsoftware/GMinerRelease/releases){:target=&quot;_blank&quot;} are some of the more popular options to choose from.
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Miner&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;NVidia Support&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;LHR Support&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;AMD Support&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;ETHash Fee&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;NBMiner&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;T-Rex&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Phoenix Miner&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;.65%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;TeamRedMiner&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;.75% to 1 %&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;GMiner&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;.65%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+| Miner   |   NVidia Support   |   LHR Support   |   AMD Support   |   ETHash Fee   | 
+| :---- | :----: | :----: | :----: | :----: |
+| NBMiner | X | X | X | 1% |
+| T-Rex | X | X | - | 1% |
+| Phoenix Miner | X | - | X | .65% |
+| TeamRedMiner | - | - | X | .75% to 1 % |
+| GMiner | X | X | X | .65% |
 
-&lt;p&gt;&lt;br /&gt;
-I use Phoenix Miner and T-Rex.  One of my rigs has NVidia and AMD GPUs.  My AMD GPUs are all PowerColor 5700 XTs.  Occasionally, one of the AMD GPUs will get into a weird state that eventually causes that rig to crash.  I did write a Perl script to email me updates every 6 hours and watch for any issues with the AMD GPUs (you can download them here-&amp;gt; &lt;a href=&quot;/tools/phoenix-watch.pl&quot;&gt;Phoenix Miner Watch&lt;/a&gt;, &lt;a href=&quot;/tools/trex-watch.pl&quot;&gt;T-Rex Miner Watch&lt;/a&gt;).  Basically, the MH/S rate will jump over 1000%.  That’s obviously not right.. so when my script sees that, it emails me and then reboots my rig.  I haven’t tried TeamRedMiner, but I should try it to see if the AMD crashes are Phoenix related or GPU related.  I’ll say that I’ve NEVER had an NVidia card crash on me using Phoenix Miner.  You can use a config file with Phoenix Miner but I simply pass everything on the command line through a script. One of my scripts looks like this:&lt;/p&gt;
+&lt;br /&gt;
+I use Phoenix Miner and T-Rex.  One of my rigs has NVidia and AMD GPUs.  My AMD GPUs are all PowerColor 5700 XTs.  Occasionally, one of the AMD GPUs will get into a weird state that eventually causes that rig to crash.  I did write a Perl script to email me updates every 6 hours and watch for any issues with the AMD GPUs (you can download them here-&gt; [Phoenix Miner Watch](/tools/phoenix-watch.pl), [T-Rex Miner Watch](/tools/trex-watch.pl)).  Basically, the MH/S rate will jump over 1000%.  That's obviously not right.. so when my script sees that, it emails me and then reboots my rig.  I haven't tried TeamRedMiner, but I should try it to see if the AMD crashes are Phoenix related or GPU related.  I'll say that I've NEVER had an NVidia card crash on me using Phoenix Miner.  You can use a config file with Phoenix Miner but I simply pass everything on the command line through a script. One of my scripts looks like this:
 
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
+{% include code_header.html %}
+{% highlight bash %}
+#!/bin/bash
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+sudo /opt/phoenix/nvidia-settings.sh
+(sleep 300; perl /opt/phoenix/watch.pl) &amp;
 
-&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; /opt/phoenix/nvidia-settings.sh
-&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sleep &lt;/span&gt;300&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; perl /opt/phoenix/watch.pl&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &amp;amp;
+/opt/phoenix/PhoenixMiner -pool ssl://us1.ethermine.org:5555 -wal 0xXXXXXXXXXXXXXXXXXXXXXX -worker phoenix01 -mi 14 -epsw x -coin eth -mode 1 -nvidia -proto 3 -log 1 -logdir /opt/phoenix/logs -leaveoc -nvdo 1 -nvNew 1 -nvKernel 3 -prate .1104 -pool2 ssl://eu2.ethermine.org:5555 -cdmport 3333 -eres 6 -lidag 1 -config /opt/phoenix/config.txt -gpus 1,2,3
+{% endhighlight %}
 
-/opt/phoenix/PhoenixMiner &lt;span class=&quot;nt&quot;&gt;-pool&lt;/span&gt; ssl://us1.ethermine.org:5555 &lt;span class=&quot;nt&quot;&gt;-wal&lt;/span&gt; 0xXXXXXXXXXXXXXXXXXXXXXX &lt;span class=&quot;nt&quot;&gt;-worker&lt;/span&gt; phoenix01 &lt;span class=&quot;nt&quot;&gt;-mi&lt;/span&gt; 14 &lt;span class=&quot;nt&quot;&gt;-epsw&lt;/span&gt; x &lt;span class=&quot;nt&quot;&gt;-coin&lt;/span&gt; eth &lt;span class=&quot;nt&quot;&gt;-mode&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-nvidia&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-proto&lt;/span&gt; 3 &lt;span class=&quot;nt&quot;&gt;-log&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-logdir&lt;/span&gt; /opt/phoenix/logs &lt;span class=&quot;nt&quot;&gt;-leaveoc&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-nvdo&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-nvNew&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-nvKernel&lt;/span&gt; 3 &lt;span class=&quot;nt&quot;&gt;-prate&lt;/span&gt; .1104 &lt;span class=&quot;nt&quot;&gt;-pool2&lt;/span&gt; ssl://eu2.ethermine.org:5555 &lt;span class=&quot;nt&quot;&gt;-cdmport&lt;/span&gt; 3333 &lt;span class=&quot;nt&quot;&gt;-eres&lt;/span&gt; 6 &lt;span class=&quot;nt&quot;&gt;-lidag&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-config&lt;/span&gt; /opt/phoenix/config.txt &lt;span class=&quot;nt&quot;&gt;-gpus&lt;/span&gt; 1,2,3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;br /&gt;
+For my three Nvidia 3080 LHRs, I use T-Rex.  I get really good hashrates compared to expected (72 to 76 MH/s).  Lower the mining intensity if you are frequently running into LHR locks.  My T-Rex script looks like this:
 
-&lt;p&gt;&lt;br /&gt;
-For my three Nvidia 3080 LHRs, I use T-Rex.  I get really good hashrates compared to expected (72 to 76 MH/s).  Lower the mining intensity if you are frequently running into LHR locks.  My T-Rex script looks like this:&lt;/p&gt;
+{% include code_header.html %}
+{% highlight bash %}
+#!/bin/sh
 
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
+sudo /opt/trex/nvidia-settings.sh
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+(sleep 300; perl /opt/trex/twatch.pl) &amp;
 
-&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; /opt/trex/nvidia-settings.sh
+mkdir /opt/trex/logs/archive
+mv -nv -- /opt/trex/logs/trex.log /opt/trex/logs/archive/trex-$(date +'%Y%m%d_%H%M%S').log
+rm -f /opt/trex/logs/*.log
 
-&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sleep &lt;/span&gt;300&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; perl /opt/trex/twatch.pl&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &amp;amp;
+/opt/trex/t-rex -a ethash --url stratum+ssl://us1.ethermine.org:5555 --user 0xXXXXXXXXXXXXXXXXXXXXXX -p x -w trex01 --log-path /opt/trex/logs/trex.log --no-watchdog --send-stales -d 3,4,5 --kernel 0 --lhr-tune 74,74,74 --lhr-autotune-mode full --coin eth --intensity 15.5,15.5,22.1
+{% endhighlight %}
 
-&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; /opt/trex/logs/archive
-&lt;span class=&quot;nb&quot;&gt;mv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-nv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; /opt/trex/logs/trex.log /opt/trex/logs/archive/trex-&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt; +&lt;span class=&quot;s1&quot;&gt;'%Y%m%d_%H%M%S'&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;.log
-&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; /opt/trex/logs/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.log
+&lt;br /&gt;
+You'll ultimately need to determine for yourself which miner to use but I would recommend Phoenix Miner and T-Rex.
 
-/opt/trex/t-rex &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; ethash &lt;span class=&quot;nt&quot;&gt;--url&lt;/span&gt; stratum+ssl://us1.ethermine.org:5555 &lt;span class=&quot;nt&quot;&gt;--user&lt;/span&gt; 0xXXXXXXXXXXXXXXXXXXXXXX &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; x &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; trex01 &lt;span class=&quot;nt&quot;&gt;--log-path&lt;/span&gt; /opt/trex/logs/trex.log &lt;span class=&quot;nt&quot;&gt;--no-watchdog&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--send-stales&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; 3,4,5 &lt;span class=&quot;nt&quot;&gt;--kernel&lt;/span&gt; 0 &lt;span class=&quot;nt&quot;&gt;--lhr-tune&lt;/span&gt; 74,74,74 &lt;span class=&quot;nt&quot;&gt;--lhr-autotune-mode&lt;/span&gt; full &lt;span class=&quot;nt&quot;&gt;--coin&lt;/span&gt; eth &lt;span class=&quot;nt&quot;&gt;--intensity&lt;/span&gt; 15.5,15.5,22.1&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+### Choosing a Pool {#choosepool}
 
-&lt;p&gt;&lt;br /&gt;
-You’ll ultimately need to determine for yourself which miner to use but I would recommend Phoenix Miner and T-Rex.&lt;/p&gt;
+Mining pools each have their own fee associated with them as well.  I've only every used [Ethermine.org](https://ethermine.org/){:target=&quot;_blank&quot;}.  Ethermine allows for payouts over the Ethereum network and the Polygon network.  The Polygon network has less fees for payouts and should be used by miners with lower hashrates (saves you transaction fees!).  There are a number of options you could choose from for pools.  For a total overview, checkout [PoolWatch.io](https://www.poolwatch.io/coin/ethereum){:target=&quot;_blank&quot;}.  For an explanation of payout modes (such as PPLNS and PPS), check out this [article](https://coinguides.org/pps-vs-pplns/){:target=&quot;_blank&quot;}.  Whichever pool you choose, make sure to choose their server that you have the lowest ping to!  It may not be the one that is geographically closest to you.  The faster your connection to the pool, the less likely that your shares would be considered stale.
 
-&lt;h3 id=&quot;choosepool&quot;&gt;Choosing a Pool&lt;/h3&gt;
+Some of the more popular pools include:
 
-&lt;p&gt;Mining pools each have their own fee associated with them as well.  I’ve only every used &lt;a href=&quot;https://ethermine.org/&quot; target=&quot;_blank&quot;&gt;Ethermine.org&lt;/a&gt;.  Ethermine allows for payouts over the Ethereum network and the Polygon network.  The Polygon network has less fees for payouts and should be used by miners with lower hashrates (saves you transaction fees!).  There are a number of options you could choose from for pools.  For a total overview, checkout &lt;a href=&quot;https://www.poolwatch.io/coin/ethereum&quot; target=&quot;_blank&quot;&gt;PoolWatch.io&lt;/a&gt;.  For an explanation of payout modes (such as PPLNS and PPS), check out this &lt;a href=&quot;https://coinguides.org/pps-vs-pplns/&quot; target=&quot;_blank&quot;&gt;article&lt;/a&gt;.  Whichever pool you choose, make sure to choose their server that you have the lowest ping to!  It may not be the one that is geographically closest to you.  The faster your connection to the pool, the less likely that your shares would be considered stale.&lt;/p&gt;
+| Pool   |  Payout Mode |  Mining Fee  | MEV Bonus |
+| :---- | :----: | :----: | :----: |
+| [Ethermine](https://ethermine.org/){:target=&quot;_blank&quot;} | PPLNS | 1% | 100% |
+| [Hiveon](https://hiveon.net/){:target=&quot;_blank&quot;} | PPS+ | 0% | 90% |
+| [Nanopool](https://nanopool.org/){:target=&quot;_blank&quot;} | PPLNS | 1% | [Unclear](https://help.nanopool.org/article/47-faq){:target=&quot;_blank&quot;} |
+| [2Miners](https://2miners.com/){:target=&quot;_blank&quot;} | PPLNS | 1% | 100% |
+| [Flexpool](https://www.flexpool.io/){:target=&quot;_blank&quot;} | PPLNS | .5% | 90% |
 
-&lt;p&gt;Some of the more popular pools include:&lt;/p&gt;
+&lt;br /&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Pool&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Payout Mode&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Mining Fee&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;MEV Bonus&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://ethermine.org/&quot; target=&quot;_blank&quot;&gt;Ethermine&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;PPLNS&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;100%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://hiveon.net/&quot; target=&quot;_blank&quot;&gt;Hiveon&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;PPS+&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;90%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://nanopool.org/&quot; target=&quot;_blank&quot;&gt;Nanopool&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;PPLNS&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://help.nanopool.org/article/47-faq&quot; target=&quot;_blank&quot;&gt;Unclear&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://2miners.com/&quot; target=&quot;_blank&quot;&gt;2Miners&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;PPLNS&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;100%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://www.flexpool.io/&quot; target=&quot;_blank&quot;&gt;Flexpool&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;PPLNS&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;.5%&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;90%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+### AMD Settings {#amd}
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+I did have trouble with the AMD drivers and Ubuntu, major issues.. but I eventually worked it out.  I had to use an older kernel, 5.4.0-26, and slightly older AMD drivers, 20.40.  At one point I tried updating but I couldn't find the right combo to work, so I gave up.  I know that other people have been able to get newer AMD drivers to work but I haven't seen a performance difference between their GPUs and mine.  So take that for what it's worth.  If you want to modify AMD settings in Ubuntu, it's just not as straight forward as Windows.  AMD's Radeon software for Windows is fantastic for managing your GPU speeds and voltage.  (You can also use MSI Afterburner).  Since I really didn't get the results I wanted trying to over/underclock my AMD GPUs in Ubuntu, I decided to mod their BIOS.  Before doing that, I recommend trying to mod them through the OS.  [This](https://www.igorslab.de/en/amd-graphics-cards-under-linux-overclock-or-modify-goes-also/){:target=&quot;_blank&quot;} is a good place to start.
 
-&lt;h3 id=&quot;amd&quot;&gt;AMD Settings&lt;/h3&gt;
+Modifying the BIOS on a GPU can be nerve-racking. If you mess it up, you could brick your GPU and we all know how expensive GPU's are today.  The PowerColor 5700 XTs I bought have a BIOS switch.  One BIOS is the &quot;normal&quot; BIOS and the second is tweaked for performance by PowerColor.  I used the [Red Bios Editor](https://www.igorslab.de/en/red-bios-editor-and-morepowertool-adjust-and-optimize-your-vbios-and-even-more-stable-overclocking-navi-unlimited/){:target=&quot;_blank&quot;} and Windows to create a BIOS for my AMD cards.  I dropped the GPU to 1400 MHz, bumped the memory to 885 MHz (gets multiplied by 2), and set the voltage to 900.  That configuration held for all 6 of my GPUs.  Now that they are flashed, I don't have to worry about any OS or miner OC settings.  They just boot exactly how I want them to run.
 
-&lt;p&gt;I did have trouble with the AMD drivers and Ubuntu, major issues.. but I eventually worked it out.  I had to use an older kernel, 5.4.0-26, and slightly older AMD drivers, 20.40.  At one point I tried updating but I couldn’t find the right combo to work, so I gave up.  I know that other people have been able to get newer AMD drivers to work but I haven’t seen a performance difference between their GPUs and mine.  So take that for what it’s worth.  If you want to modify AMD settings in Ubuntu, it’s just not as straight forward as Windows.  AMD’s Radeon software for Windows is fantastic for managing your GPU speeds and voltage.  (You can also use MSI Afterburner).  Since I really didn’t get the results I wanted trying to over/underclock my AMD GPUs in Ubuntu, I decided to mod their BIOS.  Before doing that, I recommend trying to mod them through the OS.  &lt;a href=&quot;https://www.igorslab.de/en/amd-graphics-cards-under-linux-overclock-or-modify-goes-also/&quot; target=&quot;_blank&quot;&gt;This&lt;/a&gt; is a good place to start.&lt;/p&gt;
+### NVidia Settings {#nvidia}
 
-&lt;p&gt;Modifying the BIOS on a GPU can be nerve-racking. If you mess it up, you could brick your GPU and we all know how expensive GPU’s are today.  The PowerColor 5700 XTs I bought have a BIOS switch.  One BIOS is the “normal” BIOS and the second is tweaked for performance by PowerColor.  I used the &lt;a href=&quot;https://www.igorslab.de/en/red-bios-editor-and-morepowertool-adjust-and-optimize-your-vbios-and-even-more-stable-overclocking-navi-unlimited/&quot; target=&quot;_blank&quot;&gt;Red Bios Editor&lt;/a&gt; and Windows to create a BIOS for my AMD cards.  I dropped the GPU to 1400 MHz, bumped the memory to 885 MHz (gets multiplied by 2), and set the voltage to 900.  That configuration held for all 6 of my GPUs.  Now that they are flashed, I don’t have to worry about any OS or miner OC settings.  They just boot exactly how I want them to run.&lt;/p&gt;
+For NVidia, I had no problems configuring Ubuntu to over/underclock my GPUs.  If you are using Windows, it's even easier.  Use MSI Afterburner and sleep like a baby.  For Ubuntu, you need to do a couple of things.
 
-&lt;h3 id=&quot;nvidia&quot;&gt;NVidia Settings&lt;/h3&gt;
+Create an X11 configuration that contains your NVidia card information.  My NVidia entries look like this:
 
-&lt;p&gt;For NVidia, I had no problems configuring Ubuntu to over/underclock my GPUs.  If you are using Windows, it’s even easier.  Use MSI Afterburner and sleep like a baby.  For Ubuntu, you need to do a couple of things.&lt;/p&gt;
-
-&lt;p&gt;Create an X11 configuration that contains your NVidia card information.  My NVidia entries look like this:&lt;/p&gt;
-
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;Section &lt;span class=&quot;s2&quot;&gt;&quot;Monitor&quot;&lt;/span&gt;
-    Identifier     &lt;span class=&quot;s2&quot;&gt;&quot;NvidiaMonitor1&quot;&lt;/span&gt;
-    VendorName     &lt;span class=&quot;s2&quot;&gt;&quot;Unknown&quot;&lt;/span&gt;
-    ModelName      &lt;span class=&quot;s2&quot;&gt;&quot;Unknown&quot;&lt;/span&gt;
-    Option         &lt;span class=&quot;s2&quot;&gt;&quot;DPMS&quot;&lt;/span&gt;
+{% include code_header.html %}
+{% highlight bash %}
+Section &quot;Monitor&quot;
+    Identifier     &quot;NvidiaMonitor1&quot;
+    VendorName     &quot;Unknown&quot;
+    ModelName      &quot;Unknown&quot;
+    Option         &quot;DPMS&quot;
 EndSection
 
-Section &lt;span class=&quot;s2&quot;&gt;&quot;Device&quot;&lt;/span&gt;
-    Identifier     &lt;span class=&quot;s2&quot;&gt;&quot;NvidiaDevice1&quot;&lt;/span&gt;
-    Driver         &lt;span class=&quot;s2&quot;&gt;&quot;nvidia&quot;&lt;/span&gt;
-    Option         &lt;span class=&quot;s2&quot;&gt;&quot;TripleBuffer&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;true&quot;&lt;/span&gt;
-    Option         &lt;span class=&quot;s2&quot;&gt;&quot;ConnectToAcpid&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;0&quot;&lt;/span&gt;
-    Option         &lt;span class=&quot;s2&quot;&gt;&quot;Coolbits&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;28&quot;&lt;/span&gt;
-    BusID          &lt;span class=&quot;s2&quot;&gt;&quot;PCI:04:0:0&quot;&lt;/span&gt;
-    VendorName     &lt;span class=&quot;s2&quot;&gt;&quot;NVIDIA Corporation&quot;&lt;/span&gt;
+Section &quot;Device&quot;
+    Identifier     &quot;NvidiaDevice1&quot;
+    Driver         &quot;nvidia&quot;
+    Option         &quot;TripleBuffer&quot; &quot;true&quot;
+    Option         &quot;ConnectToAcpid&quot; &quot;0&quot;
+    Option         &quot;Coolbits&quot; &quot;28&quot;
+    BusID          &quot;PCI:04:0:0&quot;
+    VendorName     &quot;NVIDIA Corporation&quot;
 EndSection
 
-Section &lt;span class=&quot;s2&quot;&gt;&quot;Screen&quot;&lt;/span&gt;
-    Identifier     &lt;span class=&quot;s2&quot;&gt;&quot;NvidiaScreen1&quot;&lt;/span&gt;
-    Device         &lt;span class=&quot;s2&quot;&gt;&quot;NvidiaDevice1&quot;&lt;/span&gt;
-    Monitor        &lt;span class=&quot;s2&quot;&gt;&quot;NvidiaMonitor1&quot;&lt;/span&gt;
-    Option         &lt;span class=&quot;s2&quot;&gt;&quot;Coolbits&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;28&quot;&lt;/span&gt;
-    Option         &lt;span class=&quot;s2&quot;&gt;&quot;ConnectedMonitor&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;DFP&quot;&lt;/span&gt;
-    Option         &lt;span class=&quot;s2&quot;&gt;&quot;UseConnectedDevice&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;DFP-0&quot;&lt;/span&gt;
-    Option         &lt;span class=&quot;s2&quot;&gt;&quot;AllowEmptyInitialConfiguration&quot;&lt;/span&gt;  &lt;span class=&quot;s2&quot;&gt;&quot;True&quot;&lt;/span&gt;
+Section &quot;Screen&quot;
+    Identifier     &quot;NvidiaScreen1&quot;
+    Device         &quot;NvidiaDevice1&quot;
+    Monitor        &quot;NvidiaMonitor1&quot;
+    Option         &quot;Coolbits&quot; &quot;28&quot;
+    Option         &quot;ConnectedMonitor&quot; &quot;DFP&quot;
+    Option         &quot;UseConnectedDevice&quot; &quot;DFP-0&quot;
+    Option         &quot;AllowEmptyInitialConfiguration&quot;  &quot;True&quot;
     DefaultDepth    24
-    SubSection     &lt;span class=&quot;s2&quot;&gt;&quot;Display&quot;&lt;/span&gt;
+    SubSection     &quot;Display&quot;
         Depth       24
     EndSubSection
-EndSection&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;
-You need the “Coolbits” and “AllowEmptyInitialConfiguration” options under “Screen” and you need to set the “BusID” under “Device”.  To get the Bus ID, run the following:&lt;/p&gt;
-
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;lspci &lt;span class=&quot;nt&quot;&gt;-k&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;VGA&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;
-The output should look like this:&lt;/p&gt;
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;00:02.0 VGA compatible controller: Intel Corporation HD Graphics 610 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev 04&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-03:00.0 VGA compatible controller: Advanced Micro Devices, Inc. &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AMD/ATI] Navi 10 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev c1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-04:00.0 VGA compatible controller: NVIDIA Corporation Device 2206 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev a1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-05:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev a1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-06:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev a1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-07:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev a1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-0a:00.0 VGA compatible controller: Advanced Micro Devices, Inc. &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AMD/ATI] Navi 10 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev c1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-0d:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev a1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-10:00.0 VGA compatible controller: Advanced Micro Devices, Inc. &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AMD/ATI] Navi 10 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev c1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-11:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev a1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-12:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev a1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-15:00.0 VGA compatible controller: Advanced Micro Devices, Inc. &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AMD/ATI] Navi 10 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev c1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-18:00.0 VGA compatible controller: Advanced Micro Devices, Inc. &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AMD/ATI] Navi 10 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev c1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-1b:00.0 VGA compatible controller: Advanced Micro Devices, Inc. &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AMD/ATI] Navi 10 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev c1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;
-The first part of that output identifies the Bus ID.  Note that “lspci” outputs the Bus ID in hex form, while the Bus ID has to be decimal in the X11 file.  So “04:00.0” turns into “PCI:04:0:0” while “12:00.0” turns into “PCI:18:0:0”.  If you arent good doing the conversions in your head, &lt;a href=&quot;https://www.binaryhexconverter.com/hex-to-decimal-converter&quot; target=&quot;_blank&quot;&gt;this website&lt;/a&gt; is extremely valuable!&lt;/p&gt;
-
-&lt;p&gt;Now that you have your X11 file setup, you can start messing with your GPU settings.  I have a bash script for each miner and rig.  Here is one of my scripts with one Nvidia 1080 and 2 Nvidia 3090s.&lt;/p&gt;
-
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;nvidia-smi &lt;span class=&quot;nt&quot;&gt;-pm&lt;/span&gt; 1
-
-&lt;span class=&quot;nb&quot;&gt;sleep &lt;/span&gt;3
-
-&lt;span class=&quot;c&quot;&gt;# PNY 1080&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Nvidia Settings GPU 1&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Nvidia SMI GPU 0&lt;/span&gt;
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:1]/GPUPowerMizerMode&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1 &amp;amp;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;nvidia-smi &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; 0 &lt;span class=&quot;nt&quot;&gt;-pl&lt;/span&gt; 155
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:1]/GPUGraphicsClockOffsetAllPerformanceLevels&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;50 &amp;amp;
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:1]/GPUMemoryTransferRateOffset[2]&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1100 &amp;amp;
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:1]/GPUMemoryTransferRateOffset[3]&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1100 &amp;amp;
-
-&lt;span class=&quot;c&quot;&gt;# EVGA 3090&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Nvidia settings GPU 2&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Nvidia SMI GPUI 1&lt;/span&gt;
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:2]/GPUPowerMizerMode&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1 &amp;amp;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;nvidia-smi &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-pl&lt;/span&gt; 300
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:2]/GPUGraphicsClockOffsetAllPerformanceLevels&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0 &amp;amp;
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:2]/GPUMemoryTransferRateOffset[3]&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2300 &amp;amp;
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:2]/GPUMemoryTransferRateOffset[4]&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2300 &amp;amp;
-
-&lt;span class=&quot;c&quot;&gt;# Zotac 3090&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Nvidia settings GPU 3&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Nvidia SMI GPUI 2&lt;/span&gt;
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:3]/GPUPowerMizerMode&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1 &amp;amp;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;nvidia-smi &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; 2 &lt;span class=&quot;nt&quot;&gt;-pl&lt;/span&gt; 305
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:3]/GPUGraphicsClockOffsetAllPerformanceLevels&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0 &amp;amp;
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:3]/GPUMemoryTransferRateOffset[3]&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2200 &amp;amp;
-nvidia-settings &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; :0 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;gpu:3]/GPUMemoryTransferRateOffset[4]&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2200 &amp;amp;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;
-You will use “nvidia-smi” to control the maximum power draw for a GPU and use “nvidia-settings” to control the GPU and RAM speeds.  Note that “nvidia-smi” and “nvidia-settings” have different references for the same GPU.  My 1080 is listed as GPU 1 for nvidia-smi and 0 for nvidia-settings.  Simply running “nvidia-smi” will list out all of your GPUs and their reference.  Run “nvidia-settings” to pull up the settings GUI and note the GPUs and their reference within nvidia-settings.&lt;/p&gt;
-
-&lt;p&gt;Each card behaves slightly different and your results may not match mine, but here are some of my settings.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;GPU&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;GPU Offset&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;RAM Offset&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Power Limit&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Avg MH/s&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;PNY 1080&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+50 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+1100 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;155 watts&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;32 MH/s&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;PowerColor 5700xt&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;=1400 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;=885 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;100 watts&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;54.5 MH/s&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Gigabyte 3080&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+200 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+1100 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;155 watts&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;35 MH/s&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Zotac 3080 LHR&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+0 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+2700 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;230 watts&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;74 MH/s&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Zotac 3090 OC&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+0 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+2100 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;295 watts&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;119.5 MH/s&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;MSI 3090 Gaming X Trio&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+0 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+2200 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;305 watts&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;121 MH/s&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;EVGA 3090 FTW3 Ultra&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+0 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+2200 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;310 watts&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;121 MH/s&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Gigabyte Vision 3090&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+0 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+1700 MHz&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;310 watts&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;35 MH/s&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+EndSection
+{% endhighlight %}
+
+&lt;br /&gt;
+You need the &quot;Coolbits&quot; and &quot;AllowEmptyInitialConfiguration&quot; options under &quot;Screen&quot; and you need to set the &quot;BusID&quot; under &quot;Device&quot;.  To get the Bus ID, run the following:
+
+{% include code_header.html %}
+{% highlight bash %}
+lspci -k | grep VGA
+{% endhighlight %}
+
+&lt;br /&gt;
+The output should look like this:
+{% include code_header.html %}
+{% highlight bash %}
+00:02.0 VGA compatible controller: Intel Corporation HD Graphics 610 (rev 04)
+03:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] (rev c1)
+04:00.0 VGA compatible controller: NVIDIA Corporation Device 2206 (rev a1)
+05:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 (rev a1)
+06:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 (rev a1)
+07:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 (rev a1)
+0a:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] (rev c1)
+0d:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 (rev a1)
+10:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] (rev c1)
+11:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 (rev a1)
+12:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 (rev a1)
+15:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] (rev c1)
+18:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] (rev c1)
+1b:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] (rev c1)
+{% endhighlight %}
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;lhr&quot;&gt;NVidia LHR&lt;/h3&gt;
+&lt;br /&gt;
+The first part of that output identifies the Bus ID.  Note that &quot;lspci&quot; outputs the Bus ID in hex form, while the Bus ID has to be decimal in the X11 file.  So &quot;04:00.0&quot; turns into &quot;PCI:04:0:0&quot; while &quot;12:00.0&quot; turns into &quot;PCI:18:0:0&quot;.  If you arent good doing the conversions in your head, [this website](https://www.binaryhexconverter.com/hex-to-decimal-converter){:target=&quot;_blank&quot;} is extremely valuable!
+
+Now that you have your X11 file setup, you can start messing with your GPU settings.  I have a bash script for each miner and rig.  Here is one of my scripts with one Nvidia 1080 and 2 Nvidia 3090s.
 
-&lt;p&gt;The NVidia LHR GPUs do need some special handling.  I’ve had good success with T-Rex.  In order to get the best performance, I let T-Rex auto-tune the LHR value up and down as needed but I did modify the mining intensity (MI) for each of my cards.  I found that the mining intesity was the key to limiting the number of locks that a GPU would encounter.  If a GPU locks, it stops mining for 20 seconds.  Over time, that’ll have a drastic negative effect on your overall mining rate.  One of my cards I can run at a MI 22.1.  Another one of my cards will hit a lock every couple minutes if I have the MI set at 22.1.  After setting it to 15.5 though, I’ve had 1 lock over 8 days.  It’s actually running at the same speed as the GPU with a 22.1 MI and has 42 more shares over nearly 8 days.  So while it might seem counter-intuitive to lower the MI to get better performance, that is the case here.  You will need to try different settings for your cards, but don’t just settle for the default!&lt;/p&gt;
+{% include code_header.html %}
+{% highlight bash %}
+#!/bin/bash
 
-&lt;h3 id=&quot;wrap&quot;&gt;Wrap up&lt;/h3&gt;
+sudo nvidia-smi -pm 1
 
-&lt;p&gt;There’s way more to GPU mining than I could put into one post, but hopefully a lot of your questions have been answered!  The ETH 2.0 merge will happen sometime in June or July of 2022 so you still have some time to mine Eth.  If you need help with anything, please feel free to reach out!&lt;/p&gt;
+sleep 3
 
-&lt;p&gt;Happy mining!&lt;/p&gt;</content><author><name></name></author><summary type="html">GPU mining can be a great source of “passive” income and investment. I say “passive” because there is work involved to buy, build, configure, and maintain your mining rig. Once it’s running smoothly though, you can pretty much sit back and collect your mining rewards!</summary></entry><entry><title type="html">Cardano Staking Guide</title><link href="https://swiftcryptollc.github.io/2021/11/23/staking-guide/" rel="alternate" type="text/html" title="Cardano Staking Guide" /><published>2021-11-23T11:00:00-05:00</published><updated>2021-11-23T11:00:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/23/staking-guide</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/23/staking-guide/">&lt;p&gt;If you are an ADA holder, then staking is a great way to earn passive income.  What makes Cardano different from some other crypto is that you never lock up your ADA, you never lose custody of it, and the rewards are compounding.  You can unstake, stake, and transfer whenever you want.  (If you do unstake though, you may miss rewards from the pool that you were staked to.)  If you want to see how much you could earn, check out the &lt;a href=&quot;https://cardano.org/calculator/&quot; target=&quot;_blank&quot;&gt;Cardano Staking Calculator&lt;/a&gt;.&lt;/p&gt;
+# PNY 1080
+# Nvidia Settings GPU 1
+# Nvidia SMI GPU 0
+nvidia-settings -c :0 -a [gpu:1]/GPUPowerMizerMode=1 &amp;
+sudo nvidia-smi -i 0 -pl 155
+nvidia-settings -c :0 -a [gpu:1]/GPUGraphicsClockOffsetAllPerformanceLevels=50 &amp;
+nvidia-settings -c :0 -a [gpu:1]/GPUMemoryTransferRateOffset[2]=1100 &amp;
+nvidia-settings -c :0 -a [gpu:1]/GPUMemoryTransferRateOffset[3]=1100 &amp;
 
-&lt;p&gt;There are two big Cardano wallets, the &lt;a href=&quot;https://daedaluswallet.io/&quot; target=&quot;_blank&quot;&gt;Daedalus&lt;/a&gt; wallet and the &lt;a href=&quot;https://yoroi-wallet.com/#/&quot; target=&quot;_blank&quot;&gt;Yoroi&lt;/a&gt; wallet.  The main difference between the two is that Yoroi is a lightweight wallet that connects to a cloud server that hosts the Cardano Ledger.  Daedalus needs to generate the Ledger locally.  If you are familiar with &lt;a href=&quot;https://metamask.io/&quot; target=&quot;_blank&quot;&gt;Metamask&lt;/a&gt; or &lt;a href=&quot;https://phantom.app/&quot; target=&quot;_blank&quot;&gt;Phantom&lt;/a&gt;, you will probably be more comfortable with Yoroi.  For this guide, we will walk through staking with Yoroi.  If you want more information before choosing your wallet, check out the &lt;a href=&quot;https://yoroi-wallet.com/#/faq/1&quot; target=&quot;_blank&quot;&gt;Yoroi FAQ&lt;/a&gt; and the &lt;a href=&quot;https://iohk.zendesk.com/hc/en-us/sections/360002109394-Basic-Use&quot; target=&quot;_blank&quot;&gt;Daedalus FAQ&lt;/a&gt;.&lt;/p&gt;
+# EVGA 3090
+# Nvidia settings GPU 2
+# Nvidia SMI GPUI 1
+nvidia-settings -c :0 -a [gpu:2]/GPUPowerMizerMode=1 &amp;
+sudo nvidia-smi -i 1 -pl 300
+nvidia-settings -c :0 -a [gpu:2]/GPUGraphicsClockOffsetAllPerformanceLevels=0 &amp;
+nvidia-settings -c :0 -a [gpu:2]/GPUMemoryTransferRateOffset[3]=2300 &amp;
+nvidia-settings -c :0 -a [gpu:2]/GPUMemoryTransferRateOffset[4]=2300 &amp;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;installing-yoroi&quot;&gt;Installing Yoroi&lt;/h2&gt;
+# Zotac 3090
+# Nvidia settings GPU 3
+# Nvidia SMI GPUI 2
+nvidia-settings -c :0 -a [gpu:3]/GPUPowerMizerMode=1 &amp;
+sudo nvidia-smi -i 2 -pl 305
+nvidia-settings -c :0 -a [gpu:3]/GPUGraphicsClockOffsetAllPerformanceLevels=0 &amp;
+nvidia-settings -c :0 -a [gpu:3]/GPUMemoryTransferRateOffset[3]=2200 &amp;
+nvidia-settings -c :0 -a [gpu:3]/GPUMemoryTransferRateOffset[4]=2200 &amp;
+{% endhighlight %}
 
-&lt;p&gt;The first step is to install the Yoroi wallet extension to your browser.  They have support for Firefox, Chrome (should work in Brave too), Edge, Android, and iOS.  Installing it on Chrome will take you to the Chrome Web Store.  Click the “Add to Chrome” button on the top right.  You might get a warning message, just click through to add the extension.&lt;/p&gt;
+&lt;br /&gt;
+You will use &quot;nvidia-smi&quot; to control the maximum power draw for a GPU and use &quot;nvidia-settings&quot; to control the GPU and RAM speeds.  Note that &quot;nvidia-smi&quot; and &quot;nvidia-settings&quot; have different references for the same GPU.  My 1080 is listed as GPU 1 for nvidia-smi and 0 for nvidia-settings.  Simply running &quot;nvidia-smi&quot; will list out all of your GPUs and their reference.  Run &quot;nvidia-settings&quot; to pull up the settings GUI and note the GPUs and their reference within nvidia-settings.
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/yoroi-add.jpg&quot; alt=&quot;Add Yoroi Extension&quot; width=&quot;767&quot; /&gt;&lt;/p&gt;
+Each card behaves slightly different and your results may not match mine, but here are some of my settings.
 
-&lt;p&gt;Yoroi will now appear in your Extensions icon in the browser.  You can click the Pin icon next to Yoroi is pin it to your browser bar for easier access.&lt;/p&gt;
+| GPU | GPU Offset | RAM Offset | Power Limit | Avg MH/s |
+| :---- | :----: | :----: | :----: | :----: |
+| PNY 1080 | +50 MHz | +1100 MHz | 155 watts | 32 MH/s |
+| PowerColor 5700xt | =1400 MHz | =885 MHz | 100 watts | 54.5 MH/s |
+| Gigabyte 3080 | +200 MHz | +1100 MHz | 155 watts | 35 MH/s |
+| Zotac 3080 LHR | +0 MHz | +2700 MHz | 230 watts | 74 MH/s | 
+| Zotac 3090 OC | +0 MHz | +2100 MHz | 295 watts | 119.5 MH/s |
+| MSI 3090 Gaming X Trio | +0 MHz | +2200 MHz | 305 watts | 121 MH/s |
+| EVGA 3090 FTW3 Ultra | +0 MHz | +2200 MHz | 310 watts | 121 MH/s |
+| Gigabyte Vision 3090 | +0 MHz | +1700 MHz | 310 watts | 35 MH/s |
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/yoroi-ext-access.jpg&quot; alt=&quot;Yoroi Extension&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;
+### NVidia LHR {#lhr}
 
-&lt;p&gt;Click on Yoroi to begin setup.  You’ll go through a basic setup of selecting your language and accepting the Terms of Use/Service Agreement.  You will be asked if you want to enable Cardano Payments.  If you select ‘No’, you can always enable it later.&lt;/p&gt;
+The NVidia LHR GPUs do need some special handling.  I've had good success with T-Rex.  In order to get the best performance, I let T-Rex auto-tune the LHR value up and down as needed but I did modify the mining intensity (MI) for each of my cards.  I found that the mining intesity was the key to limiting the number of locks that a GPU would encounter.  If a GPU locks, it stops mining for 20 seconds.  Over time, that'll have a drastic negative effect on your overall mining rate.  One of my cards I can run at a MI 22.1.  Another one of my cards will hit a lock every couple minutes if I have the MI set at 22.1.  After setting it to 15.5 though, I've had 1 lock over 8 days.  It's actually running at the same speed as the GPU with a 22.1 MI and has 42 more shares over nearly 8 days.  So while it might seem counter-intuitive to lower the MI to get better performance, that is the case here.  You will need to try different settings for your cards, but don't just settle for the default!
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;creatingrestoring-a-wallet&quot;&gt;Creating/Restoring a Wallet&lt;/h2&gt;
+### Wrap up {#wrap}
 
-&lt;p&gt;The next step will be to create or import an existing wallet.  It’s highly recommended to have a hardware wallet.  Two of the leading hardware wallets are the &lt;a href=&quot;https://shop.ledger.com/products/ledger-nano-x&quot; target=&quot;_blank&quot;&gt;Ledger Nano X&lt;/a&gt; and the &lt;a href=&quot;https://trezor.io/&quot; target=&quot;_blank&quot;&gt;Trezor&lt;/a&gt;.  If you have a hardware wallet, click on “Connect to hardware wallet”, otherwise select “Create wallet” for a new wallet, or “Restore wallet” to import an existing software wallet.&lt;/p&gt;
+There's way more to GPU mining than I could put into one post, but hopefully a lot of your questions have been answered!  The ETH 2.0 merge will happen sometime in June or July of 2022 so you still have some time to mine Eth.  If you need help with anything, please feel free to reach out!
 
-&lt;p&gt;&lt;em&gt;Note that Trezor Model T supports ADA but the Trezor One apparently does not, see &lt;a href=&quot;https://trezor.io/coins/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+Happy mining!</content><author><name></name></author><summary type="html">GPU mining can be a great source of “passive” income and investment. I say “passive” because there is work involved to buy, build, configure, and maintain your mining rig. Once it’s running smoothly though, you can pretty much sit back and collect your mining rewards!</summary></entry><entry><title type="html">Cardano Staking Guide</title><link href="http://0.0.0.0:4000/2021/11/23/staking-guide/" rel="alternate" type="text/html" title="Cardano Staking Guide" /><published>2021-11-23T11:00:00-05:00</published><updated>2021-11-23T11:00:00-05:00</updated><id>http://0.0.0.0:4000/2021/11/23/staking-guide</id><content type="html" xml:base="http://0.0.0.0:4000/2021/11/23/staking-guide/">If you are an ADA holder, then staking is a great way to earn passive income.  What makes Cardano different from some other crypto is that you never lock up your ADA, you never lose custody of it, and the rewards are compounding.  You can unstake, stake, and transfer whenever you want.  (If you do unstake though, you may miss rewards from the pool that you were staked to.)  If you want to see how much you could earn, check out the [Cardano Staking Calculator](https://cardano.org/calculator/){:target=&quot;_blank&quot;}.
 
-&lt;p&gt;Ledger has a fantastic guide that walks you through connecting your Ledger to Yori.  Instead of repeating it all, you can read through it &lt;a href=&quot;https://support.ledger.com/hc/en-us/articles/4410160334737-Set-up-and-use-Yoroi-wallet-to-manage-Cardano-ADA-with-your-Ledger-device?support=true&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+There are two big Cardano wallets, the [Daedalus](https://daedaluswallet.io/){:target=&quot;_blank&quot;} wallet and the [Yoroi](https://yoroi-wallet.com/#/){:target=&quot;_blank&quot;} wallet.  The main difference between the two is that Yoroi is a lightweight wallet that connects to a cloud server that hosts the Cardano Ledger.  Daedalus needs to generate the Ledger locally.  If you are familiar with [Metamask](https://metamask.io/){:target=&quot;_blank&quot;} or [Phantom](https://phantom.app/){:target=&quot;_blank&quot;}, you will probably be more comfortable with Yoroi.  For this guide, we will walk through staking with Yoroi.  If you want more information before choosing your wallet, check out the [Yoroi FAQ](https://yoroi-wallet.com/#/faq/1){:target=&quot;_blank&quot;} and the [Daedalus FAQ](https://iohk.zendesk.com/hc/en-us/sections/360002109394-Basic-Use){:target=&quot;_blank&quot;}.
 
-&lt;p&gt;If you are creating a software wallet, click “Create wallet” and then select “Cardano” as the currency/platform.&lt;/p&gt;
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/yoroi-choose-currency.jpg&quot; alt=&quot;Yoroi Chose Currency&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;
+## Installing Yoroi ##
 
-&lt;p&gt;Choose “Create wallet” for the wallet selection.&lt;/p&gt;
+The first step is to install the Yoroi wallet extension to your browser.  They have support for Firefox, Chrome (should work in Brave too), Edge, Android, and iOS.  Installing it on Chrome will take you to the Chrome Web Store.  Click the &quot;Add to Chrome&quot; button on the top right.  You might get a warning message, just click through to add the extension.
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/yoroi-create-standard.jpg&quot; alt=&quot;Yoroi Standard Wallet&quot; /&gt;&lt;/p&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Add Yoroi Extension](/img/yoroi/yoroi-add.jpg){: width=&quot;767&quot; }
+{: refdef}
 
-&lt;p&gt;You’ll then be asked for a wallet name and a spending password.  Don’t lose your spending password!&lt;/p&gt;
+Yoroi will now appear in your Extensions icon in the browser.  You can click the Pin icon next to Yoroi is pin it to your browser bar for easier access.
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/yoroi-name-wallet.jpg&quot; alt=&quot;Yoroi Name Wallet&quot; /&gt;&lt;/p&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Yoroi Extension](/img/yoroi/yoroi-ext-access.jpg)
+{: refdef}
 
-&lt;p&gt;The next screen set will walk you through your recovery words.  Yoroi recovery words consist of 15 case-sensitive words that can be used to restore your wallet.  DO NOT store the recovery words online or on your internet connected device.  Anyone with access to your recovery words can gain access to your wallet and drain all of your funds from that wallet.  I recommend writing it down on paper and storing that in a secure location.  You could also save it to a thumb drive and store your thumb drive in a secure location (a fire-proof or resistent safe is a fantastic storage option).&lt;/p&gt;
+Click on Yoroi to begin setup.  You'll go through a basic setup of selecting your language and accepting the Terms of Use/Service Agreement.  You will be asked if you want to enable Cardano Payments.  If you select 'No', you can always enable it later.
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/yoroi-recovery-phrase.jpg&quot; alt=&quot;Yoroi Recovery&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;
+## Creating/Restoring a Wallet ##
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/yoroi-recovery-phrase-words.jpg&quot; alt=&quot;Yoroi Recovery Words&quot; /&gt;&lt;/p&gt;
+The next step will be to create or import an existing wallet.  It's highly recommended to have a hardware wallet.  Two of the leading hardware wallets are the [Ledger Nano X](https://shop.ledger.com/products/ledger-nano-x){:target=&quot;_blank&quot;} and the [Trezor](https://trezor.io/){:target=&quot;_blank&quot;}.  If you have a hardware wallet, click on &quot;Connect to hardware wallet&quot;, otherwise select &quot;Create wallet&quot; for a new wallet, or &quot;Restore wallet&quot; to import an existing software wallet.
 
-&lt;p&gt;After securing your recovery words, click through the confirmation page.&lt;/p&gt;
+_Note that Trezor Model T supports ADA but the Trezor One apparently does not, see [here](https://trezor.io/coins/){:target=&quot;_blank&quot;}._
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/yoroi-recovery-confirmation.jpg&quot; alt=&quot;Yoroi Recovery Confirmation&quot; /&gt;&lt;/p&gt;
+Ledger has a fantastic guide that walks you through connecting your Ledger to Yori.  Instead of repeating it all, you can read through it [here](https://support.ledger.com/hc/en-us/articles/4410160334737-Set-up-and-use-Yoroi-wallet-to-manage-Cardano-ADA-with-your-Ledger-device?support=true){:target=&quot;_blank&quot;}
 
-&lt;p&gt;Your wallet is now ready to use!&lt;/p&gt;
+If you are creating a software wallet, click &quot;Create wallet&quot; and then select &quot;Cardano&quot; as the currency/platform.  
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;yoroi-dashboard&quot;&gt;Yoroi Dashboard&lt;/h2&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Yoroi Chose Currency](/img/yoroi/yoroi-choose-currency.jpg)
+{: refdef}
 
-&lt;p&gt;On the Yoroi Dashboard, you can see your balance, reward balance, and your total delegation.  Right now, Cardano allows delegation to only one pool per wallet.  You can’t split your delegation to multiple pools from a single wallet.  Your rewards will automatically be added to your delegation without you having to claim the rewards.  You will pay a transaction fee to claim your rewards, so unless you are moving your ADA, it’s ok to leave them unclaimed as you still earn on your unclaimed rewards.&lt;/p&gt;
+Choose &quot;Create wallet&quot; for the wallet selection.
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/yoroi-dashboard.jpg&quot; alt=&quot;Yoroi Dashboard&quot; width=&quot;767&quot; /&gt;&lt;/p&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Yoroi Standard Wallet](/img/yoroi/yoroi-create-standard.jpg)
+{: refdef}
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;transfering-funds-to-yoroi&quot;&gt;Transfering Funds to Yoroi&lt;/h2&gt;
+You'll then be asked for a wallet name and a spending password.  Don't lose your spending password!  
 
-&lt;p&gt;Click on the “Receive” tab from the Yoroi Dashboard.  You’ll be given a receive address that you will use to transfer your ADA from an exchange to your Yoroi wallet.  With Cardano, your wallet will generate a new ADA receive address once the wallet receives a transfer on the current receive address.  If you happen to send ADA to one of your previous ADA receive addresses, don’t sweat it, it’ll still be deposited to your wallet.  The reason Cardano gives you a new receive address is for security and privacy purposes as anyone who knows that address can look up it’s activity on the Cardano blockchain.  By using different receive addresses, the total holdings of the main wallet are unknown.  Further explanation can be found &lt;a href=&quot;https://forum.cardano.org/t/why-generate-a-new-address/13544&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Yoroi Name Wallet](/img/yoroi/yoroi-name-wallet.jpg)
+{: refdef}
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/yoroi-receive.jpg&quot; alt=&quot;Receive ADA&quot; width=&quot;767&quot; /&gt;&lt;/p&gt;
+The next screen set will walk you through your recovery words.  Yoroi recovery words consist of 15 case-sensitive words that can be used to restore your wallet.  DO NOT store the recovery words online or on your internet connected device.  Anyone with access to your recovery words can gain access to your wallet and drain all of your funds from that wallet.  I recommend writing it down on paper and storing that in a secure location.  You could also save it to a thumb drive and store your thumb drive in a secure location (a fire-proof or resistent safe is a fantastic storage option).
 
-&lt;p&gt;Copy the receive address and head over to your exchange.  The Cardano website has a good article on &lt;a href=&quot;https://forum.cardano.org/t/how-to-safely-withdraw-your-ada-from-exchanges/47624&quot; target=&quot;_blank&quot;&gt;withdrawing your ADA&lt;/a&gt; from an exchange.  One of my favorite exchanges is &lt;a href=&quot;https://pro.coinbase.com&quot; target=&quot;_blank&quot;&gt;Coinbase Pro&lt;/a&gt;.&lt;/p&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Yoroi Recovery](/img/yoroi/yoroi-recovery-phrase.jpg)
+{: refdef}
 
-&lt;p&gt;&lt;em&gt;Note that if you have a &lt;a href=&quot;https://coinbase.com&quot; target=&quot;_blank&quot;&gt;Coinbase&lt;/a&gt;, then you have a Coinbase Pro account.  Coinbase and Coinbase Pro have separate holdings and you can transfer between the two for free.  Coinbase Pro has lower fees than Coinbase and allows you to submit limit and stop trades.&lt;/em&gt;&lt;/p&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Yoroi Recovery Words](/img/yoroi/yoroi-recovery-phrase-words.jpg)
+{: refdef}
 
-&lt;p&gt;For Coinbase Pro, click on your Portfolio and then click “Withdraw”.  You’ll be given a popup similar to the following screenshot.&lt;/p&gt;
+After securing your recovery words, click through the confirmation page.
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/pro-coinbase-withdraw.jpg&quot; alt=&quot;Coinbase Pro Withdraw&quot; /&gt;&lt;/p&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Yoroi Recovery Confirmation](/img/yoroi/yoroi-recovery-confirmation.jpg)
+{: refdef}
 
-&lt;p&gt;All of my ADA is pledged to my &lt;a href=&quot;https://4wardpool.swiftcryptollc.com&quot; target=&quot;_blank&quot;&gt;4WARD&lt;/a&gt; pool so I won’t have any funds to withdraw.  The important thing to note is that after pasting your Yoroi receive address, you should see the green “Valid ADA Address” message.  The fees to transfer ADA are low so if you want to be sure about how you have everything setup, then you can send as little as 1 ADA.  It can take a couple of minutes to go through, so be patient with it.  If you click on the “Transaction” tab within Yoroi, you should eventually see the transfer.  If it goes through, then you know you’ve done everything right.  If it doesn’t show up after 30 minutes (way past the time it should have showed up), then you have a disconnect somewhere along the way.  Always make sure of your receive address within Yoroi and then within your exchange.  If everything is good, then you can transfer the rest to your Yoroi wallet.&lt;/p&gt;
+Your wallet is now ready to use!
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;delegatingstaking&quot;&gt;Delegating/Staking&lt;/h2&gt;
+&lt;br /&gt;
+## Yoroi Dashboard ##
 
-&lt;p&gt;Now that your wallet is funded, you can delegate!  (If you are new to staking overall, Cardano has a good &lt;a href=&quot;https://cardano.org/stake-pool-delegation#faq&quot; target=&quot;_blank&quot;&gt;FAQ&lt;/a&gt; for further information.)  Click on the “Delegation List” tab within Yoroi.  By default, the list is sorted by &lt;a href=&quot;https://adapools.org/score&quot; target=&quot;_blank&quot;&gt;Score&lt;/a&gt; which is a calculation based on pledge, delegation, live stake, and other variables.  You can search for pools using the Search box.  As an example, search for “4WARD”, which is my Cardano Pool.&lt;/p&gt;
+On the Yoroi Dashboard, you can see your balance, reward balance, and your total delegation.  Right now, Cardano allows delegation to only one pool per wallet.  You can't split your delegation to multiple pools from a single wallet.  Your rewards will automatically be added to your delegation without you having to claim the rewards.  You will pay a transaction fee to claim your rewards, so unless you are moving your ADA, it's ok to leave them unclaimed as you still earn on your unclaimed rewards.
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;/img/yoroi/yoroi-4ward.jpg&quot; alt=&quot;Yoroi Delegation List&quot; width=&quot;767&quot; /&gt;&lt;/p&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Yoroi Dashboard](/img/yoroi/yoroi-dashboard.jpg){: width=&quot;767&quot; }
+{: refdef}
 
-&lt;p&gt;There are some factors you should take into account when selecting a Cardano Pool.  If the Share/Pool Size is over 64 million ADA, you will miss out on some rewards.  This is called the &lt;a href=&quot;https://iohk.zendesk.com/hc/en-us/articles/900004671183-Changes-on-k-parameter-on-epoch-234&quot; target=&quot;_blank&quot;&gt;“k” parameter&lt;/a&gt;.  Larger pools will generally give a steady reward but don’t help decentralize Cardano.  For example, Binance owns over 40 Cardano pools.  Concentrating that much ADA to one entity obviously has a negative effect on decentralization.  Please consider delegating to a smaller pool when making your choice.&lt;/p&gt;
+&lt;br /&gt;
+## Transfering Funds to Yoroi ##
 
-&lt;p&gt;Other factors include the historical pool performance and fees.  Historical pool performance doesn’t mean the pool will continue to have that performance, but it is a decent indicator of how well the pool is maintained.  (Newer pools like mine, obviously won’t have any historical performance.)  The basic/min fee of 340 ADA is the recommended minimum fee.  From there, a pool can have a variable fee of 0% to 100%.  If a pool has a 1% fee, that does not mean that you get 1% less rewards!  The 1% fee is calculated by taking the total rewards in a single epoch (5 day period), subtracting the 340 min fee, and then multiplying that by 1%.  The rest (99% in this example) is distributed to all of the delegators in proporation to the amount of ADA they delegated.  If there are 10 delegates and they all have the same amount of ADA delegated, each delegate would get 10% of the rewards after subtracting the 340 ADA and the variable fee.  So the affect of the small variable fee is minimal to your rewards overall.&lt;/p&gt;
+Click on the &quot;Receive&quot; tab from the Yoroi Dashboard.  You'll be given a receive address that you will use to transfer your ADA from an exchange to your Yoroi wallet.  With Cardano, your wallet will generate a new ADA receive address once the wallet receives a transfer on the current receive address.  If you happen to send ADA to one of your previous ADA receive addresses, don't sweat it, it'll still be deposited to your wallet.  The reason Cardano gives you a new receive address is for security and privacy purposes as anyone who knows that address can look up it's activity on the Cardano blockchain.  By using different receive addresses, the total holdings of the main wallet are unknown.  Further explanation can be found [here](https://forum.cardano.org/t/why-generate-a-new-address/13544){:target=&quot;_blank&quot;}.
 
-&lt;p&gt;These variable fees help Pool Operators pay for the costs of operating and maintaining a Cardano Pool.  Some pools also donate to causes.  If you are interested in learning more about that, see &lt;a href=&quot;https://www.missiondrivenpools.org/&quot; target=&quot;_blank&quot;&gt;Mission Driven Pools&lt;/a&gt;.  For my &lt;a href=&quot;https://4wardpool.swiftcryptollc.com&quot; target=&quot;_blank&quot;&gt;4WARD&lt;/a&gt; pool, I’m working on setting up donations to a Veteran charity.  Once I have that in place, I’ll be sending out an announcement!&lt;/p&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Receive ADA](/img/yoroi/yoroi-receive.jpg){: width=&quot;767&quot; }
+{: refdef}
 
-&lt;p&gt;Once you’ve selected a pool, hit the “DELEGATE” button.  You will need to confirm the Stake Pool information and the amount of ADA to delegate.  You will be shown the delegation and transaction fee.  When you unstake, you will get the delegation fee back but not the small delegation transaction fee.  Hit “DELEGATE” to stake!&lt;/p&gt;
+Copy the receive address and head over to your exchange.  The Cardano website has a good article on [withdrawing your ADA](https://forum.cardano.org/t/how-to-safely-withdraw-your-ada-from-exchanges/47624){:target=&quot;_blank&quot;} from an exchange.  One of my favorite exchanges is [Coinbase Pro](https://pro.coinbase.com){:target=&quot;_blank&quot;}.  
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;rewards&quot;&gt;Rewards&lt;/h2&gt;
+_Note that if you have a [Coinbase](https://coinbase.com){:target=&quot;_blank&quot;}, then you have a Coinbase Pro account.  Coinbase and Coinbase Pro have separate holdings and you can transfer between the two for free.  Coinbase Pro has lower fees than Coinbase and allows you to submit limit and stop trades._
 
-&lt;p&gt;It’s imporant to note two things about rewards.  The first is that if your selected pool is not active for an epoch, then you will not receive any rewards from that epoch.  This can be frustrating and it’s the reason that some people don’t support smaller pools.  Before each epoch, a weighted random selection of pools to be active for the next epoch occurs.  The pledge and live stake are two important variables into that selection.  Smaller pools have a lower chance of being selected, however they will offer greater rewards than larger pools since the rewards are split between less delegates.  Over time, delegating to a small or large pool should even out to a similar return.&lt;/p&gt;
+For Coinbase Pro, click on your Portfolio and then click &quot;Withdraw&quot;.  You'll be given a popup similar to the following screenshot.
 
-&lt;p&gt;At the start of an epoch, snapshots are taken of all pools and that information is used to calculate the rewards.  That means that if you deposit or withdraw after the start of an epoch, it has no affect on your rewards for that epoch.  It can take up to 20 days for you to receive your first rewards (assuming your selected pool is active the entire time).  The steps look like this:&lt;/p&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Coinbase Pro Withdraw](/img/yoroi/pro-coinbase-withdraw.jpg)
+{: refdef}
 
-&lt;ul&gt;
-  &lt;li&gt;You delegate your ADA to a pool during Epoch A (1 to 5 days)&lt;/li&gt;
-  &lt;li&gt;Epoch B, your pool is active you earn rewards (5 days)&lt;/li&gt;
-  &lt;li&gt;Epoch C, rewards for Epoch B are calculated (5 days)&lt;/li&gt;
-  &lt;li&gt;Epoch D, Rewards for Epoch B are paid out (5 days)&lt;/li&gt;
-&lt;/ul&gt;
+All of my ADA is pledged to my [4WARD](https://4wardpool.swiftcryptollc.com){:target=&quot;_blank&quot;} pool so I won't have any funds to withdraw.  The important thing to note is that after pasting your Yoroi receive address, you should see the green &quot;Valid ADA Address&quot; message.  The fees to transfer ADA are low so if you want to be sure about how you have everything setup, then you can send as little as 1 ADA.  It can take a couple of minutes to go through, so be patient with it.  If you click on the &quot;Transaction&quot; tab within Yoroi, you should eventually see the transfer.  If it goes through, then you know you've done everything right.  If it doesn't show up after 30 minutes (way past the time it should have showed up), then you have a disconnect somewhere along the way.  Always make sure of your receive address within Yoroi and then within your exchange.  If everything is good, then you can transfer the rest to your Yoroi wallet. 
 
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-This process repeats for every epoch that your pool is active.  Because of the delayed reward distribution, if you completely unstake your delegation, you will forfeit rewards you may have earned.  If you withdraw ADA from your wallet, but keep your staking active, you will still receive your rewards that you’ve already earned.  With that, if you wanted to liquidate all of your ADA, you might want to leave 1 ADA in your account for 3 epochs to gather the rest of your earned rewards before unstaking.&lt;/p&gt;
+&lt;br /&gt;
+## Delegating/Staking ##
 
-&lt;p&gt;That’s it!  You are now earning passive income and supporting the Cardano network through staking!&lt;/p&gt;
+Now that your wallet is funded, you can delegate!  (If you are new to staking overall, Cardano has a good [FAQ](https://cardano.org/stake-pool-delegation#faq){:target=&quot;_blank&quot;} for further information.)  Click on the &quot;Delegation List&quot; tab within Yoroi.  By default, the list is sorted by [Score](https://adapools.org/score){:target=&quot;_blank&quot;} which is a calculation based on pledge, delegation, live stake, and other variables.  You can search for pools using the Search box.  As an example, search for &quot;4WARD&quot;, which is my Cardano Pool.
 
-&lt;p&gt;&lt;em&gt;If this guide has helped you, please consider helping me get my &lt;a href=&quot;https://4wardpool.swiftcryptollc.com&quot; target=&quot;_blank&quot;&gt;4WARD&lt;/a&gt; pool off the ground by delegating with me.  Thank you!&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">If you are an ADA holder, then staking is a great way to earn passive income. What makes Cardano different from some other crypto is that you never lock up your ADA, you never lose custody of it, and the rewards are compounding. You can unstake, stake, and transfer whenever you want. (If you do unstake though, you may miss rewards from the pool that you were staked to.) If you want to see how much you could earn, check out the Cardano Staking Calculator.</summary></entry><entry><title type="html">Add a Copy Button for Jekyll HTML Code</title><link href="https://swiftcryptollc.github.io/2021/11/11/add-jekyll-copy/" rel="alternate" type="text/html" title="Add a Copy Button for Jekyll HTML Code" /><published>2021-11-11T15:00:00-05:00</published><updated>2021-11-11T15:00:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/11/add-jekyll-copy</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/11/add-jekyll-copy/">&lt;p&gt;So when I finally decided to create a website for my business, I started down the Angular path because that’s what I knew.  It wasn’t until I started playing with &lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot;&gt;Github Pages&lt;/a&gt; that I was introduced to &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;.  So far?  It’s awesome.&lt;/p&gt;
+{:refdef: style=&quot;text-align: center;&quot;}
+![Yoroi Delegation List](/img/yoroi/yoroi-4ward.jpg){: width=&quot;767&quot; }
+{: refdef}
+_*Note that the &quot;Swift Crypto LLC&quot; pool has since been renamed &quot;ADA for Warriors&quot;. See [here](/news/2022-01-27-ada-for-warriors/){:target=&quot;_blank&quot;} for more information_
 
-&lt;p&gt;All the memes about Full Stack Developers writing massive amounts of back end code in an hour or two, but then spending 6 hours trying to center a div are fairly accurate for me..  I’ve used CSS quite a bit, but I’ll always stumble on something.  With Jekyll, a lot of that headache was taken away!  But one thing I wanted to be able to do, wasn’t readily available in the theme I had chosen.  That was to have a “Copy” button on my code snippets.&lt;/p&gt;
+There are some factors you should take into account when selecting a Cardano Pool.  If the Share/Pool Size is over 64 million ADA, you will miss out on some rewards.  This is called the [&quot;k&quot; parameter](https://iohk.zendesk.com/hc/en-us/articles/900004671183-Changes-on-k-parameter-on-epoch-234){:target=&quot;_blank&quot;}.  Larger pools will generally give a steady reward but don't help decentralize Cardano.  For example, Binance owns over 40 Cardano pools.  Concentrating that much ADA to one entity obviously has a negative effect on decentralization.  Please consider delegating to a smaller pool when making your choice.
 
-&lt;p&gt;Searching the internet, I came across a blog post from &lt;a href=&quot;https://www.aleksandrhovhannisyan.com/blog/how-to-add-a-copy-to-clipboard-button-to-your-jekyll-blog/&quot; target=&quot;_blank&quot;&gt;Aleksandr Hovhannisyan&lt;/a&gt; (Thank you sir!).  I started implementing what he did but realized that I would have to make some changes to make it work for my site.&lt;/p&gt;
+Other factors include the historical pool performance and fees.  Historical pool performance doesn't mean the pool will continue to have that performance, but it is a decent indicator of how well the pool is maintained.  (Newer pools like mine, obviously won't have any historical performance.)  The basic/min fee of 340 ADA is the recommended minimum fee.  From there, a pool can have a variable fee of 0% to 100%.  If a pool has a 1% fee, that does not mean that you get 1% less rewards!  The 1% fee is calculated by taking the total rewards in a single epoch (5 day period), subtracting the 340 min fee, and then multiplying that by 1%.  The rest (99% in this example) is distributed to all of the delegators in proporation to the amount of ADA they delegated.  If there are 10 delegates and they all have the same amount of ADA delegated, each delegate would get 10% of the rewards after subtracting the 340 ADA and the variable fee.  So the affect of the small variable fee is minimal to your rewards overall.
 
-&lt;p&gt;Here’s what I did.&lt;/p&gt;
+These variable fees help Pool Operators pay for the costs of operating and maintaining a Cardano Pool.  Some pools also donate to causes.  If you are interested in learning more about that, see [Mission Driven Pools](https://www.missiondrivenpools.org/){:target=&quot;_blank&quot;}.  For my [4WARD](https://4wardpool.swiftcryptollc.com){:target=&quot;_blank&quot;} pool, I'm working on setting up donations to a Veteran charity.  Once I have that in place, I'll be sending out an announcement!
 
-&lt;h2 id=&quot;create-a-new-javascript-file&quot;&gt;Create a new JavaScript File&lt;/h2&gt;
+Once you've selected a pool, hit the &quot;DELEGATE&quot; button.  You will need to confirm the Stake Pool information and the amount of ADA to delegate.  You will be shown the delegation and transaction fee.  When you unstake, you will get the delegation fee back but not the small delegation transaction fee.  Hit &quot;DELEGATE&quot; to stake!
 
-&lt;p&gt;If you don’t have a “js” directory in your base folder, add one.  Create a new file, add the following code to it, and save it.  I’m going to assume that you named the file “copyCode.js”.  If you don’t use &lt;a href=&quot;https://fontawesome.com/&quot; target=&quot;_blank&quot;&gt;Font Awesome&lt;/a&gt;, you will have to change the “fa-copy” and “fa-check” class references to your class.&lt;/p&gt;
+&lt;br /&gt;
+## Rewards ##
 
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
+It's imporant to note two things about rewards.  The first is that if your selected pool is not active for an epoch, then you will not receive any rewards from that epoch.  This can be frustrating and it's the reason that some people don't support smaller pools.  Before each epoch, a weighted random selection of pools to be active for the next epoch occurs.  The pledge and live stake are two important variables into that selection.  Smaller pools have a lower chance of being selected, however they will offer greater rewards than larger pools since the rewards are split between less delegates.  Over time, delegating to a small or large pool should even out to a similar return.
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;codeBlocks&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;figure &amp;gt; pre &amp;gt; code&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;copyCodeButtons&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;.copy-code-button&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;copyCodeButtons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;codeBlocks&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+At the start of an epoch, snapshots are taken of all pools and that information is used to calculate the rewards.  That means that if you deposit or withdraw after the start of an epoch, it has no affect on your rewards for that epoch.  It can take up to 20 days for you to receive your first rewards (assuming your selected pool is active the entire time).  The steps look like this:
 
-  &lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;navigator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;clipboard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;writeText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fa-copy&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fa-check&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+*   You delegate your ADA to a pool during Epoch A (1 to 5 days)
+*   Epoch B, your pool is active you earn rewards (5 days)
+*   Epoch C, rewards for Epoch B are calculated (5 days)
+*   Epoch D, Rewards for Epoch B are paid out (5 days)
+
+&lt;br /&gt;&lt;br /&gt;
+This process repeats for every epoch that your pool is active.  Because of the delayed reward distribution, if you completely unstake your delegation, you will forfeit rewards you may have earned.  If you withdraw ADA from your wallet, but keep your staking active, you will still receive your rewards that you've already earned.  With that, if you wanted to liquidate all of your ADA, you might want to leave 1 ADA in your account for 3 epochs to gather the rest of your earned rewards before unstaking.
+
+That's it!  You are now earning passive income and supporting the Cardano network through staking!  
+
+_If this guide has helped you, please consider helping me get my [4WARD](https://4wardpool.swiftcryptollc.com){:target=&quot;_blank&quot;} pool off the ground by delegating with me.  Thank you!_</content><author><name></name></author><summary type="html">If you are an ADA holder, then staking is a great way to earn passive income. What makes Cardano different from some other crypto is that you never lock up your ADA, you never lose custody of it, and the rewards are compounding. You can unstake, stake, and transfer whenever you want. (If you do unstake though, you may miss rewards from the pool that you were staked to.) If you want to see how much you could earn, check out the Cardano Staking Calculator.</summary></entry><entry><title type="html">Add a Copy Button for Jekyll HTML Code</title><link href="http://0.0.0.0:4000/2021/11/11/add-jekyll-copy/" rel="alternate" type="text/html" title="Add a Copy Button for Jekyll HTML Code" /><published>2021-11-11T15:00:00-05:00</published><updated>2021-11-11T15:00:00-05:00</updated><id>http://0.0.0.0:4000/2021/11/11/add-jekyll-copy</id><content type="html" xml:base="http://0.0.0.0:4000/2021/11/11/add-jekyll-copy/">So when I finally decided to create a website for my business, I started down the Angular path because that's what I knew.  It wasn't until I started playing with [Github Pages](https://pages.github.com/){:target=&quot;_blank&quot;} that I was introduced to [Jekyll](https://jekyllrb.com/){:target=&quot;_blank&quot;}.  So far?  It's awesome.
+
+All the memes about Full Stack Developers writing massive amounts of back end code in an hour or two, but then spending 6 hours trying to center a div are fairly accurate for me..  I've used CSS quite a bit, but I'll always stumble on something.  With Jekyll, a lot of that headache was taken away!  But one thing I wanted to be able to do, wasn't readily available in the theme I had chosen.  That was to have a &quot;Copy&quot; button on my code snippets.
+
+Searching the internet, I came across a blog post from [Aleksandr Hovhannisyan](https://www.aleksandrhovhannisyan.com/blog/how-to-add-a-copy-to-clipboard-button-to-your-jekyll-blog/){:target=&quot;_blank&quot;} (Thank you sir!).  I started implementing what he did but realized that I would have to make some changes to make it work for my site.
+
+Here's what I did.
+
+## Create a new JavaScript File ##
+
+If you don't have a &quot;js&quot; directory in your base folder, add one.  Create a new file, add the following code to it, and save it.  I'm going to assume that you named the file &quot;copyCode.js&quot;.  If you don't use [Font Awesome](https://fontawesome.com/){:target=&quot;_blank&quot;}, you will have to change the &quot;fa-copy&quot; and &quot;fa-check&quot; class references to your class.
+
+{% include code_header.html %}
+{% highlight javascript %}
+const codeBlocks = document.querySelectorAll('figure &gt; pre &gt; code');
+const copyCodeButtons = document.querySelectorAll('.copy-code-button');
+copyCodeButtons.forEach((copyCodeButton, index) =&gt; {
+  const code = codeBlocks[index].innerText;
+
+  copyCodeButton.addEventListener('click', () =&gt; {
+    window.navigator.clipboard.writeText(code);
+    copyCodeButton.classList.remove('fa-copy');
+    copyCodeButton.classList.add('fa-check');
  
-    &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fa-check&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-      &lt;span class=&quot;nx&quot;&gt;copyCodeButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;classList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;fa-copy&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+    setTimeout(() =&gt; {
+      copyCodeButton.classList.remove('fa-check');
+      copyCodeButton.classList.add('fa-copy');
+    }, 2000);
+  });
+});
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+{% endhighlight %}
+&lt;br /&gt;
 
-&lt;h2 id=&quot;add-the-javascript-file-to-an-_include-template&quot;&gt;Add the Javascript File to an _include Template&lt;/h2&gt;
+## Add the Javascript File to an _include Template ##
 
-&lt;p&gt;I have a “js.html” file in my “_include” folder that contains all of the JavaScript to load for my site.  No matter how you add your JavaScript references, add your newly created file to the list.  For me, I added this line to my “js.html” file (rename the js file accordingly).&lt;/p&gt;
+I have a &quot;js.html&quot; file in my &quot;_include&quot; folder that contains all of the JavaScript to load for my site.  No matter how you add your JavaScript references, add your newly created file to the list.  For me, I added this line to my &quot;js.html&quot; file (rename the js file accordingly).
 
-&lt;ul&gt;
-  &lt;li&gt;Note that “defer” will cause the JavaScript to wait until the page loads before executing.  This is important since it’ll look for code snippets, add listeners to each of the buttons, and properly map the button to it’s code snippet.&lt;/li&gt;
-&lt;/ul&gt;
+* Note that &quot;defer&quot; will cause the JavaScript to wait until the page loads before executing.  This is important since it'll look for code snippets, add listeners to each of the buttons, and properly map the button to it's code snippet.
 
+{% include code_header.html %}
+{% highlight javascript %}
+&lt;script src=&quot;{{ &quot;/js/copyCode.js&quot; | prepend: site.baseurl }}&quot; defer&gt;&lt;/script&gt;
+{% endhighlight %}
+&lt;br /&gt;
+
+## Add Copy Header HTML File ##
+
+Create a new HTML file under &quot;_include&quot; that will contain the HTML to display the button.  I named mine &quot;code_header.html&quot;.  Again, if you don't use [Font Awesome](https://fontawesome.com/), you will have to change the button class &quot;fas fa-copy&quot;. 
+
+{% include code_header.html %}
+{% highlight html %}
 &lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
+  &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
 &lt;/div&gt;
+{% endhighlight %}
+&lt;br /&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/js/copyCode.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;defer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+## Update Highlight References ##
 
-&lt;h2 id=&quot;add-copy-header-html-file&quot;&gt;Add Copy Header HTML File&lt;/h2&gt;
+Update any Highlight references you currently have and add a line immediately above it to include &quot;code_header.html&quot; (or whatever you named it). 
 
-&lt;p&gt;Create a new HTML file under “_include” that will contain the HTML to display the button.  I named mine “code_header.html”.  Again, if you don’t use &lt;a href=&quot;https://fontawesome.com/&quot;&gt;Font Awesome&lt;/a&gt;, you will have to change the button class “fas fa-copy”.&lt;/p&gt;
+{% include code_header.html %}
+{% highlight html %}
+{% raw %}
+{% include code_header.html %}
+{% endraw %}
+{% endhighlight %}
+&lt;br /&gt;
 
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;code-header&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;copy-code-button fas fa-copy&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;aria-label=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Copy code to clipboard&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;update-highlight-references&quot;&gt;Update Highlight References&lt;/h2&gt;
-
-&lt;p&gt;Update any Highlight references you currently have and add a line immediately above it to include “code_header.html” (or whatever you named it).&lt;/p&gt;
-
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% include code_header.html %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Full example:&lt;/p&gt;
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-rogue&quot; data-lang=&quot;rogue&quot;&gt;{% include code_header.html %}
+Full example:
+{% include code_header.html %}
+{% highlight rogue %}
+{% raw %}
+{% include code_header.html %}
 {% highlight bash %}
 echo &quot;Hello&quot;;
-{% endhighlight %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+{% endhighlight %}
+{% endraw %}
+{% endhighlight %}
+&lt;br /&gt;
+## Add CSS ##
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;add-css&quot;&gt;Add CSS&lt;/h2&gt;
+This part may unfortuntately need some modification for your site.  Create a new CSS file under &quot;_includes/css&quot; and paste the following into it.  
 
-&lt;p&gt;This part may unfortuntately need some modification for your site.  Create a new CSS file under “_includes/css” and paste the following into it.&lt;/p&gt;
+* You might need to change the &quot;top&quot; to properly align the button within your code snippet.  You also might need to change the &quot;font-size&quot; value so it looks appropriate for your site.  
 
-&lt;ul&gt;
-  &lt;li&gt;You might need to change the “top” to properly align the button within your code snippet.  You also might need to change the “font-size” value so it looks appropriate for your site.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;.code-header {
+{% include code_header.html %}
+{% highlight html %}
+.code-header {
     display: flex;
     justify-content: flex-end;
   }
@@ -650,161 +517,141 @@ echo &quot;Hello&quot;;
     top: 20px !important;
     position: relative;
     border: none;
-}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;build-and-deploy&quot;&gt;Build and Deploy&lt;/h2&gt;
-
-&lt;p&gt;Build and test your site out!&lt;/p&gt;
-
-&lt;p&gt;I realize this won’t be just a copy/paste exercise for most of you, but hopefully this guide can get you 90% of the way there!  If you have any questions, please feel free to reach out!&lt;/p&gt;</content><author><name></name></author><summary type="html">So when I finally decided to create a website for my business, I started down the Angular path because that’s what I knew. It wasn’t until I started playing with Github Pages that I was introduced to Jekyll. So far? It’s awesome.</summary></entry><entry><title type="html">Phoenix Miner/T-Rex Watch Scripts</title><link href="https://swiftcryptollc.github.io/2021/11/11/watch-scripts/" rel="alternate" type="text/html" title="Phoenix Miner/T-Rex Watch Scripts" /><published>2021-11-11T10:40:00-05:00</published><updated>2021-11-11T10:40:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/11/watch-scripts</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/11/watch-scripts/">&lt;p&gt;I’ve been mining Ethereum with &lt;a href=&quot;https://bitcointalk.org/index.php?topic=2647654.0&quot; target=&quot;_blank&quot;&gt;Phoenix Miner&lt;/a&gt; since February of this year (using Ubuntu 20.04).  One thing I wanted was automated updates on the status of my rigs.  I also had intermittent issues with my AMD cards which would cause one of my rigs to crash.  Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash.  (I did make sure that the crashes aren’t related to any over/under clocks I used, they aren’t..)&lt;/p&gt;
-
-&lt;p&gt;When Phoenix Miner crashed from one of the AMD cards (PowerColor 5700 XTs), my system was completely locked up.  I installed &lt;a href=&quot;https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/?th=1&quot; target=&quot;_blank&quot;&gt;BN Link Smart Plugs&lt;/a&gt; to be able to remotely shutdown and restart the rig, but there’s always risk with just cutting power to a server like that.  Ideally, it’s shutdown or rebooted appropriately.&lt;/p&gt;
-
-&lt;p&gt;I’m not a Perl master, but I know enough to be dangerous.  So I put that to use and wrote a script that would tail the Phoenix Miner log.  The script assumes a Linux install and depends on “sendmail” and “perl”.  You can install “sendmail” and “perl” by running the following (choose the appropriate one for your Linux platform):&lt;/p&gt;
-
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;dnf &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; sendmail perl&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; sendmail perl&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;
-The Phoenix Miner script will report the following via an email:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Hash Rate Summary every 6 hours&lt;/li&gt;
-  &lt;li&gt;Notification of an Invalid Hash Rate (the script will automatically reboot the server if this occurs to prevent a system lock up)&lt;/li&gt;
-  &lt;li&gt;Notification of a Reboot&lt;/li&gt;
-  &lt;li&gt;Notification of an Incorrect Eth Share
+}
+{% endhighlight %}
 &lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;h2 id=&quot;t-rex-miner&quot;&gt;T-Rex Miner&lt;/h2&gt;
-&lt;p&gt;I recently bought some LHR Nvidia cards.  To mine with these cards, I switched to &lt;a href=&quot;https://github.com/trexminer/T-Rex/releases&quot; target=&quot;_blank&quot;&gt;T-Rex Miner&lt;/a&gt;.  (Quick tip, mess with the mining intensity for each of your LHR cards with “auto tune” enabled.  A lower mining intensity can limit LHR locks overall and thus, increase your hash rate.)  I modified the Phoenix Miner script to work with T-Rex.&lt;/p&gt;
+## Build and Deploy ##
 
-&lt;p&gt;The T-Rex Miner script will report the following via an email:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Hash Rate and LHR Summary every 6 hours&lt;/li&gt;
-  &lt;li&gt;Notification of a Reboot&lt;/li&gt;
-  &lt;li&gt;Notification of an Incorrect Eth Share&lt;/li&gt;
-&lt;/ul&gt;
+Build and test your site out!
 
-&lt;p&gt;&lt;br /&gt;
-I’ve only ever had the invalid hash rate with the AMD cards and Phoenix Miner.  T-Rex is only for Nvidia cards and I’ve never encountered that with T-Rex, so that part of the script has been removed.  If you do encounter that issue, please send contact me and send me your log file!&lt;/p&gt;
+I realize this won't be just a copy/paste exercise for most of you, but hopefully this guide can get you 90% of the way there!  If you have any questions, please feel free to reach out!</content><author><name></name></author><summary type="html">So when I finally decided to create a website for my business, I started down the Angular path because that’s what I knew. It wasn’t until I started playing with Github Pages that I was introduced to Jekyll. So far? It’s awesome.</summary></entry><entry><title type="html">Phoenix Miner/T-Rex Watch Scripts</title><link href="http://0.0.0.0:4000/2021/11/11/watch-scripts/" rel="alternate" type="text/html" title="Phoenix Miner/T-Rex Watch Scripts" /><published>2021-11-11T10:40:00-05:00</published><updated>2021-11-11T10:40:00-05:00</updated><id>http://0.0.0.0:4000/2021/11/11/watch-scripts</id><content type="html" xml:base="http://0.0.0.0:4000/2021/11/11/watch-scripts/">I've been mining Ethereum with [Phoenix Miner](https://bitcointalk.org/index.php?topic=2647654.0){:target=&quot;_blank&quot;} since February of this year (using Ubuntu 20.04).  One thing I wanted was automated updates on the status of my rigs.  I also had intermittent issues with my AMD cards which would cause one of my rigs to crash.  Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash.  (I did make sure that the crashes aren't related to any over/under clocks I used, they aren't..)
 
-&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
-&lt;p&gt;I call these Perl scipts from within my miner scripts.  The Perl scripts look for the newest log file in your specified log file directory.  So you do need to make sure that your miner software is already running.  To do that, I add this line to the beginning of my miner scripts:&lt;/p&gt;
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
+When Phoenix Miner crashed from one of the AMD cards (PowerColor 5700 XTs), my system was completely locked up.  I installed [BN Link Smart Plugs](https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/?th=1){:target=&quot;_blank&quot;} to be able to remotely shutdown and restart the rig, but there's always risk with just cutting power to a server like that.  Ideally, it's shutdown or rebooted appropriately.
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sleep &lt;/span&gt;300&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; perl /opt/phoenix/phoenix-watch.pl /opt/phoenix/logs sendtoemail@domain.com&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &amp;amp;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+I'm not a Perl master, but I know enough to be dangerous.  So I put that to use and wrote a script that would tail the Phoenix Miner log.  The script assumes a Linux install and depends on &quot;sendmail&quot; and &quot;perl&quot;.  You can install &quot;sendmail&quot; and &quot;perl&quot; by running the following (choose the appropriate one for your Linux platform):
 
-&lt;p&gt;&lt;br /&gt;
-My resulting Phoenix Miner startup script looks similar to this (you may not have an Nvidia under/overclock script, so just remove it or replace it with yours):&lt;/p&gt;
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Load Nvidia over/underclocks&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; /opt/phoenix/nvidia-settings.sh
-
-&lt;span class=&quot;c&quot;&gt;# Start the watcher&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sleep &lt;/span&gt;300&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; perl /opt/phoenix/phoenix-watch.pl /opt/phoenix/logs sendtoemail@domain.com&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &amp;amp;
-
-&lt;span class=&quot;c&quot;&gt;# Start the miner &lt;/span&gt;
-/opt/phoenix/PhoenixMiner &lt;span class=&quot;nt&quot;&gt;-pool&lt;/span&gt; ssl://us1.ethermine.org:5555 &lt;span class=&quot;nt&quot;&gt;-wal&lt;/span&gt; 0xSetYourEthWalletAddressHere &lt;span class=&quot;nt&quot;&gt;-worker&lt;/span&gt; phoenixworker &lt;span class=&quot;nt&quot;&gt;-mi&lt;/span&gt; 14 &lt;span class=&quot;nt&quot;&gt;-epsw&lt;/span&gt; x &lt;span class=&quot;nt&quot;&gt;-coin&lt;/span&gt; eth &lt;span class=&quot;nt&quot;&gt;-mode&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-nvidia&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-proto&lt;/span&gt; 3 &lt;span class=&quot;nt&quot;&gt;-log&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-logdir&lt;/span&gt; /opt/phoenix/logs &lt;span class=&quot;nt&quot;&gt;-leaveoc&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-nvdo&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-nvNew&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-nvKernel&lt;/span&gt; 3 &lt;span class=&quot;nt&quot;&gt;-pool2&lt;/span&gt; ssl://eu2.ethermine.org:5555 &lt;span class=&quot;nt&quot;&gt;-cdmport&lt;/span&gt; 3333 &lt;span class=&quot;nt&quot;&gt;-eres&lt;/span&gt; 6 &lt;span class=&quot;nt&quot;&gt;-lidag&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-config&lt;/span&gt; /opt/phoenix/config.txt &lt;span class=&quot;nt&quot;&gt;-gpus&lt;/span&gt; 1,3,4,5&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;For T-Rex, my miner script looks similar to the following.  (If you don’t want to archive your log files, just remove that section.  Also remove or replace the Nvidia over/underclocks script for your setup.)&lt;/p&gt;
-
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Load Nvidia over/underclocks&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; /opt/trex/nvidia-settings.sh
-
-&lt;span class=&quot;c&quot;&gt;# Start the watcher&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sleep &lt;/span&gt;300&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; perl /opt/trex/trex-watch.pl /opt/trex/logs sendtoemail@domain.com&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &amp;amp;
-
-&lt;span class=&quot;c&quot;&gt;# Archive the existing log file&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; /opt/trex/logs/archive
-&lt;span class=&quot;nb&quot;&gt;mv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-nv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; /opt/trex/logs/trex.log /opt/trex/logs/archive/trex-&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt; +&lt;span class=&quot;s1&quot;&gt;'%Y%m%d_%H%M%S'&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;.log
-
-&lt;span class=&quot;c&quot;&gt;# Delete the previous log file&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; /opt/trex/logs/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.log
-
-&lt;span class=&quot;c&quot;&gt;# Start the miner&lt;/span&gt;
-/opt/trex/t-rex &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; ethash &lt;span class=&quot;nt&quot;&gt;--url&lt;/span&gt; stratum+ssl://us1.ethermine.org:5555 &lt;span class=&quot;nt&quot;&gt;--user&lt;/span&gt; 0xSetYourEthWalletAddressHere &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; x &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; trexworker &lt;span class=&quot;nt&quot;&gt;--log-path&lt;/span&gt; /opt/trex/logs/trex.log &lt;span class=&quot;nt&quot;&gt;--no-watchdog&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--send-stales&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; 1,5 &lt;span class=&quot;nt&quot;&gt;--kernel&lt;/span&gt; 0 &lt;span class=&quot;nt&quot;&gt;--lhr-tune&lt;/span&gt; 68,71 &lt;span class=&quot;nt&quot;&gt;--lhr-autotune-mode&lt;/span&gt; full &lt;span class=&quot;nt&quot;&gt;--coin&lt;/span&gt; eth &lt;span class=&quot;nt&quot;&gt;--intensity&lt;/span&gt; 15.5,22.1&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;final-notes&quot;&gt;Final Notes&lt;/h2&gt;
-&lt;p&gt;The emails you receive from the script will most likely be marked as Spam.  So check your Spam folder for the emails.  If you add the sending email to your contacts, it’s possible that your email provider might not mark it as spam.  The Sending email address will always be from “hostname@hostname.com” where “hostname” is the short hostname for the server the script is running on.  (If you try to use your Gmail email as the sender email, it won’t go through.)&lt;/p&gt;
-
-&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
-&lt;p&gt;You can download the scripts and use them as you see fit.  You can change the email interval by modifying the “sendSummary” value in the script.  The current values will result in a summary email once every 6 hours.
-&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/tools/phoenix-watch.pl&quot;&gt;Phoenix Miner Watch&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/tools/trex-watch.pl&quot;&gt;T-Rex Miner Watch&lt;/a&gt;
+{% include code_header.html %}
+{% highlight bash %}
+sudo dnf install -y sendmail perl
+{% endhighlight %}
+{% include code_header.html %}
+{% highlight bash %}
+sudo apt install -y sendmail perl
+{% endhighlight %}
 &lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
+The Phoenix Miner script will report the following via an email:
+* Hash Rate Summary every 6 hours
+* Notification of an Invalid Hash Rate (the script will automatically reboot the server if this occurs to prevent a system lock up)
+* Notification of a Reboot
+* Notification of an Incorrect Eth Share
+&lt;br /&gt;
+&lt;br /&gt;
 
-&lt;p&gt;Happy Mining!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve been mining Ethereum with Phoenix Miner since February of this year (using Ubuntu 20.04). One thing I wanted was automated updates on the status of my rigs. I also had intermittent issues with my AMD cards which would cause one of my rigs to crash. Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash. (I did make sure that the crashes aren’t related to any over/under clocks I used, they aren’t..)</summary></entry><entry><title type="html">Mining Shiba Inu</title><link href="https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu/" rel="alternate" type="text/html" title="Mining Shiba Inu" /><published>2021-11-09T11:17:00-05:00</published><updated>2021-11-09T11:17:00-05:00</updated><id>https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu</id><content type="html" xml:base="https://swiftcryptollc.github.io/2021/11/09/mining-shiba-inu/">&lt;p&gt;You can mine SHIB on just about any CPU with XMRig (results will vary of course) and &lt;a href=&quot;https://www.unmineable.com/&quot; target=&quot;_blank&quot;&gt;Unmineable&lt;/a&gt;. It’s not very profitable, but if you are already running servers then you might as well give them something else to do!&lt;/p&gt;
+## T-Rex Miner ##
+I recently bought some LHR Nvidia cards.  To mine with these cards, I switched to [T-Rex Miner](https://github.com/trexminer/T-Rex/releases){:target=&quot;_blank&quot;}.  (Quick tip, mess with the mining intensity for each of your LHR cards with &quot;auto tune&quot; enabled.  A lower mining intensity can limit LHR locks overall and thus, increase your hash rate.)  I modified the Phoenix Miner script to work with T-Rex.
 
-&lt;p&gt;Your first step is to download &lt;a href=&quot;https://github.com/xmrig/xmrig/releases&quot; target=&quot;_blank&quot;&gt;XMRig&lt;/a&gt;.&lt;/p&gt;
+The T-Rex Miner script will report the following via an email:
+* Hash Rate and LHR Summary every 6 hours
+* Notification of a Reboot
+* Notification of an Incorrect Eth Share
 
-&lt;p&gt;You’ll also need to setup an Ethereum based wallet.  I always recommend getting a hardware wallet like a &lt;a href=&quot;https://shop.ledger.com/products/ledger-nano-x&quot; target=&quot;_blank&quot;&gt;Ledger Nano X&lt;/a&gt;.  Some software wallets include &lt;a href=&quot;https://metamask.io/&quot; target=&quot;_blank&quot;&gt;Metamask&lt;/a&gt; and &lt;a href=&quot;https://wallet.coinbase.com/&quot; target=&quot;_blank&quot;&gt;Coinbase&lt;/a&gt;.  You can connect your hardware wallet to both of those wallets.  Here are &lt;a href=&quot;https://www.ledger.com/academy/security/the-safest-way-to-use-metamask&quot; target=&quot;_blank&quot;&gt;instructions&lt;/a&gt; on connecting Metamask to a Ledger hardware wallet.&lt;/p&gt;
+&lt;br /&gt;
+I've only ever had the invalid hash rate with the AMD cards and Phoenix Miner.  T-Rex is only for Nvidia cards and I've never encountered that with T-Rex, so that part of the script has been removed.  If you do encounter that issue, please send contact me and send me your log file!
 
-&lt;p&gt;After setting up XMRig and your wallet, you’ll want to tweak your OS settings to enable &lt;a href=&quot;https://xmrig.com/docs/miner/hugepages&quot; target=&quot;_blank&quot;&gt;Hugepages&lt;/a&gt;.  It’ll offer a significant performance boost.&lt;/p&gt;
+## Usage ##
+I call these Perl scipts from within my miner scripts.  The Perl scripts look for the newest log file in your specified log file directory.  So you do need to make sure that your miner software is already running.  To do that, I add this line to the beginning of my miner scripts:
+{% include code_header.html %}
+{% highlight bash %}
+(sleep 300; perl /opt/phoenix/phoenix-watch.pl /opt/phoenix/logs sendtoemail@domain.com) &amp;
+{% endhighlight %}
+&lt;br /&gt;
+My resulting Phoenix Miner startup script looks similar to this (you may not have an Nvidia under/overclock script, so just remove it or replace it with yours):
+{% include code_header.html %}
+{% highlight bash %}
+#!/bin/bash
 
-&lt;p&gt;Now you are ready to create a script to run XMRig.&lt;/p&gt;
+# Load Nvidia over/underclocks
+sudo /opt/phoenix/nvidia-settings.sh
 
-&lt;p&gt;Windows: (Run it as admin to enabling huge pages)&lt;/p&gt;
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
+# Start the watcher
+(sleep 300; perl /opt/phoenix/phoenix-watch.pl /opt/phoenix/logs sendtoemail@domain.com) &amp;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;@echo off
+# Start the miner 
+/opt/phoenix/PhoenixMiner -pool ssl://us1.ethermine.org:5555 -wal 0xSetYourEthWalletAddressHere -worker phoenixworker -mi 14 -epsw x -coin eth -mode 1 -nvidia -proto 3 -log 1 -logdir /opt/phoenix/logs -leaveoc -nvdo 1 -nvNew 1 -nvKernel 3 -pool2 ssl://eu2.ethermine.org:5555 -cdmport 3333 -eres 6 -lidag 1 -config /opt/phoenix/config.txt -gpus 1,3,4,5
+{% endhighlight %}
+&lt;br /&gt;
 
-C:&lt;span class=&quot;se&quot;&gt;\o&lt;/span&gt;pt&lt;span class=&quot;se&quot;&gt;\x&lt;/span&gt;mrig-dir&lt;span class=&quot;se&quot;&gt;\x&lt;/span&gt;mrig-6.15.2&lt;span class=&quot;se&quot;&gt;\x&lt;/span&gt;mrig.exe &lt;span class=&quot;nt&quot;&gt;--cpu-affinity&lt;/span&gt; 0xFF &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; rx.unmineable.com:3333 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; SHIB:0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1#vumh-d27t &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; x &lt;span class=&quot;nt&quot;&gt;-k&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--hugepage-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1280 &lt;span class=&quot;nt&quot;&gt;--huge-pages-jit&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--threads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;8
+For T-Rex, my miner script looks similar to the following.  (If you don't want to archive your log files, just remove that section.  Also remove or replace the Nvidia over/underclocks script for your setup.)
 
-pause&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+{% include code_header.html %}
+{% highlight bash %}
+#!/bin/sh
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+# Load Nvidia over/underclocks
+sudo /opt/trex/nvidia-settings.sh
 
-&lt;p&gt;Linux:&lt;/p&gt;
-&lt;div class=&quot;code-header&quot;&gt;
-    &lt;button class=&quot;copy-code-button fas fa-copy&quot; aria-label=&quot;Copy code to clipboard&quot;&gt;&lt;/button&gt;
-&lt;/div&gt;
+# Start the watcher
+(sleep 300; perl /opt/trex/trex-watch.pl /opt/trex/logs sendtoemail@domain.com) &amp;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;/opt/xmrig/xmrig &lt;span class=&quot;nt&quot;&gt;--cpu-affinity&lt;/span&gt; 0xFF &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; rx.unmineable.com:3333 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; SHIB:0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1#vumh-d27t &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; x &lt;span class=&quot;nt&quot;&gt;-k&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--hugepage-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1280 &lt;span class=&quot;nt&quot;&gt;--huge-pages-jit&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--threads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;8 &lt;span class=&quot;nt&quot;&gt;--randomx-1gb-pages&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+# Archive the existing log file
+mkdir /opt/trex/logs/archive
+mv -nv -- /opt/trex/logs/trex.log /opt/trex/logs/archive/trex-$(date +'%Y%m%d_%H%M%S').log
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+# Delete the previous log file
+rm -f /opt/trex/logs/*.log
 
-&lt;p&gt;Replace
-“0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1” with your SHIB (ERC20/ETH) wallet address and change “worker1” to your worker name (can be whatever you want).&lt;/p&gt;
+# Start the miner
+/opt/trex/t-rex -a ethash --url stratum+ssl://us1.ethermine.org:5555 --user 0xSetYourEthWalletAddressHere -p x -w trexworker --log-path /opt/trex/logs/trex.log --no-watchdog --send-stales -d 1,5 --kernel 0 --lhr-tune 68,71 --lhr-autotune-mode full --coin eth --intensity 15.5,22.1
+{% endhighlight %}
+&lt;br /&gt;
 
-&lt;p&gt;The “vumh-d27t” is my referral code.  It will set your fee to .75% instead of 1%. Small difference, but it’ll add up over time.&lt;/p&gt;
+## Final Notes ##
+The emails you receive from the script will most likely be marked as Spam.  So check your Spam folder for the emails.  If you add the sending email to your contacts, it's possible that your email provider might not mark it as spam.  The Sending email address will always be from &quot;hostname@hostname.com&quot; where &quot;hostname&quot; is the short hostname for the server the script is running on.  (If you try to use your Gmail email as the sender email, it won't go through.)
 
-&lt;p&gt;Change the location of the XMRig executable file based on where you installed it, and change “threads” to however many CPUs you have. Note that sometimes it’ll run better if you don’t use all of your available CPUs. Press “h” to check the CPU speeds. Try 50%, 75%, 90%, and 100% of your available CPUs (including threads) to find the sweet spot for your CPU.&lt;/p&gt;
+## Download ##
+You can download the scripts and use them as you see fit.  You can change the email interval by modifying the &quot;sendSummary&quot; value in the script.  The current values will result in a summary email once every 6 hours.
+&lt;br /&gt;
+* [Phoenix Miner Watch](/tools/phoenix-watch.pl)
+* [T-Rex Miner Watch](/tools/trex-watch.pl)
+&lt;br /&gt;
+&lt;br /&gt;
 
-&lt;p&gt;Once you start mining, go to &lt;a href=&quot;https://www.unmineable.com/coins/SHIB/address&quot; target=&quot;_blank&quot;&gt;Unmineable/SHIB&lt;/a&gt; and enter your ETH/ERC20 public wallet address to track your earning!&lt;/p&gt;
+Happy Mining!</content><author><name></name></author><summary type="html">I’ve been mining Ethereum with Phoenix Miner since February of this year (using Ubuntu 20.04). One thing I wanted was automated updates on the status of my rigs. I also had intermittent issues with my AMD cards which would cause one of my rigs to crash. Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash. (I did make sure that the crashes aren’t related to any over/under clocks I used, they aren’t..)</summary></entry><entry><title type="html">Mining Shiba Inu</title><link href="http://0.0.0.0:4000/2021/11/09/mining-shiba-inu/" rel="alternate" type="text/html" title="Mining Shiba Inu" /><published>2021-11-09T11:17:00-05:00</published><updated>2021-11-09T11:17:00-05:00</updated><id>http://0.0.0.0:4000/2021/11/09/mining-shiba-inu</id><content type="html" xml:base="http://0.0.0.0:4000/2021/11/09/mining-shiba-inu/">You can mine SHIB on just about any CPU with XMRig (results will vary of course) and [Unmineable](https://www.unmineable.com/){:target=&quot;_blank&quot;}. It's not very profitable, but if you are already running servers then you might as well give them something else to do!
 
-&lt;p&gt;Happy mining!&lt;/p&gt;</content><author><name></name></author><summary type="html">You can mine SHIB on just about any CPU with XMRig (results will vary of course) and Unmineable. It’s not very profitable, but if you are already running servers then you might as well give them something else to do!</summary></entry></feed>
+Your first step is to download [XMRig](https://github.com/xmrig/xmrig/releases){:target=&quot;_blank&quot;}.
+
+You'll also need to setup an Ethereum based wallet.  I always recommend getting a hardware wallet like a [Ledger Nano X](https://shop.ledger.com/products/ledger-nano-x){:target=&quot;_blank&quot;}.  Some software wallets include [Metamask](https://metamask.io/){:target=&quot;_blank&quot;} and [Coinbase](https://wallet.coinbase.com/){:target=&quot;_blank&quot;}.  You can connect your hardware wallet to both of those wallets.  Here are [instructions](https://www.ledger.com/academy/security/the-safest-way-to-use-metamask){:target=&quot;_blank&quot;} on connecting Metamask to a Ledger hardware wallet.
+
+After setting up XMRig and your wallet, you'll want to tweak your OS settings to enable [Hugepages](https://xmrig.com/docs/miner/hugepages){:target=&quot;_blank&quot;}.  It'll offer a significant performance boost.
+
+Now you are ready to create a script to run XMRig.
+
+Windows: (Run it as admin to enabling huge pages)
+{% include code_header.html %}
+{% highlight bash %}
+@echo off
+
+C:\opt\xmrig-dir\xmrig-6.15.2\xmrig.exe --cpu-affinity 0xFF -o rx.unmineable.com:3333 -u SHIB:0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1#vumh-d27t -p x -k --hugepage-size=1280 --huge-pages-jit --threads=8
+
+pause
+{% endhighlight %}
+&lt;br /&gt;
+
+Linux:
+{% include code_header.html %}
+{% highlight bash %}
+/opt/xmrig/xmrig --cpu-affinity 0xFF -o rx.unmineable.com:3333 -u SHIB:0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1#vumh-d27t -p x -k --hugepage-size=1280 --huge-pages-jit --threads=8 --randomx-1gb-pages
+{% endhighlight %}
+&lt;br /&gt;
+
+Replace
+&quot;0xABCDEFGHIJKLMNOPQRSTUVWXYX1234567890.worker1&quot; with your SHIB (ERC20/ETH) wallet address and change &quot;worker1&quot; to your worker name (can be whatever you want).
+
+The &quot;vumh-d27t&quot; is my referral code.  It will set your fee to .75% instead of 1%. Small difference, but it'll add up over time.
+
+Change the location of the XMRig executable file based on where you installed it, and change &quot;threads&quot; to however many CPUs you have. Note that sometimes it'll run better if you don't use all of your available CPUs. Press &quot;h&quot; to check the CPU speeds. Try 50%, 75%, 90%, and 100% of your available CPUs (including threads) to find the sweet spot for your CPU. 
+
+Once you start mining, go to [Unmineable/SHIB](https://www.unmineable.com/coins/SHIB/address){:target=&quot;_blank&quot;} and enter your ETH/ERC20 public wallet address to track your earning!
+
+Happy mining!</content><author><name></name></author><summary type="html">You can mine SHIB on just about any CPU with XMRig (results will vary of course) and Unmineable. It’s not very profitable, but if you are already running servers then you might as well give them something else to do!</summary></entry></feed>
