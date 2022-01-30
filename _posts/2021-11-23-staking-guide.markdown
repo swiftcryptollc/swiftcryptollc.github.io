@@ -108,6 +108,7 @@ Now that your wallet is funded, you can delegate!  (If you are new to staking ov
 {:refdef: style="text-align: center;"}
 ![Yoroi Delegation List](/img/yoroi/yoroi-4ward.jpg){: width="767" }
 {: refdef}
+_*Note that the "Swift Crypto LLC" pool has since been renamed "ADA for Warriors". See [here](/news/2022-01-27-ada-for-warriors/){:target="_blank"} for more information_
 
 There are some factors you should take into account when selecting a Cardano Pool.  If the Share/Pool Size is over 64 million ADA, you will miss out on some rewards.  This is called the ["k" parameter](https://iohk.zendesk.com/hc/en-us/articles/900004671183-Changes-on-k-parameter-on-epoch-234){:target="_blank"}.  Larger pools will generally give a steady reward but don't help decentralize Cardano.  For example, Binance owns over 40 Cardano pools.  Concentrating that much ADA to one entity obviously has a negative effect on decentralization.  Please consider delegating to a smaller pool when making your choice.
 
