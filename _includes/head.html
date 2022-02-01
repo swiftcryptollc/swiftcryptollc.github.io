@@ -3,7 +3,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="google-site-verification" content="Fl3O2ungPfLslbQZezqEhURE0SkzxztkEJrb3M0wUpg" />
+    <meta name="description"
+        content="Swift Crypto LLC is a small crypto mining business that mines Ethereum, vet, and other cryptocurrencies. We also run the 4WARD Cardano stake pool, 'ADA for Warriors'">
+    <meta name="keywords"
+        content="ADA, Cardano, cardano price, crypto, ada cardano, coinmarketcap, cryptocurrency, crypto news, ethereum, ethereum price, eth, ether, 4WARD" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -11,11 +15,25 @@
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="{{ "/css/font-awesome/css/all.min.css" | prepend: site.baseurl }}">
-  
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-215865610-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-215865610-1');
+        function updateGoogle(page_path) {
+            gtag('set', 'page_path', page_path);
+            gtag('event', 'page_view');
+        }
+    </script>
 </head>
