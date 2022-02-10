@@ -249,7 +249,8 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 55px;
+    min-height: 100vh;
 }
 
 
@@ -263,7 +264,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    min-height: 600px;
+    min-height: 100vh;
 }
 
 #map {
@@ -273,9 +274,6 @@ a:focus {
 }
 
 @media(min-width:900px) {
-    .content-section {
-        padding-top: 150px;
-    }
 
     .download-section {
         padding: 100px 0;

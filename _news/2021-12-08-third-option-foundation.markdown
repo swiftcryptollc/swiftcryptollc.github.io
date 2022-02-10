@@ -49,4 +49,4 @@ As with investment in any cryptocurrency, there are risks in regards to the pric
 ### FINAL THOUGHTS ###
 It is really difficult to start a successful Cardano pool today.  To me, what sets one pool apart from the rest is it's mission.  I believe this mission with the [Third Option Foundation](https://www.thirdoptionfoundation.org/){:target="_blank"} will do that, but I can't do it alone.  I need your help, they need your help.  Spread the word and delegate to the [4WARD](https://4wardpool.swiftcryptollc.com){:target="_blank"} pool to help make this mission a success!
 
-_All donations to the Third Option Foundation can be tracked [here](/donations/2022-01-29-third-option-foundation/)._
+_All donations to the Third Option Foundation can be tracked [here](/donations/third-option-foundation/)._
