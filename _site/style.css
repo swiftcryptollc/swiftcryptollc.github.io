@@ -254,7 +254,8 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 55px;
+    min-height: 100vh;
 }
 
 
@@ -268,7 +269,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    min-height: 600px;
+    min-height: 100vh;
 }
 
 #map {
@@ -278,9 +279,6 @@ a:focus {
 }
 
 @media(min-width:900px) {
-    .content-section {
-        padding-top: 150px;
-    }
 
     .download-section {
         padding: 100px 0;
@@ -393,14 +391,31 @@ body {
     position: relative;
     border: none;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
 thead th {
-  padding-right: 20px;
-  font-size: 18px;
+  font-size: 20px;
+  border-bottom: 1pt solid rgb(255, 255, 255);
 }
+
 tbody td {
-  padding-right: 20px;
+  padding-top: 5px;
   font-size: 18px;
 }
+
+thead + tbody {
+  border-bottom: 1pt solid rgb(255, 255, 255);
+}
+
+tbody + tbody {
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
+
 li a {
   font-size: 18px;
 }
@@ -433,4 +448,8 @@ a:focus {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+}
+
+.post-section {
+  padding-top: 100px;
 }
