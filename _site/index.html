@@ -39,10 +39,32 @@
             gtag('event', 'page_view');
         }
     </script>
+    <script>
+        // Open the Modal
+        function openModal(clicked_id) {
+          var src = document.getElementById(clicked_id).src;
+          document.getElementById("modalPic").src = src;
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("nav").style.display = "none";
+          // Ensures the site footer is not shown if front of the modal. Remove if this is not an issue or
+          // there is no footer. "site-footer" id can also be changed appropriately.
+          //document.getElementById("site-footer").style.display = "hidden";
+        }
+        
+        // Close the Modal
+        function closeModal() { 
+          // prevents flashing last modal image while new id is loading on open
+          document.getElementById("modalPic").src = "";
+          document.getElementById("myModal").style.display = "none";
+          document.getElementById("nav").style.display = "block";
+          // See note above regarding the footer 
+          //document.getElementById("site-footer").style.display = "block";
+        }
+        </script>
 </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
      <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav id="nav" class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
@@ -101,6 +123,8 @@
             <div class="container ms-auto me-auto">
                     <h2 class="ms-auto me-auto">News</h2>
                     <ul class="ms-auto me-auto" style="padding-left: 0px !important;">
+                      
+                        <h2 class="ms-auto me-auto"><a href="/news/2022-02-26-february-update/" onclick="updateGoogle(/news/2022-02-26-february-update/)">February Update: CSPA, xSPO, Freeloaderz, and TOF!</a></h2>
                       
                         <h2 class="ms-auto me-auto"><a href="/news/2022-02-13-first-blocks/" onclick="updateGoogle(/news/2022-02-13-first-blocks/)">First Cardano Blocks Minted</a></h2>
                       

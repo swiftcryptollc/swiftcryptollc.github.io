@@ -37,4 +37,26 @@
             gtag('event', 'page_view');
         }
     </script>
+    <script>
+        // Open the Modal
+        function openModal(clicked_id) {
+          var src = document.getElementById(clicked_id).src;
+          document.getElementById("modalPic").src = src;
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("nav").style.display = "none";
+          // Ensures the site footer is not shown if front of the modal. Remove if this is not an issue or
+          // there is no footer. "site-footer" id can also be changed appropriately.
+          //document.getElementById("site-footer").style.display = "hidden";
+        }
+        
+        // Close the Modal
+        function closeModal() { 
+          // prevents flashing last modal image while new id is loading on open
+          document.getElementById("modalPic").src = "";
+          document.getElementById("myModal").style.display = "none";
+          document.getElementById("nav").style.display = "block";
+          // See note above regarding the footer 
+          //document.getElementById("site-footer").style.display = "block";
+        }
+        </script>
 </head>

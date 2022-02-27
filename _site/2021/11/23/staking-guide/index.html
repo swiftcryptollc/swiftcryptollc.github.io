@@ -39,10 +39,32 @@
             gtag('event', 'page_view');
         }
     </script>
+    <script>
+        // Open the Modal
+        function openModal(clicked_id) {
+          var src = document.getElementById(clicked_id).src;
+          document.getElementById("modalPic").src = src;
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("nav").style.display = "none";
+          // Ensures the site footer is not shown if front of the modal. Remove if this is not an issue or
+          // there is no footer. "site-footer" id can also be changed appropriately.
+          //document.getElementById("site-footer").style.display = "hidden";
+        }
+        
+        // Close the Modal
+        function closeModal() { 
+          // prevents flashing last modal image while new id is loading on open
+          document.getElementById("modalPic").src = "";
+          document.getElementById("myModal").style.display = "none";
+          document.getElementById("nav").style.display = "block";
+          // See note above regarding the footer 
+          //document.getElementById("site-footer").style.display = "block";
+        }
+        </script>
 </head>
     <body class="guide" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
          <!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<nav id="nav" class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
@@ -257,6 +279,20 @@ This process repeats for every epoch that your pool is active.  Because of the d
 
     <!-- Swift Crypto LLC JavaScript -->
     <script src="/js/swiftcryptollc.js" defer></script>
+
+        <!-- Place in layouts > partials > image-modal.html -->
+<!-- Use the partial at the bottom of any page in which you want magnific pop-up images,
+  or simply place at the bottom of baseof.html -->
+<!-- Modal will open upon clicking the image. Modal will close with clicking the x or image. -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <button class="modal-close" onclick="closeModal()">close</button>
+  <div class="modal-content">
+    <img class="modal-pic" id="modalPic" onclick="closeModal()" style="max-width: 100%; max-height: 80vh; margin: auto;">
+  </div>
+</div>
+
 
     </body>
 </html>
