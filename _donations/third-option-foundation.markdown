@@ -9,11 +9,13 @@ The Third Option Foundation was chosen because they fill the gap for our fallen 
 If you want to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.
 <br /><br />
 
-## 2022 Donations $0 ##
+## 2022 Donations $165.72 ##
 
-[comment]: # (ADD LINK LIKE THIS-> _[February 28, 2022 Donation Receipt: $275 (575 ₳)](https://swiftcryptollc.github.io/img/something.jpg)_)
+_February 26, 2022 Donation Receipt: $165.72 (~185 ₳)_
 
-_To Be Donated February 2022: 184.456 ₳_
+{:refdef: style="text-align: center;"}
+![Donation](/img/tof/2022-02-26 -Scheduled-TOF-Donation.png){: .md__image id="2022-02" onclick="openModal(\"2022-02\")" style="width:649px;height:197px;"}
+{: refdef}
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
