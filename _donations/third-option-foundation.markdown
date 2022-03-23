@@ -11,14 +11,15 @@ If you want to help honor the sacrifices they've made for our country, please de
 
 ## 2022 Donations $165.72 ##
 
-### _March 2022 Estimated Donations: ~170 ₳_ ###
+### _March 2022 Donation Subtotal: 348.8205 ₳_ ###
 
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
-| March | 325 | 1 | ~340 ₳ | ~170 ₳ |
+| March | 326 | 1 | 348.76 ₳ | 174.38 ₳ |
+| March | 325 | 1 | 348.881 ₳ | 174.4405 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
-| | Total | 1 | ~340 ₳ | ~170 ₳ |
+| | Total | 2 | 697.641 ₳ | 348.8205 ₳ |
                   
 <br />
 

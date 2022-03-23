@@ -73,9 +73,17 @@ a:focus {
     0 0 36px rgb(0, 102, 255) !important;
 }
 
-.guide {
+.no-webp .guide {
   background-color: #03132d;
   background-image: url(/img/guide-background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.webp .guide {
+  background-color: #03132d;
+  background-image: url(/img/guide-background.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
