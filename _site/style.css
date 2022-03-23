@@ -136,7 +136,7 @@ a:focus {
     }
 }
 
-.intro {
+.no-webp .intro {
     display: table;
     width: 100%;
     height: auto;
@@ -144,6 +144,21 @@ a:focus {
     text-align: center;
     color: #fff;
     background: url(/img/header.jpg) no-repeat bottom center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.webp .intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(/img/header.webp) no-repeat bottom center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -258,12 +273,24 @@ a:focus {
     min-height: 100vh;
 }
 
-
-.info-section {
+.no-webp .info-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
     background: url(/img/background.jpg) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+}
+
+.webp .info-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/background.webp) no-repeat center center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -447,9 +474,17 @@ a:focus {
     0 0 36px rgb(0, 102, 255) !important;
 }
 
-.guide {
+.no-webp .guide {
   background-color: #03132d;
   background-image: url(/img/guide-background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.webp .guide {
+  background-color: #03132d;
+  background-image: url(/img/guide-background.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
