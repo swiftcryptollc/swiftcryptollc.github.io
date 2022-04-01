@@ -64,6 +64,7 @@ a {
 
 a:hover,
 a:focus {
+  background-color: transparent !important;
   color: #8bcbff !important;
   text-shadow:
     0 0 4px #8bcbff,
