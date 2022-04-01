@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GPU Mining Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="google-site-verification" content="Fl3O2ungPfLslbQZezqEhURE0SkzxztkEJrb3M0wUpg" />
+    <meta name="description"
+        content="A small crypto mining business that mines Ethereum and runs a mission-driven single Cardano stake pool 'ADA for Warriors' (4WARD).">
+    <meta name="keywords"
+        content="Cardano, cardano price, crypto, cardano ada, cryptocurrency, crypto news, ethereum, ethereum price, investment" />
+    <link rel="canonical" href="https://swiftcryptollc.github.io/2021/11/25/gpu-mining/">
+    <link rel="icon" href="/img/icon.ico">
+  
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/all.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0JE8QE19YX">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0JE8QE19YX');
+        function updateGoogle(page_path) {
+            gtag('set', 'page_path', page_path);
+            gtag('event', 'page_view');
+        }
+    </script>
+    <script>
+        // Open the Modal
+        function openModal(clicked_id) {
+          var src = document.getElementById(clicked_id).src;
+          document.getElementById("modalPic").src = src;
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("nav").style.display = "none";
+          // Ensures the site footer is not shown if front of the modal. Remove if this is not an issue or
+          // there is no footer. "site-footer" id can also be changed appropriately.
+          //document.getElementById("site-footer").style.display = "hidden";
+        }
+        
+        // Close the Modal
+        function closeModal() { 
+          // prevents flashing last modal image while new id is loading on open
+          document.getElementById("modalPic").src = "";
+          document.getElementById("myModal").style.display = "none";
+          document.getElementById("nav").style.display = "block";
+          // See note above regarding the footer 
+          //document.getElementById("site-footer").style.display = "block";
+        }
+        </script>
+</head>
+    <body class="guide" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+         <!-- Navigation -->
+<nav id="nav" class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/" onclick="updateGoogle('')">
+                <span class="light">Home</span>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="https://swiftcryptollc.github.io/"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#news" onclick="updateGoogle('#news')">News</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides" onclick="updateGoogle('#guides')">Guides</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#about" onclick="updateGoogle('#about')">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact" onclick="updateGoogle('#contact')">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+        <div class="container content-section text-left">
+            <div class="row">
+                <div class="post-section col-md-8 col-md-offset-2">
+                    <h2>GPU Mining Guide</h2>
+                    <i>Post Date: 2021-11-25 11:17:00 -0500</i>
+                    <p>GPU mining can be a great source of “passive” income and investment.  I say “passive” because there is work involved to buy, build, configure, and maintain your mining rig.  Once it’s running smoothly though, you can pretty much sit back and collect your mining rewards!</p>
+
+<p>It’s impossible to address everything in regards to GPU mining but I’ll hit on some of the most common topics and questions.</p>
+
+<ol>
+  <li><a href="#OS">Choosing an OS</a></li>
+  <li><a href="#hardware">Hardware Choices</a></li>
+  <li><a href="#chooseminer">Choosing a Miner</a></li>
+  <li><a href="#choosepool">Choosing a Pool</a></li>
+  <li><a href="#amd">AMD Settings</a></li>
+  <li><a href="#nvidia">NVidia Settings</a></li>
+  <li><a href="#lhr">NVidia LHR</a></li>
+  <li><a href="#wrap">Wrap up</a></li>
+</ol>
+
+<p><br /></p>
+<h3 id="OS">Choosing an OS</h3>
+
+<p>I am currently running two dedicated mining rigs, along with a laptop and a file server where mining is secondary.  I have an extensive Linux background, so my OS of choice is <a href="https://ubuntu.com/" target="_blank">Ubuntu</a>.  My file server is 7 or 8 years old and running Window 8.1.  I have heard good things about <a href="https://hiveos.farm/" target="_blank">HiveOS</a> but I’ve also read about times where Hive itself was down.  I don’t have any experience using Hive, but if system administration isn’t something you’re comfortable with, it is worth checking out if you plan on running dedicated mining rigs.  There is some costs associated with it if you run more than one rig, but it seems minimal.  Check their website for more information.</p>
+
+<p>Most people are comfortable with Windows.  The latest and greatest AMD and NVidia drivers are available and there usually aren’t any issues using them.  <a href="https://www.msi.com/Landing/afterburner/graphics-cards" target="_blank">MSI Afterburner</a> is arguably the best GPU tweaking software available and it’s only available for Windows.  You can modify GPU speeds, RAM speeds, voltages, fan speeds, and power limits.  You can save different profiles and have one auto-load on Windows startup.  That piece of software alone is a good reason to choose Windows.  Even those with limited sys admin experience can comfortably use it.</p>
+
+<p>While Windows is good option overall, I just wouldn’t buy it.  If it came with your PC?  Sure.. but otherwise, spend that money on something else.  I personally chose Ubuntu for my rigs.  Ubuntu is completely free.  You will need some sys admin experience (and/or a willingness to learn) if you want to get the most out of your rig but hopefully this guide helps you get there.</p>
+
+<p>No matter which OS you choose, you want a few things to be setup.</p>
+
+<p>The first is that your mining software starts on OS boot.  In Ubuntu, click on “Activities” and search for “startup”.  You can add your commands to be run at startup there.  I use “xterm -e” followed by the command to start my miners at boot.  Windows has a <a href="https://helpdeskgeek.com/windows-10/how-to-access-the-windows-10-startup-folder/" target="_blank">Startup Folder</a> that you can use to tell Windows to start whatever software you want to start at boot time.</p>
+
+<p><em>You may also want to set your BIOS to boot after power restore.  Check your motherboard manual for information on how to enable that feature.</em></p>
+
+<p>The second thing you will want is remote access to your rigs.  Nothing causes me more heartburn than being hours from home and getting a notification that one of my rigs went down.  I start calculating just how much revenue I’ll miss out on until I get back home!  Don’t let that happen to you!</p>
+
+<p>For remote access, there are a couple of options to chose from.  This isn’t an exhaustive list by any means, but they all are popular.</p>
+
+<ul>
+  <li>Windows has <a href="https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c" target="_blank">Remote Desktop</a> available depending on the verison you have.</li>
+  <li><a href="https://remotedesktop.google.com/?pli=1" target="_blank">Chrome Remote Desktop</a> is an option no matter if you are running Windows or Linux.</li>
+  <li><a href="https://www.teamviewer.com/" target="_blank">TeamViewer</a> is another great option.  They have a client for Windows, Linux, Raspberry Pi, Android, iOS, Mac, and Chrome OS.  It’s free for personal use but you will need a license for commercial use.</li>
+  <li><a href="https://ubuntu.com/tutorials/access-remote-desktop#1-overview" target="_blank">Ubuntu Remote Desktop</a> is a built in remote desktop capability in Ubuntu through <a href="https://remmina.org/" target="_blank">Remmina</a></li>
+</ul>
+
+<p><br />
+Lastly, <a href="https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/" target="_blank">these smart plugs</a> can be life savers if you can’t get remote access.  They allow you to remotely kill power to any of these plugs and then turn them back on.  It’s an <em>absolute</em> last resort but it really can be a life saver if you can’t get to your rig.</p>
+
+<h3 id="hardware">Hardware Choices</h3>
+
+<p>One thing that is important to note about GPU mining is that you don’t need expensive base hardware to have a high performing rig.  The motherboard needs PCIe slots for GPU cards and you will need the right power supplies, but that’s about it for requirements.  My two dedicated rigs are vastly different.  One has an <a href="https://www.asrock.com/microsite/H110ProBTC+/" target="_blank">ASRock H110 Pro BTC+</a> motherboard with a <a href="https://www.amazon.com/gp/product/B01MYTY55V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1" target="_blank">7th Gen Intel Celeron</a> and 16 GB RAM.  My second rig is “beefier” with a <a href="https://rog.asus.com/us/motherboards/rog-crosshair/rog-crosshair-viii-dark-hero-model/" target="_blank">ASUS ROG Crosshair VIII Dark Hero</a> motherboard, an <a href="https://www.amd.com/en/products/cpu/amd-ryzen-9-5950x" target="_blank">AMD 5950x</a> CPU and 64 GB RAM.  The ASRock has 13 PCIe slots while the ASUS only has 4 PCIe slots.  You can buy PCIe Splitters like this <a href="https://www.amazon.com/Splitter-External-Adapter-Multiplier-Bitcoin/dp/B092R64W2V/ref=sr_1_3?crid=5I5E5SIWVBWN&amp;keywords=pcie+splitter&amp;qid=1637865056&amp;sprefix=pcie+%2Caps%2C160&amp;sr=8-3" target="_blank">one</a> but know that your motherboard may simply have a limit on the number of GPUs it can support.  For the ASUS, I can run 6 GPUs without a problem, even run 4 on that PCIe splitter if I wanted to.  The moment I try to add a 7th GPU, the rig won’t post.  I tried everything I could think of but eventually gave up.</p>
+
+<p>I have an older Intel Core 2 Quad Core Q6600 (which came out in 2007) PC that still works.  It has 3 PCIe slots.  I actually did use it for a little while and it worked just fine.  So keep that in mind when figuring out your base hardware.  You don’t need anything special unless you want to do other things with it while GPU mining.</p>
+
+<p>When trying to figure out what power supply to buy, cheaper is NOT always better.  Platinum and Titanium PSUs are more expensive than Gold and Bronze PSUs, but they more efficient with their power consumption (leading to a lower electricity bill!).  When calculating what size PSU you need, I recommend dropping the max PSU wattage to 80%.  So that 1600 watt PSU you are eyeing?  Load it with no more than 1280 watts.  Two PSUs that I recommend and use are:</p>
+
+<ul>
+  <li><a href="https://www.amazon.com/CORSAIR-HX1200-Platinum-Certified-Modular/dp/B01MZ8A8NW/" target="_blank">Corsair HX1200</a></li>
+  <li><a href="https://www.amazon.com/EVGA-Supernova-Platinum-Crossfire-220-P2-1600-X1/dp/B00NJG61JQ/" target="_blank">EVGA P2 1600</a></li>
+</ul>
+
+<p><br />
+Finding GPUs at MSRP can be extremely difficult.  The <a href="https://www.zotacstore.com/" target="_blank">Zotac Store</a> has GPUs from time to time.  You can get in-stock alerts from a couple of Twitter and Discord accounts.  My favorite is <a href="https://twitter.com/SnailMonitor" target="_blank">SnailMonitor</a>.  No matter what, make sure you understand what you’re buying and what your expected return is.  Read up on <a href="https://whattomine.com/gpus" target="_blank">What to Mine</a> and have an idea of what GPUs you are willing to buy.  If you get an alert that GPUs are in stock, you usually only have a handful of seconds to make the purchase.  I also recommend signing up for the <a href="https://www.newegg.com/product-shuffle" target="_blank">NewEgg Shuffle</a>.  The chances you are selected are low, but possible.  I’ve actually been selected 3 times since early May but I enter every shuffle, every day they have one.</p>
+
+<h3 id="chooseminer">Choosing a Miner</h3>
+
+<p><a href="https://github.com/NebuTech/NBMiner" target="_blank">NBMiner</a>, <a href="https://github.com/trexminer/T-Rex/releases" target="_blank">T-Rex</a>, <a href="https://bitcointalk.org/index.php?topic=2647654.0" target="_blank">Phoenix Miner</a>, <a href="https://github.com/todxx/teamredminer/releases" target="_blank">TeamRedMiner</a>, and <a href="https://github.com/develsoftware/GMinerRelease/releases" target="_blank">GMiner</a> are some of the more popular options to choose from.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Miner</th>
+      <th style="text-align: center">NVidia Support</th>
+      <th style="text-align: center">LHR Support</th>
+      <th style="text-align: center">AMD Support</th>
+      <th style="text-align: center">ETHash Fee</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">NBMiner</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">1%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">T-Rex</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">1%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Phoenix Miner</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">.65%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">TeamRedMiner</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">.75% to 1 %</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">GMiner</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">X</td>
+      <td style="text-align: center">.65%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br />
+I use Phoenix Miner and T-Rex.  One of my rigs has NVidia and AMD GPUs.  My AMD GPUs are all PowerColor 5700 XTs.  Occasionally, one of the AMD GPUs will get into a weird state that eventually causes that rig to crash.  I did write a Perl script to email me updates every 6 hours and watch for any issues with the AMD GPUs (you can download them here-&gt; <a href="/tools/phoenix-watch.pl">Phoenix Miner Watch</a>, <a href="/tools/trex-watch.pl">T-Rex Miner Watch</a>).  Basically, the MH/S rate will jump over 1000%.  That’s obviously not right.. so when my script sees that, it emails me and then reboots my rig.  I haven’t tried TeamRedMiner, but I should try it to see if the AMD crashes are Phoenix related or GPU related.  I’ll say that I’ve NEVER had an NVidia card crash on me using Phoenix Miner.  You can use a config file with Phoenix Miner but I simply pass everything on the command line through a script. One of my scripts looks like this:</p>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
+
+<span class="nb">sudo</span> /opt/phoenix/nvidia-settings.sh
+<span class="o">(</span><span class="nb">sleep </span>300<span class="p">;</span> perl /opt/phoenix/watch.pl<span class="o">)</span> &amp;
+
+/opt/phoenix/PhoenixMiner <span class="nt">-pool</span> ssl://us1.ethermine.org:5555 <span class="nt">-wal</span> 0xXXXXXXXXXXXXXXXXXXXXXX <span class="nt">-worker</span> phoenix01 <span class="nt">-mi</span> 14 <span class="nt">-epsw</span> x <span class="nt">-coin</span> eth <span class="nt">-mode</span> 1 <span class="nt">-nvidia</span> <span class="nt">-proto</span> 3 <span class="nt">-log</span> 1 <span class="nt">-logdir</span> /opt/phoenix/logs <span class="nt">-leaveoc</span> <span class="nt">-nvdo</span> 1 <span class="nt">-nvNew</span> 1 <span class="nt">-nvKernel</span> 3 <span class="nt">-prate</span> .1104 <span class="nt">-pool2</span> ssl://eu2.ethermine.org:5555 <span class="nt">-cdmport</span> 3333 <span class="nt">-eres</span> 6 <span class="nt">-lidag</span> 1 <span class="nt">-config</span> /opt/phoenix/config.txt <span class="nt">-gpus</span> 1,2,3</code></pre></figure>
+
+<p><br />
+For my three Nvidia 3080 LHRs, I use T-Rex.  I get really good hashrates compared to expected (72 to 76 MH/s).  Lower the mining intensity if you are frequently running into LHR locks.  My T-Rex script looks like this:</p>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/sh</span>
+
+<span class="nb">sudo</span> /opt/trex/nvidia-settings.sh
+
+<span class="o">(</span><span class="nb">sleep </span>300<span class="p">;</span> perl /opt/trex/twatch.pl<span class="o">)</span> &amp;
+
+<span class="nb">mkdir</span> /opt/trex/logs/archive
+<span class="nb">mv</span> <span class="nt">-nv</span> <span class="nt">--</span> /opt/trex/logs/trex.log /opt/trex/logs/archive/trex-<span class="si">$(</span><span class="nb">date</span> +<span class="s1">'%Y%m%d_%H%M%S'</span><span class="si">)</span>.log
+<span class="nb">rm</span> <span class="nt">-f</span> /opt/trex/logs/<span class="k">*</span>.log
+
+/opt/trex/t-rex <span class="nt">-a</span> ethash <span class="nt">--url</span> stratum+ssl://us1.ethermine.org:5555 <span class="nt">--user</span> 0xXXXXXXXXXXXXXXXXXXXXXX <span class="nt">-p</span> x <span class="nt">-w</span> trex01 <span class="nt">--log-path</span> /opt/trex/logs/trex.log <span class="nt">--no-watchdog</span> <span class="nt">--send-stales</span> <span class="nt">-d</span> 3,4,5 <span class="nt">--kernel</span> 0 <span class="nt">--lhr-tune</span> 74,74,74 <span class="nt">--lhr-autotune-mode</span> full <span class="nt">--coin</span> eth <span class="nt">--intensity</span> 15.5,15.5,22.1</code></pre></figure>
+
+<p><br />
+You’ll ultimately need to determine for yourself which miner to use but I would recommend Phoenix Miner and T-Rex.</p>
+
+<h3 id="choosepool">Choosing a Pool</h3>
+
+<p>Mining pools each have their own fee associated with them as well.  I’ve only every used <a href="https://ethermine.org/" target="_blank">Ethermine.org</a>.  Ethermine allows for payouts over the Ethereum network and the Polygon network.  The Polygon network has less fees for payouts and should be used by miners with lower hashrates (saves you transaction fees!).  There are a number of options you could choose from for pools.  For a total overview, checkout <a href="https://www.poolwatch.io/coin/ethereum" target="_blank">PoolWatch.io</a>.  For an explanation of payout modes (such as PPLNS and PPS), check out this <a href="https://coinguides.org/pps-vs-pplns/" target="_blank">article</a>.  Whichever pool you choose, make sure to choose their server that you have the lowest ping to!  It may not be the one that is geographically closest to you.  The faster your connection to the pool, the less likely that your shares would be considered stale.</p>
+
+<p>Some of the more popular pools include:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pool</th>
+      <th style="text-align: center">Payout Mode</th>
+      <th style="text-align: center">Mining Fee</th>
+      <th style="text-align: center">MEV Bonus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="https://ethermine.org/" target="_blank">Ethermine</a></td>
+      <td style="text-align: center">PPLNS</td>
+      <td style="text-align: center">1%</td>
+      <td style="text-align: center">100%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://hiveon.net/" target="_blank">Hiveon</a></td>
+      <td style="text-align: center">PPS+</td>
+      <td style="text-align: center">0%</td>
+      <td style="text-align: center">90%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://nanopool.org/" target="_blank">Nanopool</a></td>
+      <td style="text-align: center">PPLNS</td>
+      <td style="text-align: center">1%</td>
+      <td style="text-align: center"><a href="https://help.nanopool.org/article/47-faq" target="_blank">Unclear</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://2miners.com/" target="_blank">2Miners</a></td>
+      <td style="text-align: center">PPLNS</td>
+      <td style="text-align: center">1%</td>
+      <td style="text-align: center">100%</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://www.flexpool.io/" target="_blank">Flexpool</a></td>
+      <td style="text-align: center">PPLNS</td>
+      <td style="text-align: center">.5%</td>
+      <td style="text-align: center">90%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h3 id="amd">AMD Settings</h3>
+
+<p>I did have trouble with the AMD drivers and Ubuntu, major issues.. but I eventually worked it out.  I had to use an older kernel, 5.4.0-26, and slightly older AMD drivers, 20.40.  At one point I tried updating but I couldn’t find the right combo to work, so I gave up.  I know that other people have been able to get newer AMD drivers to work but I haven’t seen a performance difference between their GPUs and mine.  So take that for what it’s worth.  If you want to modify AMD settings in Ubuntu, it’s just not as straight forward as Windows.  AMD’s Radeon software for Windows is fantastic for managing your GPU speeds and voltage.  (You can also use MSI Afterburner).  Since I really didn’t get the results I wanted trying to over/underclock my AMD GPUs in Ubuntu, I decided to mod their BIOS.  Before doing that, I recommend trying to mod them through the OS.  <a href="https://www.igorslab.de/en/amd-graphics-cards-under-linux-overclock-or-modify-goes-also/" target="_blank">This</a> is a good place to start.</p>
+
+<p>Modifying the BIOS on a GPU can be nerve-racking. If you mess it up, you could brick your GPU and we all know how expensive GPU’s are today.  The PowerColor 5700 XTs I bought have a BIOS switch.  One BIOS is the “normal” BIOS and the second is tweaked for performance by PowerColor.  I used the <a href="https://www.igorslab.de/en/red-bios-editor-and-morepowertool-adjust-and-optimize-your-vbios-and-even-more-stable-overclocking-navi-unlimited/" target="_blank">Red Bios Editor</a> and Windows to create a BIOS for my AMD cards.  I dropped the GPU to 1400 MHz, bumped the memory to 885 MHz (gets multiplied by 2), and set the voltage to 900.  That configuration held for all 6 of my GPUs.  Now that they are flashed, I don’t have to worry about any OS or miner OC settings.  They just boot exactly how I want them to run.</p>
+
+<h3 id="nvidia">NVidia Settings</h3>
+
+<p>For NVidia, I had no problems configuring Ubuntu to over/underclock my GPUs.  If you are using Windows, it’s even easier.  Use MSI Afterburner and sleep like a baby.  For Ubuntu, you need to do a couple of things.</p>
+
+<p>Create an X11 configuration that contains your NVidia card information.  My NVidia entries look like this:</p>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">Section <span class="s2">"Monitor"</span>
+    Identifier     <span class="s2">"NvidiaMonitor1"</span>
+    VendorName     <span class="s2">"Unknown"</span>
+    ModelName      <span class="s2">"Unknown"</span>
+    Option         <span class="s2">"DPMS"</span>
+EndSection
+
+Section <span class="s2">"Device"</span>
+    Identifier     <span class="s2">"NvidiaDevice1"</span>
+    Driver         <span class="s2">"nvidia"</span>
+    Option         <span class="s2">"TripleBuffer"</span> <span class="s2">"true"</span>
+    Option         <span class="s2">"ConnectToAcpid"</span> <span class="s2">"0"</span>
+    Option         <span class="s2">"Coolbits"</span> <span class="s2">"28"</span>
+    BusID          <span class="s2">"PCI:04:0:0"</span>
+    VendorName     <span class="s2">"NVIDIA Corporation"</span>
+EndSection
+
+Section <span class="s2">"Screen"</span>
+    Identifier     <span class="s2">"NvidiaScreen1"</span>
+    Device         <span class="s2">"NvidiaDevice1"</span>
+    Monitor        <span class="s2">"NvidiaMonitor1"</span>
+    Option         <span class="s2">"Coolbits"</span> <span class="s2">"28"</span>
+    Option         <span class="s2">"ConnectedMonitor"</span> <span class="s2">"DFP"</span>
+    Option         <span class="s2">"UseConnectedDevice"</span> <span class="s2">"DFP-0"</span>
+    Option         <span class="s2">"AllowEmptyInitialConfiguration"</span>  <span class="s2">"True"</span>
+    DefaultDepth    24
+    SubSection     <span class="s2">"Display"</span>
+        Depth       24
+    EndSubSection
+EndSection</code></pre></figure>
+
+<p><br />
+You need the “Coolbits” and “AllowEmptyInitialConfiguration” options under “Screen” and you need to set the “BusID” under “Device”.  To get the Bus ID, run the following:</p>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">lspci <span class="nt">-k</span> | <span class="nb">grep </span>VGA</code></pre></figure>
+
+<p><br />
+The output should look like this:</p>
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">00:02.0 VGA compatible controller: Intel Corporation HD Graphics 610 <span class="o">(</span>rev 04<span class="o">)</span>
+03:00.0 VGA compatible controller: Advanced Micro Devices, Inc. <span class="o">[</span>AMD/ATI] Navi 10 <span class="o">[</span>Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] <span class="o">(</span>rev c1<span class="o">)</span>
+04:00.0 VGA compatible controller: NVIDIA Corporation Device 2206 <span class="o">(</span>rev a1<span class="o">)</span>
+05:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 <span class="o">(</span>rev a1<span class="o">)</span>
+06:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 <span class="o">(</span>rev a1<span class="o">)</span>
+07:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 <span class="o">(</span>rev a1<span class="o">)</span>
+0a:00.0 VGA compatible controller: Advanced Micro Devices, Inc. <span class="o">[</span>AMD/ATI] Navi 10 <span class="o">[</span>Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] <span class="o">(</span>rev c1<span class="o">)</span>
+0d:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 <span class="o">(</span>rev a1<span class="o">)</span>
+10:00.0 VGA compatible controller: Advanced Micro Devices, Inc. <span class="o">[</span>AMD/ATI] Navi 10 <span class="o">[</span>Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] <span class="o">(</span>rev c1<span class="o">)</span>
+11:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 <span class="o">(</span>rev a1<span class="o">)</span>
+12:00.0 VGA compatible controller: NVIDIA Corporation Device 2204 <span class="o">(</span>rev a1<span class="o">)</span>
+15:00.0 VGA compatible controller: Advanced Micro Devices, Inc. <span class="o">[</span>AMD/ATI] Navi 10 <span class="o">[</span>Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] <span class="o">(</span>rev c1<span class="o">)</span>
+18:00.0 VGA compatible controller: Advanced Micro Devices, Inc. <span class="o">[</span>AMD/ATI] Navi 10 <span class="o">[</span>Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] <span class="o">(</span>rev c1<span class="o">)</span>
+1b:00.0 VGA compatible controller: Advanced Micro Devices, Inc. <span class="o">[</span>AMD/ATI] Navi 10 <span class="o">[</span>Radeon RX 5600 OEM/5600 XT / 5700/5700 XT] <span class="o">(</span>rev c1<span class="o">)</span></code></pre></figure>
+
+<p><br />
+The first part of that output identifies the Bus ID.  Note that “lspci” outputs the Bus ID in hex form, while the Bus ID has to be decimal in the X11 file.  So “04:00.0” turns into “PCI:04:0:0” while “12:00.0” turns into “PCI:18:0:0”.  If you arent good doing the conversions in your head, <a href="https://www.binaryhexconverter.com/hex-to-decimal-converter" target="_blank">this website</a> is extremely valuable!</p>
+
+<p>Now that you have your X11 file setup, you can start messing with your GPU settings.  I have a bash script for each miner and rig.  Here is one of my scripts with one Nvidia 1080 and 2 Nvidia 3090s.</p>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
+
+<span class="nb">sudo </span>nvidia-smi <span class="nt">-pm</span> 1
+
+<span class="nb">sleep </span>3
+
+<span class="c"># PNY 1080</span>
+<span class="c"># Nvidia Settings GPU 1</span>
+<span class="c"># Nvidia SMI GPU 0</span>
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:1]/GPUPowerMizerMode<span class="o">=</span>1 &amp;
+<span class="nb">sudo </span>nvidia-smi <span class="nt">-i</span> 0 <span class="nt">-pl</span> 155
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:1]/GPUGraphicsClockOffsetAllPerformanceLevels<span class="o">=</span>50 &amp;
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:1]/GPUMemoryTransferRateOffset[2]<span class="o">=</span>1100 &amp;
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:1]/GPUMemoryTransferRateOffset[3]<span class="o">=</span>1100 &amp;
+
+<span class="c"># EVGA 3090</span>
+<span class="c"># Nvidia settings GPU 2</span>
+<span class="c"># Nvidia SMI GPUI 1</span>
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:2]/GPUPowerMizerMode<span class="o">=</span>1 &amp;
+<span class="nb">sudo </span>nvidia-smi <span class="nt">-i</span> 1 <span class="nt">-pl</span> 300
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:2]/GPUGraphicsClockOffsetAllPerformanceLevels<span class="o">=</span>0 &amp;
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:2]/GPUMemoryTransferRateOffset[3]<span class="o">=</span>2300 &amp;
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:2]/GPUMemoryTransferRateOffset[4]<span class="o">=</span>2300 &amp;
+
+<span class="c"># Zotac 3090</span>
+<span class="c"># Nvidia settings GPU 3</span>
+<span class="c"># Nvidia SMI GPUI 2</span>
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:3]/GPUPowerMizerMode<span class="o">=</span>1 &amp;
+<span class="nb">sudo </span>nvidia-smi <span class="nt">-i</span> 2 <span class="nt">-pl</span> 305
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:3]/GPUGraphicsClockOffsetAllPerformanceLevels<span class="o">=</span>0 &amp;
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:3]/GPUMemoryTransferRateOffset[3]<span class="o">=</span>2200 &amp;
+nvidia-settings <span class="nt">-c</span> :0 <span class="nt">-a</span> <span class="o">[</span>gpu:3]/GPUMemoryTransferRateOffset[4]<span class="o">=</span>2200 &amp;</code></pre></figure>
+
+<p><br />
+You will use “nvidia-smi” to control the maximum power draw for a GPU and use “nvidia-settings” to control the GPU and RAM speeds.  Note that “nvidia-smi” and “nvidia-settings” have different references for the same GPU.  My 1080 is listed as GPU 1 for nvidia-smi and 0 for nvidia-settings.  Simply running “nvidia-smi” will list out all of your GPUs and their reference.  Run “nvidia-settings” to pull up the settings GUI and note the GPUs and their reference within nvidia-settings.</p>
+
+<p>Each card behaves slightly different and your results may not match mine, but here are some of my settings.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">GPU</th>
+      <th style="text-align: center">GPU Offset</th>
+      <th style="text-align: center">RAM Offset</th>
+      <th style="text-align: center">Power Limit</th>
+      <th style="text-align: center">Avg MH/s</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">PNY 1080</td>
+      <td style="text-align: center">+50 MHz</td>
+      <td style="text-align: center">+1100 MHz</td>
+      <td style="text-align: center">155 watts</td>
+      <td style="text-align: center">32 MH/s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">PowerColor 5700xt</td>
+      <td style="text-align: center">=1400 MHz</td>
+      <td style="text-align: center">=885 MHz</td>
+      <td style="text-align: center">100 watts</td>
+      <td style="text-align: center">54.5 MH/s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Gigabyte 3080</td>
+      <td style="text-align: center">+200 MHz</td>
+      <td style="text-align: center">+1100 MHz</td>
+      <td style="text-align: center">155 watts</td>
+      <td style="text-align: center">35 MH/s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Zotac 3080 LHR</td>
+      <td style="text-align: center">+0 MHz</td>
+      <td style="text-align: center">+2700 MHz</td>
+      <td style="text-align: center">230 watts</td>
+      <td style="text-align: center">74 MH/s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Zotac 3090 OC</td>
+      <td style="text-align: center">+0 MHz</td>
+      <td style="text-align: center">+2100 MHz</td>
+      <td style="text-align: center">295 watts</td>
+      <td style="text-align: center">119.5 MH/s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MSI 3090 Gaming X Trio</td>
+      <td style="text-align: center">+0 MHz</td>
+      <td style="text-align: center">+2200 MHz</td>
+      <td style="text-align: center">305 watts</td>
+      <td style="text-align: center">121 MH/s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">EVGA 3090 FTW3 Ultra</td>
+      <td style="text-align: center">+0 MHz</td>
+      <td style="text-align: center">+2200 MHz</td>
+      <td style="text-align: center">310 watts</td>
+      <td style="text-align: center">121 MH/s</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Gigabyte Vision 3090</td>
+      <td style="text-align: center">+0 MHz</td>
+      <td style="text-align: center">+1700 MHz</td>
+      <td style="text-align: center">310 watts</td>
+      <td style="text-align: center">35 MH/s</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+<h3 id="lhr">NVidia LHR</h3>
+
+<p>The NVidia LHR GPUs do need some special handling.  I’ve had good success with T-Rex.  In order to get the best performance, I let T-Rex auto-tune the LHR value up and down as needed but I did modify the mining intensity (MI) for each of my cards.  I found that the mining intesity was the key to limiting the number of locks that a GPU would encounter.  If a GPU locks, it stops mining for 20 seconds.  Over time, that’ll have a drastic negative effect on your overall mining rate.  One of my cards I can run at a MI 22.1.  Another one of my cards will hit a lock every couple minutes if I have the MI set at 22.1.  After setting it to 15.5 though, I’ve had 1 lock over 8 days.  It’s actually running at the same speed as the GPU with a 22.1 MI and has 42 more shares over nearly 8 days.  So while it might seem counter-intuitive to lower the MI to get better performance, that is the case here.  You will need to try different settings for your cards, but don’t just settle for the default!</p>
+
+<h3 id="wrap">Wrap up</h3>
+
+<p>There’s way more to GPU mining than I could put into one post, but hopefully a lot of your questions have been answered!  The ETH 2.0 merge will happen sometime in June or July of 2022 so you still have some time to mine Eth.  If you need help with anything, please feel free to reach out!</p>
+
+<p>Happy mining!</p>
+
+                </div>
+            </div>
+        </div>
+            <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="post-section col-lg-8 col-lg-offset-2">
+                <h2>Contact</h2>
+                <p>If you are interested in crypto-mining or <a href="/2021/11/23/staking-guide/">delegating Cardano</a> with us and want to learn more, please reach out!</p>
+                <p><a href="mailto:swiftcryptollc@gmail.com">swiftcryptollc@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    
+                    <li>
+                        <a href="https://www.facebook.com/Swift-Crypto-LLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/company/swift-crypto-llc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://t.me/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://github.com/swiftcryptollc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.reddit.com/user/SwiftCryptoLLC/"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">reddit</span></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+            <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; 2021-2022 Swift Crypto LLC. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+         <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/grayscale.js"></script>
+
+    <!-- Swift Crypto LLC JavaScript -->
+    <script src="/js/swiftcryptollc.js" defer></script>
+
+    <!-- For webp file support -->
+    <script src="/js/modernizer.js" defer></script>
+
+        <!-- Place in layouts > partials > image-modal.html -->
+<!-- Use the partial at the bottom of any page in which you want magnific pop-up images,
+  or simply place at the bottom of baseof.html -->
+<!-- Modal will open upon clicking the image. Modal will close with clicking the x or image. -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <button class="modal-close" onclick="closeModal()">close</button>
+  <div class="modal-content">
+    <img class="modal-pic" id="modalPic" onclick="closeModal()" style="max-width: 100%; max-height: 80vh; margin: auto;">
+  </div>
+</div>
+
+
+    </body>
+</html>

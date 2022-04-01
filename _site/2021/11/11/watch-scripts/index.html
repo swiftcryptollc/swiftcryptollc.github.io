@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Phoenix Miner/T-Rex Watch Scripts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="google-site-verification" content="Fl3O2ungPfLslbQZezqEhURE0SkzxztkEJrb3M0wUpg" />
+    <meta name="description"
+        content="A small crypto mining business that mines Ethereum and runs a mission-driven single Cardano stake pool 'ADA for Warriors' (4WARD).">
+    <meta name="keywords"
+        content="Cardano, cardano price, crypto, cardano ada, cryptocurrency, crypto news, ethereum, ethereum price, investment" />
+    <link rel="canonical" href="https://swiftcryptollc.github.io/2021/11/11/watch-scripts/">
+    <link rel="icon" href="/img/icon.ico">
+  
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/all.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0JE8QE19YX">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0JE8QE19YX');
+        function updateGoogle(page_path) {
+            gtag('set', 'page_path', page_path);
+            gtag('event', 'page_view');
+        }
+    </script>
+    <script>
+        // Open the Modal
+        function openModal(clicked_id) {
+          var src = document.getElementById(clicked_id).src;
+          document.getElementById("modalPic").src = src;
+          document.getElementById("myModal").style.display = "block";
+          document.getElementById("nav").style.display = "none";
+          // Ensures the site footer is not shown if front of the modal. Remove if this is not an issue or
+          // there is no footer. "site-footer" id can also be changed appropriately.
+          //document.getElementById("site-footer").style.display = "hidden";
+        }
+        
+        // Close the Modal
+        function closeModal() { 
+          // prevents flashing last modal image while new id is loading on open
+          document.getElementById("modalPic").src = "";
+          document.getElementById("myModal").style.display = "none";
+          document.getElementById("nav").style.display = "block";
+          // See note above regarding the footer 
+          //document.getElementById("site-footer").style.display = "block";
+        }
+        </script>
+</head>
+    <body class="guide" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+         <!-- Navigation -->
+<nav id="nav" class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="https://swiftcryptollc.github.io/" onclick="updateGoogle('')">
+                <span class="light">Home</span>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="https://swiftcryptollc.github.io/"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#news" onclick="updateGoogle('#news')">News</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#guides" onclick="updateGoogle('#guides')">Guides</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#about" onclick="updateGoogle('#about')">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="https://swiftcryptollc.github.io/#contact" onclick="updateGoogle('#contact')">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+        <div class="container content-section text-left">
+            <div class="row">
+                <div class="post-section col-md-8 col-md-offset-2">
+                    <h2>Phoenix Miner/T-Rex Watch Scripts</h2>
+                    <i>Post Date: 2021-11-11 10:40:00 -0500</i>
+                    <p>I’ve been mining Ethereum with <a href="https://bitcointalk.org/index.php?topic=2647654.0" target="_blank">Phoenix Miner</a> since February of this year (using Ubuntu 20.04).  One thing I wanted was automated updates on the status of my rigs.  I also had intermittent issues with my AMD cards which would cause one of my rigs to crash.  Looking at the log files, the AMD card that causes the crash would report an insane hashrate a minute or two before it actually would crash.  (I did make sure that the crashes aren’t related to any over/under clocks I used, they aren’t..)</p>
+
+<p>When Phoenix Miner crashed from one of the AMD cards (PowerColor 5700 XTs), my system was completely locked up.  I installed <a href="https://www.amazon.com/BN-LINK-Monitoring-Function-Compatible-Assistant/dp/B07CVPKD8Z/?th=1" target="_blank">BN Link Smart Plugs</a> to be able to remotely shutdown and restart the rig, but there’s always risk with just cutting power to a server like that.  Ideally, it’s shutdown or rebooted appropriately.</p>
+
+<p>I’m not a Perl master, but I know enough to be dangerous.  So I put that to use and wrote a script that would tail the Phoenix Miner log.  The script assumes a Linux install and depends on “sendmail” and “perl”.  You can install “sendmail” and “perl” by running the following (choose the appropriate one for your Linux platform):</p>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>dnf <span class="nb">install</span> <span class="nt">-y</span> sendmail perl</code></pre></figure>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">-y</span> sendmail perl</code></pre></figure>
+
+<p><br />
+The Phoenix Miner script will report the following via an email:</p>
+<ul>
+  <li>Hash Rate Summary every 6 hours</li>
+  <li>Notification of an Invalid Hash Rate (the script will automatically reboot the server if this occurs to prevent a system lock up)</li>
+  <li>Notification of a Reboot</li>
+  <li>Notification of an Incorrect Eth Share
+<br />
+<br /></li>
+</ul>
+
+<h2 id="t-rex-miner">T-Rex Miner</h2>
+<p>I recently bought some LHR Nvidia cards.  To mine with these cards, I switched to <a href="https://github.com/trexminer/T-Rex/releases" target="_blank">T-Rex Miner</a>.  (Quick tip, mess with the mining intensity for each of your LHR cards with “auto tune” enabled.  A lower mining intensity can limit LHR locks overall and thus, increase your hash rate.)  I modified the Phoenix Miner script to work with T-Rex.</p>
+
+<p>The T-Rex Miner script will report the following via an email:</p>
+<ul>
+  <li>Hash Rate and LHR Summary every 6 hours</li>
+  <li>Notification of a Reboot</li>
+  <li>Notification of an Incorrect Eth Share</li>
+</ul>
+
+<p><br />
+I’ve only ever had the invalid hash rate with the AMD cards and Phoenix Miner.  T-Rex is only for Nvidia cards and I’ve never encountered that with T-Rex, so that part of the script has been removed.  If you do encounter that issue, please send contact me and send me your log file!</p>
+
+<h2 id="usage">Usage</h2>
+<p>I call these Perl scipts from within my miner scripts.  The Perl scripts look for the newest log file in your specified log file directory.  So you do need to make sure that your miner software is already running.  To do that, I add this line to the beginning of my miner scripts:</p>
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">(</span><span class="nb">sleep </span>300<span class="p">;</span> perl /opt/phoenix/phoenix-watch.pl /opt/phoenix/logs sendtoemail@domain.com<span class="o">)</span> &amp;</code></pre></figure>
+
+<p><br />
+My resulting Phoenix Miner startup script looks similar to this (you may not have an Nvidia under/overclock script, so just remove it or replace it with yours):</p>
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
+
+<span class="c"># Load Nvidia over/underclocks</span>
+<span class="nb">sudo</span> /opt/phoenix/nvidia-settings.sh
+
+<span class="c"># Start the watcher</span>
+<span class="o">(</span><span class="nb">sleep </span>300<span class="p">;</span> perl /opt/phoenix/phoenix-watch.pl /opt/phoenix/logs sendtoemail@domain.com<span class="o">)</span> &amp;
+
+<span class="c"># Start the miner </span>
+/opt/phoenix/PhoenixMiner <span class="nt">-pool</span> ssl://us1.ethermine.org:5555 <span class="nt">-wal</span> 0xSetYourEthWalletAddressHere <span class="nt">-worker</span> phoenixworker <span class="nt">-mi</span> 14 <span class="nt">-epsw</span> x <span class="nt">-coin</span> eth <span class="nt">-mode</span> 1 <span class="nt">-nvidia</span> <span class="nt">-proto</span> 3 <span class="nt">-log</span> 1 <span class="nt">-logdir</span> /opt/phoenix/logs <span class="nt">-leaveoc</span> <span class="nt">-nvdo</span> 1 <span class="nt">-nvNew</span> 1 <span class="nt">-nvKernel</span> 3 <span class="nt">-pool2</span> ssl://eu2.ethermine.org:5555 <span class="nt">-cdmport</span> 3333 <span class="nt">-eres</span> 6 <span class="nt">-lidag</span> 1 <span class="nt">-config</span> /opt/phoenix/config.txt <span class="nt">-gpus</span> 1,3,4,5</code></pre></figure>
+
+<p><br /></p>
+
+<p>For T-Rex, my miner script looks similar to the following.  (If you don’t want to archive your log files, just remove that section.  Also remove or replace the Nvidia over/underclocks script for your setup.)</p>
+
+<div class="code-header">
+    <button class="copy-code-button fas fa-copy" aria-label="Copy code to clipboard"></button>
+</div>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/sh</span>
+
+<span class="c"># Load Nvidia over/underclocks</span>
+<span class="nb">sudo</span> /opt/trex/nvidia-settings.sh
+
+<span class="c"># Start the watcher</span>
+<span class="o">(</span><span class="nb">sleep </span>300<span class="p">;</span> perl /opt/trex/trex-watch.pl /opt/trex/logs sendtoemail@domain.com<span class="o">)</span> &amp;
+
+<span class="c"># Archive the existing log file</span>
+<span class="nb">mkdir</span> /opt/trex/logs/archive
+<span class="nb">mv</span> <span class="nt">-nv</span> <span class="nt">--</span> /opt/trex/logs/trex.log /opt/trex/logs/archive/trex-<span class="si">$(</span><span class="nb">date</span> +<span class="s1">'%Y%m%d_%H%M%S'</span><span class="si">)</span>.log
+
+<span class="c"># Delete the previous log file</span>
+<span class="nb">rm</span> <span class="nt">-f</span> /opt/trex/logs/<span class="k">*</span>.log
+
+<span class="c"># Start the miner</span>
+/opt/trex/t-rex <span class="nt">-a</span> ethash <span class="nt">--url</span> stratum+ssl://us1.ethermine.org:5555 <span class="nt">--user</span> 0xSetYourEthWalletAddressHere <span class="nt">-p</span> x <span class="nt">-w</span> trexworker <span class="nt">--log-path</span> /opt/trex/logs/trex.log <span class="nt">--no-watchdog</span> <span class="nt">--send-stales</span> <span class="nt">-d</span> 1,5 <span class="nt">--kernel</span> 0 <span class="nt">--lhr-tune</span> 68,71 <span class="nt">--lhr-autotune-mode</span> full <span class="nt">--coin</span> eth <span class="nt">--intensity</span> 15.5,22.1</code></pre></figure>
+
+<p><br /></p>
+
+<h2 id="final-notes">Final Notes</h2>
+<p>The emails you receive from the script will most likely be marked as Spam.  So check your Spam folder for the emails.  If you add the sending email to your contacts, it’s possible that your email provider might not mark it as spam.  The Sending email address will always be from “hostname@hostname.com” where “hostname” is the short hostname for the server the script is running on.  (If you try to use your Gmail email as the sender email, it won’t go through.)</p>
+
+<h2 id="download">Download</h2>
+<p>You can download the scripts and use them as you see fit.  You can change the email interval by modifying the “sendSummary” value in the script.  The current values will result in a summary email once every 6 hours.
+<br /></p>
+<ul>
+  <li><a href="/tools/phoenix-watch.pl">Phoenix Miner Watch</a></li>
+  <li><a href="/tools/trex-watch.pl">T-Rex Miner Watch</a>
+<br />
+<br /></li>
+</ul>
+
+<p>Happy Mining!</p>
+
+                </div>
+            </div>
+        </div>
+            <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="post-section col-lg-8 col-lg-offset-2">
+                <h2>Contact</h2>
+                <p>If you are interested in crypto-mining or <a href="/2021/11/23/staking-guide/">delegating Cardano</a> with us and want to learn more, please reach out!</p>
+                <p><a href="mailto:swiftcryptollc@gmail.com">swiftcryptollc@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    
+                    <li>
+                        <a href="https://www.facebook.com/Swift-Crypto-LLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-facebook fa-fw"></i> <span class="network-name">facebook</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.linkedin.com/company/swift-crypto-llc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">linkedin</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://t.me/SwiftCryptoLLC"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-telegram fa-fw"></i> <span class="network-name">telegram</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://github.com/swiftcryptollc"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">github</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.reddit.com/user/SwiftCryptoLLC/"  target="_blank" class="btn btn-default btn-lg"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">reddit</span></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+            <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; 2021-2022 Swift Crypto LLC. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+         <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/grayscale.js"></script>
+
+    <!-- Swift Crypto LLC JavaScript -->
+    <script src="/js/swiftcryptollc.js" defer></script>
+
+    <!-- For webp file support -->
+    <script src="/js/modernizer.js" defer></script>
+
+        <!-- Place in layouts > partials > image-modal.html -->
+<!-- Use the partial at the bottom of any page in which you want magnific pop-up images,
+  or simply place at the bottom of baseof.html -->
+<!-- Modal will open upon clicking the image. Modal will close with clicking the x or image. -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <button class="modal-close" onclick="closeModal()">close</button>
+  <div class="modal-content">
+    <img class="modal-pic" id="modalPic" onclick="closeModal()" style="max-width: 100%; max-height: 80vh; margin: auto;">
+  </div>
+</div>
+
+
+    </body>
+</html>
