@@ -13,11 +13,13 @@ For more information on the relationship between our ADA for Warriors pool and C
 
 ## 2022 Donations $0 ##
 
+### _April 2022 Estimated Donations: 85 ₳_ ###
+
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
-| April | - | - | - ₳ | - ₳ |
+| April | 329 | 1 | 340 ₳ | 85 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
-| | Total | - | - ₳ | - ₳ |
+| | Total | 1 | 340 ₳ | 85 ₳ |
                   
 <br /><br />
 {:refdef: style="font-size: 16px"}

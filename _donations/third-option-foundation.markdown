@@ -11,6 +11,16 @@ If you want to help honor the sacrifices they've made for our country, please de
 
 ## 2022 Donations $572.63 ##
 
+### _April 2022 Estimated Donations: 170 ₳_ ###
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| April | 329 | 1 | 340 ₳ | 170 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 1 | 340 ₳ | 170 ₳ |
+                  
+<br />
+
 ### March 31, 2022 Donation Receipt: $406.91 (~349 ₳) ###
 
 {:refdef: style="text-align: center;"}
