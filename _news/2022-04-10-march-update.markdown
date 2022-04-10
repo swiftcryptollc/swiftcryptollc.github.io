@@ -61,7 +61,7 @@ The goal for the Freeloaderz project is to have it deployed for testing on the t
 With one block already paid out in April (epoch 329), the current April donations would be 170 ADA to TOF and 85 ADA to CA.  Hopefully we'll get a couple more blocks this month to build on those donations.  You can track the donations for these missions on their respective donation pages:
 
 - [Third Option Foundation Donations](/donations/third-option-foundation/)
-- [captive Audience Donations](/donations/captive-audience/)
+- [Captive Audience Donations](/donations/captive-audience/)
 
 <br />
 Thank you delegators for helping this all be possible, and thank you Captive Audience for working with us to help support your mission!
