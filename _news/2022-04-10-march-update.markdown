@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "March Update: Dontations, Freeloaderz, and Captive Audience"
+title:  "March Update: Donations, Freeloaderz, and Captive Audience"
 ---
 <br> 
 We have been incredibly busy during March (hence the late March update!), but it was a great month for our [ADA for Warriors](https://4wardpool.swiftcryptollc.com){:target="_blank"} pool.  We minted 3 blocks (2 of which were paid out in March), we joined a [Freeloaderz](https://freeloaderz.io){:target="_blank"} project, and we added [Captive Audience (CA)](https://www.captiveaudienceptrt.com/){:target="_blank"} as a new mission to support.
@@ -47,7 +47,7 @@ To quote their website:
 <br />
 Their mission moved us to add them to our pool mission.  Going forward, we will donate 25% of our operator rewards to their cause, (bringing our total donations to 75% of all our operator rewards).
 
-We were given copies of Captive Audience's Prevention Training and Recovery Team's [365 Days of Survival](https://www.amazon.com/365-Days-Survival-Foundational-Critical/dp/1792108974){:target="_blank"} book.  If you are one of our current delegators or you are a new delegator with us and you want a copy of the book, please reach out to us via email at [swiftcryptollc@gmail.com](mailto:swiftcryptollc@gmail.com) or through [telegram](https://t.me/SwiftCryptoLLC).  We'll need your staking key and an address to send the book to.  (Feel free to use a virtual PO Box or something similar as your address instead of your home address.)  We'll send you a copy of the book free of charge as a thank you for helping support ADA for Warriors and our missions.
+We were given copies of Captive Audience's Prevention Training and Recovery Team's [365 Days of Survival](https://www.amazon.com/365-Days-Survival-Foundational-Critical/dp/1792108974){:target="_blank"} book.  If you are one of our current delegators or you are a new delegator with us and you want a copy of the book, please reach out to us via email at [info@swiftcryptollc.com](mailto:info@swiftcryptollc.com) or through [telegram](https://t.me/SwiftCryptoLLC).  We'll need your staking key and an address to send the book to.  (Feel free to use a virtual PO Box or something similar as your address instead of your home address.)  We'll send you a copy of the book free of charge as a thank you for helping support ADA for Warriors and our missions.
 {:refdef: style="text-align: center;"}
 ![365DaysofSurvival](/img/ca/365DaysOfSurvival.jpg){: .md__image id="365DaysofSurvival" onclick="openModal(\"365DaysofSurvival\")" style="width:373px;height:188px;"}
 {: refdef}

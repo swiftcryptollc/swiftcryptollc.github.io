@@ -9,9 +9,13 @@ The Third Option Foundation was chosen because they fill the gap for our fallen 
 If you want to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.
 <br /><br />
 
-## 2022 Donations $572.63 ##
+## 2022 Donations $704.70 ##
 
-### _April 2022 Estimated Donations: 170 ₳_ ###
+### May 6, 2022 Donation Receipt: $132.07 (170 ₳) ###
+
+{:refdef: style="text-align: center;"}
+![Donation](/img/tof/2022-05-06-TOF-Donation.jpg){: .md__image id="2022-03" onclick="openModal(\"2022-05\")" style="width:182px;height:110px;"}
+{: refdef}
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
