@@ -13,6 +13,8 @@ For more information on the relationship between our ADA for Warriors pool and C
 
 ## 2022 Donations $0 ##
 
+### Captive Audience is going to setup a Cardano wallet for donations.  Just waiting on word that they are ready! ###
+
 ### _April 2022 Estimated Donations: 85 ₳_ ###
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
