@@ -455,6 +455,13 @@ li a {
 li {
   font-size: 18px;
 }
+h1 {
+  text-shadow: 4px 10px 10px #000000;
+  font-weight: bold;
+}
+.intro-text {
+  text-shadow: 2px 5px 5px #000000;
+}
 
 a {
   color: #8bcbff !important;

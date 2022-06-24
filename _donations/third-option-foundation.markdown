@@ -9,12 +9,37 @@ The Third Option Foundation was chosen because they fill the gap for our fallen 
 If you want to help honor the sacrifices they've made for our country, please delegate with our 4WARD pool to increase it's chance of being active for each Cardano epoch.
 <br /><br />
 
-## 2022 Donations $704.70 ##
+## 2022 Donations $1035.58 ##
+
+### _July 2022 Estimated Donations: 170 ₳_ ###
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| June | 341 | 1 | 340 ₳ | 170 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 1 | 340 ₳ | 170 ₳ |
+
+<br />
+
+### June 3, 2022 Donation Receipt: $330.88 (340 ₳) ###
+
+{:refdef: style="text-align: center;"}
+![Donation](/img/tof/2022-06-03-TOF-Donation.jpg){: .md__image id="2022-06" onclick="openModal(\"2022-06\")" style="width:150px;height:150px;"}
+{: refdef}
+
+| Month | Epoch | Blocks | Operator Rewards | Donation |
+| :---- | :---- | :----: | :----: | :----: |
+| May | 338 | 2 | 340 ₳ | 170 ₳ |
+| May | 336 | 1 | 340 ₳ | 170 ₳ |
+| :---- | :---- | :----: | :----: | :----: |
+| | Total | 1 | 680 ₳ | 340 ₳ |
+
+<br />
 
 ### May 6, 2022 Donation Receipt: $132.07 (170 ₳) ###
 
 {:refdef: style="text-align: center;"}
-![Donation](/img/tof/2022-05-06-TOF-Donation.jpg){: .md__image id="2022-03" onclick="openModal(\"2022-05\")" style="width:182px;height:110px;"}
+![Donation](/img/tof/2022-05-06-TOF-Donation.jpg){: .md__image id="2022-05" onclick="openModal(\"2022-05\")" style="width:182px;height:110px;"}
 {: refdef}
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
