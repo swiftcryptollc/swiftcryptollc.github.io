@@ -11,33 +11,28 @@ Requests for their services have spiked since Russia invaded Ukraine in early 20
 For more information on the relationship between our ADA for Warriors pool and Captive Audience, please read our [donation announcement](/news/2022-03-31-captive-audience/){:target="_blank"}.
 <br /><br />
 
-## 2022 Donations 85 ₳ ##
+## 2022 Donations 340 ₳ ##
 
-### _June 2022 Estimated Donations: 85 ₳_ ###
+### May/June 2022 Donation Total: 255 ₳ (Sent 2022-06-29) ###
+
+{:refdef: style="text-align: center;"}
+![Donation](/img/ca/2022-06-29-CA-Donation.jpg){: .md__image id="2022-06-29" onclick="openModal(\"2022-06-29\")" style="width:290px;height:43px;"}
+{: refdef}
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
 | :---- | :---- | :----: | :----: | :----: |
 | June | 341 | 1 | 340 ₳ | 85 ₳ |
-| :---- | :---- | :----: | :----: | :----: |
-| | Total | 1 | 340 ₳ | 85 ₳ |
-
-<br />
-
-### _May 2022 Estimated Donations: 170 ₳_ (To be sent soon) ###
-
-| Month | Epoch | Blocks | Operator Rewards | Donation |
-| :---- | :---- | :----: | :----: | :----: |
 | May | 338 | 2 | 340 ₳ | 85 ₳ |
 | May | 336 | 1 | 340 ₳ | 85 ₳ |
 | :---- | :---- | :----: | :----: | :----: |
-| | Total | 1 | 680 ₳ | 170 ₳ |
+| | Total | 4 | 1020 ₳ | 255 ₳ |
 
 <br />
 
 ### April 2022 Donation Total: 85 ₳ (Sent 2022-06-23) ###
 
 {:refdef: style="text-align: center;"}
-![Donation](/img/ca/2022-06-23-CA-Donation.jpg){: .md__image id="2022-06-23" onclick="openModal(\"2022-06-23\")" style="width:135spx;height:256px;"}
+![Donation](/img/ca/2022-06-23-CA-Donation.jpg){: .md__image id="2022-06-23" onclick="openModal(\"2022-06-23\")" style="width:135px;height:256px;"}
 {: refdef}
 
 | Month | Epoch | Blocks | Operator Rewards | Donation |
