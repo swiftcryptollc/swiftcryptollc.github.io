@@ -3,7 +3,7 @@ layout: post
 title:  "March Update: Donations, Freeloaderz, and Captive Audience"
 ---
 <br> 
-We have been incredibly busy during March (hence the late March update!), but it was a great month for our [ADA for Warriors](https://4wardpool.swiftcryptollc.com){:target="_blank"} pool.  We minted 3 blocks (2 of which were paid out in March), we joined a [Freeloaderz](https://freeloaderz.io){:target="_blank"} project, and we added [Captive Audience (CA)](https://www.captiveaudienceptrt.com/){:target="_blank"} as a new mission to support.
+We have been incredibly busy during March (hence the late March update!), but it was a great month for our [ADA for Warriors](https://adaforwarriors.io){:target="_blank"} pool.  We minted 3 blocks (2 of which were paid out in March), we joined a [Freeloaderz](https://freeloaderz.io){:target="_blank"} project, and we added [Captive Audience (CA)](https://www.captiveaudienceptrt.com/){:target="_blank"} as a new mission to support.
 <br><br> 
 
 ### Donation Updates ###
