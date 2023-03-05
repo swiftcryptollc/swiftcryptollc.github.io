@@ -38,7 +38,7 @@ First impressions can be lasting impressions.  During their testnet phase, they 
 <br />
 
 ### Cardano Node 1.33.0 Update ###
-In anticipation of network growth from SundaeSwap and other DEX's, IOHK has been working on performance related changes.  [Release 1.33.0](https://github.com/input-output-hk/cardano-node/releases/tag/1.33.0){:target="_blank"} is a performance focused release that was delivered on Jan 7th.  They have reduced memory usage (which I did see after updating the [4WARD](https://4wardpool.swiftcryptollc.com){:target="_blank"} pool) and brought significant improvements to the sync time and block propogation time.  It's a positive step towards the potential explosion of transactions on the network once SundaeSwap and other DEX's get released on Cardano's mainnet.
+In anticipation of network growth from SundaeSwap and other DEX's, IOHK has been working on performance related changes.  [Release 1.33.0](https://github.com/input-output-hk/cardano-node/releases/tag/1.33.0){:target="_blank"} is a performance focused release that was delivered on Jan 7th.  They have reduced memory usage (which I did see after updating the [4WARD](https://adaforwarriors.io){:target="_blank"} pool) and brought significant improvements to the sync time and block propogation time.  It's a positive step towards the potential explosion of transactions on the network once SundaeSwap and other DEX's get released on Cardano's mainnet.
 <br />
 <br />
 

@@ -8,6 +8,6 @@ Initially our pool was named after our small business, Swift Crypto LLC.  Our fo
 <br /><br />
 The original pool name didn't give a person any idea about what the pool supports.  In order for us to support the [Third Option Foundation's](https://www.thirdoptionfoundation.org/){:target="_blank"} mission, we have to give people a reason to take a deeper look.  We need people to read the name and want to learn more about it.  We want to attract like-minded individuals who understand the sacrifices that are made and want to make a difference in this community.
 <br/><br/>
-With that, the "Swift Crypto LLC" pool has been renamed to [ADA for Warriors](https://4wardpool.swiftcryptollc.com){:target="_blank"}.  The '4WARD' ticker will remain the same, as our goal is to help members of this community, and their families, move forward through their troubled times.  We truly hope this change will be the start of a new growth opportunity for this mission.
+With that, the "Swift Crypto LLC" pool has been renamed to [ADA for Warriors](https://adaforwarriors.io){:target="_blank"}.  The '4WARD' ticker will remain the same, as our goal is to help members of this community, and their families, move forward through their troubled times.  We truly hope this change will be the start of a new growth opportunity for this mission.
 <br /><br />
 If you have questions or want to know how you can help the Third Option Foundation directly, please don't hesitate to contact us via one of our social media links in the [Contact](#contact) section!

@@ -2,7 +2,7 @@
 layout: post
 title:  "Captive Audience Announcement"
 ---
-I would like to announce that our [ADA for Warriors (4WARD)](https://4wardpool.swiftcryptollc.com){:target="_blank"} Cardano pool will be donating 25% of it's operator rewards to [Captive Audience](https://www.captiveaudienceptrt.com/){:target="_blank"}.  Donations will be made during the last epoch of each month that our pool was active.  (Follow our donations on our [Captive Audience Donations](/donations/captive-audience/){:target="_blank"} page.)
+I would like to announce that our [ADA for Warriors (4WARD)](https://adaforwarriors.io){:target="_blank"} Cardano pool will be donating 25% of it's operator rewards to [Captive Audience](https://www.captiveaudienceptrt.com/){:target="_blank"}.  Donations will be made during the last epoch of each month that our pool was active.  (Follow our donations on our [Captive Audience Donations](/donations/captive-audience/){:target="_blank"} page.)
 
 About a year ago, I met [Billy Jensen](https://www.captiveaudienceptrt.com/our-ceo){:target="_blank"} and [Check Freedman](https://www.captiveaudienceptrt.com/our-coo){:target="_blank"}, the founders of Captive Audience, at [Kore Krav Maga](https://koreselfdefense.com/){:target="_blank"} in Ashburn.  They created Captive Audience to provide security, travel, self-defense, firearms, and survival courses designed to develop the skills needed to maintain situational awareness and survive in kidnapping, extortion, active shooter, natural disaster, and crisis situations at home and abroad.
 
@@ -30,7 +30,7 @@ If you've seen the horrors that the Ukranian people have delt with since the inv
 <br />
 
 ### THERE ARE BENEFITS FOR YOU ###
-You can directly benefit AND support the mission by delegating your ADA (ADA is the native Cardano network token) with our [4WARD](https://4wardpool.swiftcryptollc.com){:target="_blank"} pool.  You will not only be helping the pool earn rewards, you will also be earning compounding ADA rewards.  The typical average yearly return from delegation is 4.33%, which is paid in ADA.  So your delegation will not only help support [Captive Audience](https://www.captiveaudienceptrt.com/){:target="_blank"} but you will also get rewarded.
+You can directly benefit AND support the mission by delegating your ADA (ADA is the native Cardano network token) with our [4WARD](https://adaforwarriors.io){:target="_blank"} pool.  You will not only be helping the pool earn rewards, you will also be earning compounding ADA rewards.  The typical average yearly return from delegation is 4.33%, which is paid in ADA.  So your delegation will not only help support [Captive Audience](https://www.captiveaudienceptrt.com/){:target="_blank"} but you will also get rewarded.
 
 _Once you delegate, you can easily delegate more by buying more ADA at an exchange and then sending it to your same wallet._
 <br />

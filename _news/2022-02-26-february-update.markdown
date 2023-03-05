@@ -5,7 +5,7 @@ title:  "February Update: CSPA, xSPO, Freeloaderz, and TOF!"
 <br> 
 _Before I get into all of the details for the month, I offer a huge welcome to our 4 new delegates that joined in February.  Our mission would have zero chance of success without you all.  Thank you for putting your trust in us and thank you for supporting our mission._
 
-Some good things are happening for our Cardano pool, [ADA for Warriors](https://4wardpool.swiftcryptollc.com){:target="_blank"}.  Besides our delegator growth, we minted our first block(s), joined new alliances, added a wallet service, and initiated our first donation to the Third Option Foundation!
+Some good things are happening for our Cardano pool, [ADA for Warriors](https://adaforwarriors.io){:target="_blank"}.  Besides our delegator growth, we minted our first block(s), joined new alliances, added a wallet service, and initiated our first donation to the Third Option Foundation!
 <br><br> 
 
 ### First Blocks ###
