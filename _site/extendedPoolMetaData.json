@@ -4,12 +4,12 @@
         "url_png_logo": "https://adaforwarriors.io/img/4ward.png",
         "location": "Leesburg, Virginia, United States",
         "social": {
-            "twitter_handle": "swiftcryptollc",
+            "twitter_handle": "mehen_cto",
             "telegram_handle": "swiftcryptollc",
             "facebook_handle": "swiftcryptollc",
             "youtube_handle": "",
             "twitch_handle": "",
-            "discord_handle": "",
+            "discord_handle": "Steven Fisher#7182",
             "github_handle": "swiftcryptollc"
         },
         "company": {
@@ -21,9 +21,12 @@
             "vat_id": ""
         },
         "about": {
-            "me": "The ADA for Warriors (4WARD) pool is a mission driven, single pool operated by a small business located in the US. The pool was created as a way to give back to those who have quietly served by donating fifty percent of the pool rewards to the Third Option Foundation.  Our pool operator has over 22 years of software and system engineering experience.",
+            "me": "The ADA for Warriors (4WARD) pool is a mission-driven single pool operated by a small business located in the US. The pool was created as a way to give back to those who have quietly served by donating 30% of the operator's rewards to the Third Option Foundation. We also donate 10% to Captive Audience and 10% to 500 Rising. Donations for each mission can be tracked on their respective pages on our pool website.",
             "server": "Servers consist of two relays and one block producer deployed in AWS.  Each instance has 4 CPUs and 16 GB RAM (exceeds current hardware requirements).  One relay and the block producer are in the AWS US East Region and the other relay is in the AWS European Central Region.  Security and recovery best practices have been implemented to help ensure availability.",
             "company": "Swift Crypto LLC is a small business registered in Leesburg, Virginia, USA."
         }
+    },
+    "my-pool-ids": {
+        "0": "b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80"
     }
 }
